@@ -1,0 +1,4 @@
+#Thu Dec 26 22:56:48 CLST 2019
+base.0=C\:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\libs\xUtils-2.5.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7b27a19b6f7ed3d26d9157147545c94ea8ee535">
+        <dex dex="C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\build\intermediates\pre-dexed\debug\xUtils-2.5.5_af1168c0386c2fc3009967f5d8f4532e9165fa37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marce\.gradle\caches\modules-2\files-2.1\com.android.support\support-v4\18.0.0\44ec51e9d395a47aab135e5e1b556c0007442156\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\build\intermediates\pre-dexed\debug\support-v4-18.0.0_14731aa307f954475aef73ef4a893aca55af8186.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\libs\jxl.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="955fa72ef2e3d5a45db59d84802401f75bc973a5">
+        <dex dex="C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\build\intermediates\pre-dexed\debug\jxl_4a77d39ce70923fecb434e45834dfc3434f038cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\libs\cw-deviceapi20190815.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f7643907c7ac8bfc75abe5179c64814a787bfc49">
+        <dex dex="C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\build\intermediates\pre-dexed\debug\cw-deviceapi20190815_3daaaa860e2ee24651c2d8143d1c7307a4ae0c26.jar" />
+    </item>
+
+</items>
