@@ -2,30 +2,40 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.fillikenesucn.petcare"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-sdk
         android:minSdkVersion="11"
         android:targetSdkVersion="19" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="Pet Care"
-        android:theme="@style/CustomTheme" >
-        <activity
-            android:name="com.fillikenesucn.petcare.activity.UHFMainActivity"
-            android:screenOrientation="portrait"
-            android:label="PetCare" >
+        android:theme="@style/CustomTheme">
+        <activity android:name=".activity.ScannerMainFragmentActivity"></activity>
+        <activity android:name=".activity.RegisterPetFragmentActivity" />
+        <activity android:name=".activity.MainMenuFragmentActivity" />
+        <activity android:name=".activity.HomeFragmentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
+        <activity
+            android:name=".activity.UHFMainActivity"
+            android:label="PetCare"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

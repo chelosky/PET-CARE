@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".activity.MainMenuFragmentActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <Button
+            android:id="@+id/btnEscanearMascota"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_bg"
+            android:textColor="@color/white"
+            android:text="Escanear Mascota"
+            android:textSize="30dp"/>
+        <Button
+            android:id="@+id/btnRegistrarMascota"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:text="Registrar Mascota"
+            android:textSize="30dp"/>
+        <Button
+            android:id="@+id/btnListadoMascotas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_bg"
+            android:textColor="@color/white"
+            android:text="Listado de Mascotas"
+            android:textSize="30dp"/>
+        <Button
+            android:id="@+id/btnAgregarAcontecimiento"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:text="Agregar Acontecimiento"
+            android:textSize="30dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SALIR"
+                android:background="@drawable/button_bg2"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

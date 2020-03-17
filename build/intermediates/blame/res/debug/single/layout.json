@@ -4,6 +4,14 @@
         "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
+        "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_pet_fragment.xml",
+        "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\layout\\activity_register_pet_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scanner_main_fragment.xml",
+        "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\layout\\activity_scanner_main_fragment.xml"
+    },
+    {
         "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_deactivate.xml",
         "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\layout\\fragment_deactivate.xml"
     },
@@ -18,6 +26,10 @@
     {
         "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\28.0.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_menu_fragment.xml",
+        "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\layout\\activity_main_menu_fragment.xml"
     },
     {
         "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
@@ -82,6 +94,10 @@
     {
         "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
         "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\28.0.0\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home_fragment.xml",
+        "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\layout\\activity_home_fragment.xml"
     },
     {
         "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
