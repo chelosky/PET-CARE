@@ -4,6 +4,10 @@
         "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\drawable\\rb_bg.xml"
     },
     {
+        "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
         "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg2.xml",
         "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\drawable\\button_bg2.xml"
     },
@@ -40,6 +44,10 @@
         "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\drawable\\check_text_color2.xml"
     },
     {
+        "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
         "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_down3.xml",
         "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\drawable\\button_bg_down3.xml"
     },
@@ -50,6 +58,10 @@
     {
         "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\drawable\\card_normal.xml",
         "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\drawable\\card_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_down.xml",
@@ -66,6 +78,10 @@
     {
         "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\drawable\\card_press.xml",
         "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\drawable\\card_press.xml"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_up2.xml",
