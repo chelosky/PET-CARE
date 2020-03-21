@@ -72,22 +72,22 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\marce\Desk
 		ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:16:9-45
 	android:theme
 		ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:18:9-43
-activity#com.fillikenesucn.petcare.activity.ScannerMainFragmentActivity
-ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:19:9-83
+activity#com.fillikenesucn.petcare.activity.PETCARE.ScannerMainFragmentActivity
+ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:19:9-91
 	android:name
-		ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:19:19-71
-activity#com.fillikenesucn.petcare.activity.RegisterPetFragmentActivity
-ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:20:9-74
+		ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:19:19-79
+activity#com.fillikenesucn.petcare.activity.PETCARE.RegisterPetFragmentActivity
+ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:20:9-82
 	android:name
-		ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:20:19-71
-activity#com.fillikenesucn.petcare.activity.MainMenuFragmentActivity
-ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:21:9-71
+		ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:20:19-79
+activity#com.fillikenesucn.petcare.activity.PETCARE.MainMenuFragmentActivity
+ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:21:9-79
 	android:name
-		ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:21:19-68
-activity#com.fillikenesucn.petcare.activity.HomeFragmentActivity
+		ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:21:19-76
+activity#com.fillikenesucn.petcare.activity.PETCARE.HomeFragmentActivity
 ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:22:19-64
+		ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:22:19-72
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from C:\Users\marce\Desktop\demo-uhf_as (3)\demo-uhf_as\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN

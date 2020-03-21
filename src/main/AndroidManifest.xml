@@ -16,10 +16,10 @@
         android:icon="@drawable/ic_launcher"
         android:label="Pet Care"
         android:theme="@style/CustomTheme">
-        <activity android:name=".activity.ScannerMainFragmentActivity"></activity>
-        <activity android:name=".activity.RegisterPetFragmentActivity" />
-        <activity android:name=".activity.MainMenuFragmentActivity" />
-        <activity android:name=".activity.HomeFragmentActivity">
+        <activity android:name=".activity.PETCARE.ScannerMainFragmentActivity"></activity>
+        <activity android:name=".activity.PETCARE.RegisterPetFragmentActivity" />
+        <activity android:name=".activity.PETCARE.MainMenuFragmentActivity" />
+        <activity android:name=".activity.PETCARE.HomeFragmentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Mar 17 18:27:55 CLST 2020
+#Sat Mar 21 18:07:48 CLST 2020
 122.file=C\:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\transforms\\mergeJavaRes\\debug\\jars\\2\\1f\\main.jar\\META-INF\\androidx.print_print.version
 60.set=ANDROID_RESOURCE
 129.file=C\:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png
