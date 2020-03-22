@@ -1,18 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\raw\\serror.ogg",
-        "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\raw\\serror.ogg"
+        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\raw\\serror.ogg",
+        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\raw\\serror.ogg"
     },
     {
-        "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\raw\\barcodebeep.ogg",
-        "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\raw\\barcodebeep.ogg"
-    },
-    {
-        "merged": "C:\\Users\\rdora\\Desktop\\PROFE ROSS KAWAI\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\raw\\barcodebeep.ogg",
-        "source": "C:\\Users\\rdora\\Desktop\\PROFE ROSS KAWAI\\RFID-BASE\\src\\main\\res\\raw\\barcodebeep.ogg"
-    },
-    {
-        "merged": "C:\\Users\\rdora\\Desktop\\PROFE ROSS KAWAI\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\raw\\serror.ogg",
-        "source": "C:\\Users\\rdora\\Desktop\\PROFE ROSS KAWAI\\RFID-BASE\\src\\main\\res\\raw\\serror.ogg"
+        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\raw\\barcodebeep.ogg",
+        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\raw\\barcodebeep.ogg"
     }
 ]

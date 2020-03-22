@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
+        "outputFile": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
         "map": [
             {
                 "to": {
@@ -11,31 +11,7 @@
                     "endOffset": 151
                 },
                 "from": {
-                    "file": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\values-bs\\values-bs.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 100,
-                        "endOffset": 151
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\rdora\\Desktop\\PROFE ROSS KAWAI\\RFID-BASE\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 100,
-                    "endOffset": 151
-                },
-                "from": {
-                    "file": "C:\\Users\\rdora\\Desktop\\PROFE ROSS KAWAI\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\values-bs\\values-bs.xml",
+                    "file": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\values-bs\\values-bs.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

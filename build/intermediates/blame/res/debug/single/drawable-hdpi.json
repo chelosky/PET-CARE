@@ -1,26 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\close.png",
-        "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\drawable-hdpi\\close.png"
+        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\webtext.png",
+        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable-hdpi\\webtext.png"
     },
     {
-        "merged": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\webtext.png",
-        "source": "C:\\Users\\marce\\Desktop\\demo-uhf_as (3)\\demo-uhf_as\\src\\main\\res\\drawable-hdpi\\webtext.png"
-    },
-    {
-        "merged": "C:\\Users\\rdora\\Desktop\\PROFE ROSS KAWAI\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\webtext.png",
-        "source": "C:\\Users\\rdora\\Desktop\\PROFE ROSS KAWAI\\RFID-BASE\\src\\main\\res\\drawable-hdpi\\webtext.png"
-    },
-    {
-        "merged": "C:\\Users\\rdora\\Desktop\\PROFE ROSS KAWAI\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "C:\\Users\\rdora\\Desktop\\PROFE ROSS KAWAI\\RFID-BASE\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\rdora\\Desktop\\PROFE ROSS KAWAI\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\close.png",
-        "source": "C:\\Users\\rdora\\Desktop\\PROFE ROSS KAWAI\\RFID-BASE\\src\\main\\res\\drawable-hdpi\\close.png"
+        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\close.png",
+        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable-hdpi\\close.png"
     }
 ]

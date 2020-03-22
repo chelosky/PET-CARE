@@ -6,19 +6,32 @@
     android:layout_height="match_parent"
     android:background="@drawable/wallpaper"
     tools:context=".activity.PETCARE.MainMenuFragmentActivity">
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical"
         android:layout_margin="20dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:gravity="center_horizontal"
             android:text="Menu Principal"
             android:textSize="30dp"
-            android:gravity="center_horizontal"
-            android:textStyle="bold"
-            android:layout_margin="10sp"/>
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="324dp"
+            android:layout_height="14dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5sp"
+            android:layout_marginEnd="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginBottom="10sp"
+            android:src="@drawable/rectangle" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -108,15 +121,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             >
+
             <Button
                 android:id="@+id/btnSalir"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="SALIR"
+                android:layout_alignParentBottom="true"
                 android:background="@drawable/button_bg2"
+                android:text="SALIR"
                 android:textColor="@color/white"
-                android:textSize="30dp"
-                android:layout_alignParentBottom="true"/>
+                android:textSize="20dp" />
         </RelativeLayout>
     </LinearLayout>
 </RelativeLayout>
