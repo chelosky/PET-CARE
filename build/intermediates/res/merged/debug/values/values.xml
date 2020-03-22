@@ -715,6 +715,9 @@
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
     <color name="notification_material_background_media_default_color">#ff424242</color>
     <color name="orange">#FFA500</color>
+    <color name="petcareblue">#5BA0D3</color>
+    <color name="petcaregreen">#60B21E</color>
+    <color name="petcarered">#D35B5B</color>
     <color name="pink">#FFC0CB</color>
     <color name="possible_result_points">#c0ffff00</color>
     <color name="primary_text_default_material_dark">#ffffffff</color>

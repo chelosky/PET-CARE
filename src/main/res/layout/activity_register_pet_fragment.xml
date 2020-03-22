@@ -4,116 +4,138 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
     tools:context=".activity.PETCARE.RegisterPetFragmentActivity">
-    <LinearLayout
-        android:layout_margin="25dp"
+    <ScrollView
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_height="match_parent">
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/card_press"
-            android:inputType="text"
-            android:padding="10sp"
-            android:hint="Nombre"
-            android:layout_margin="10sp"
-            />
-        <Spinner
-            android:id="@+id/spinnerRegisterPet"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10sp"
-            android:padding="10sp"
-            android:background="@drawable/card_press"
-            >
-        </Spinner>
+        android:layout_height="wrap_content">
         <LinearLayout
+            android:layout_margin="25dp"
             android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_margin="10sp"
-            android:background="@drawable/card_normal"
-            android:padding="10sp"
-            android:layout_height="wrap_content">
+            android:orientation="vertical"
+            android:layout_height="match_parent">
             <TextView
-                android:layout_width="wrap_content"
-                android:text="SEXO"
-                android:textColor="@color/black"
-                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar Mascota"
+                android:textStyle="bold"
                 android:gravity="center"
-                android:layout_height="wrap_content"/>
-            <RadioGroup
+                android:textSize="30sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/card_press"
+                android:inputType="text"
+                android:padding="10sp"
+                android:hint="Nombre"
+                android:layout_margin="10sp"
+                />
+            <Spinner
+                android:id="@+id/spinnerRegisterPet"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10sp"
-                android:gravity="right"
-                android:orientation="horizontal">
-                <RadioButton
+                android:padding="10sp"
+                android:background="@drawable/card_press"
+                >
+            </Spinner>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="10sp"
+                android:background="@drawable/card_normal"
+                android:padding="10sp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="SEXO"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"/>
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Macho"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hembra"/>
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10sp">
+                <Button
+                    android:id="@+id/btnFechaNacimiento"
+                    android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Macho"/>
-                <RadioButton
-                    android:layout_width="wrap_content"
+                    android:background="@drawable/button_bg"
+                    android:textColor="@color/white"
+                    android:text="Fecha"/>
+                <EditText
+                    android:id="@+id/fechaNacimiento"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Hembra"/>
-            </RadioGroup>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_margin="10sp">
+                    android:inputType="date"
+                    android:enabled="false"
+                    android:background="@drawable/card_normal"
+                    android:padding="10sp"
+                    android:hint="Fecha de Nacimiento"
+                    android:layout_margin="10sp"
+                    />
+            </LinearLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:background="@drawable/card_press"
+                android:padding="10sp"
+                android:hint="Dirección"
+                android:layout_margin="10sp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:background="@drawable/card_press"
+                android:padding="10sp"
+                android:hint="Alergias"
+                android:layout_margin="10sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:background="@drawable/card_normal"
+                android:padding="10sp"
+                android:text="TAG: XXXX-XXXXXX-XXXXX"
+                android:enabled="false"/>
             <Button
-                android:id="@+id/btnFechaNacimiento"
-                android:layout_gravity="center_vertical"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_bg"
                 android:textColor="@color/white"
-                android:text="Fecha"/>
-            <EditText
-                android:id="@+id/fechaNacimiento"
+                android:layout_margin="10sp"
+                android:text="Escanear Tag"/>
+            <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="date"
-                android:enabled="false"
-                android:background="@drawable/card_normal"
-                android:padding="10sp"
-                android:hint="Fecha de Nacimiento"
+                android:background="@drawable/button_bg3"
+                android:textColor="@color/white"
                 android:layout_margin="10sp"
+                android:text="Registrar Mascota"
                 />
         </LinearLayout>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text"
-            android:background="@drawable/card_press"
-            android:padding="10sp"
-            android:hint="Dirección"
-            android:layout_margin="10sp"
-            />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10sp"
-            android:background="@drawable/card_normal"
-            android:padding="10sp"
-            android:text="TAG: XXXX-XXXXXX-XXXXX"
-            android:enabled="false"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button_bg"
-            android:textColor="@color/white"
-            android:layout_margin="10sp"
-            android:text="Escanear Tag"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button_bg3"
-            android:textColor="@color/white"
-            android:layout_margin="10sp"
-            android:text="Registrar Mascota"
-            />
-    </LinearLayout>
+    </ScrollView>
+
 </RelativeLayout>

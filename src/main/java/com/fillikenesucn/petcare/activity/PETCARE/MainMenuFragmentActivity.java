@@ -5,6 +5,8 @@ import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import com.fillikenesucn.petcare.R;
 
@@ -12,6 +14,7 @@ public class MainMenuFragmentActivity extends FragmentActivity {
     private Button btnRegistrarMascota;
     private Button btnSalir;
     private Button btnScanearMascota;
+    private Button btnAddEvent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,5 +45,15 @@ public class MainMenuFragmentActivity extends FragmentActivity {
                 startActivity(intent);
             }
         });
+
+        btnAddEvent = (Button)findViewById(R.id.btnAgregarEvento);
+        btnAddEvent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                    Intent intent = new Intent(MainMenuFragmentActivity.this, AddEventFragmentActivity.class);
+                    startActivity(intent);
+            }
+        });
+
     }
 }

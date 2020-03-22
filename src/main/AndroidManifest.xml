@@ -16,7 +16,8 @@
         android:icon="@drawable/ic_launcher"
         android:label="Pet Care"
         android:theme="@style/CustomTheme">
-        <activity android:name=".activity.PETCARE.ScannerMainFragmentActivity"></activity>
+        <activity android:name=".activity.PETCARE.AddEventFragmentActivity"></activity>
+        <activity android:name=".activity.PETCARE.ScannerMainFragmentActivity" />
         <activity android:name=".activity.PETCARE.RegisterPetFragmentActivity" />
         <activity android:name=".activity.PETCARE.MainMenuFragmentActivity" />
         <activity android:name=".activity.PETCARE.HomeFragmentActivity">

@@ -19,10 +19,10 @@ import java.util.List;
 public class RegisterPetFragmentActivity extends FragmentActivity {
     private Button btnFechaNacimiento;
     private EditText et_fechaNacimiento;
-    private Spinner spinner;
     private static final int DATE_ID = 0;
     private int nYearIni, nMonthIni, nDayIni, sYearIni, sMonthIni, sDayIni;
     private Calendar calendar = Calendar.getInstance();
+    private Spinner spinner;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

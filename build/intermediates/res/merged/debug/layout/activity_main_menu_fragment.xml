@@ -4,53 +4,106 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="@drawable/wallpaper"
     tools:context=".activity.PETCARE.MainMenuFragmentActivity">
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical"
         android:layout_margin="20dp">
-        <Button
-            android:id="@+id/btnEscanearMascota"
-            android:layout_width="fill_parent"
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
-            android:background="@drawable/button_bg"
-            android:textColor="@color/white"
-            android:text="Escanear Mascota"
-            android:textSize="30dp"/>
-        <Button
-            android:id="@+id/btnRegistrarMascota"
-            android:layout_width="fill_parent"
+            android:text="Menu Principal"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_margin="10sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@drawable/button_bg"
-            android:textColor="@color/white"
-            android:layout_margin="10dp"
-            android:text="Registrar Mascota"
-            android:textSize="30dp"/>
-        <Button
-            android:id="@+id/btnListadoMascotas"
-            android:layout_width="fill_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/scanpet"
+                android:layout_margin="5sp"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/btnEscanearMascota"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5sp"
+                android:background="@drawable/button_bg"
+                android:textColor="@color/white"
+                android:text="Escanear Mascota"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
-            android:background="@drawable/button_bg"
-            android:textColor="@color/white"
-            android:text="Listado de Mascotas"
-            android:textSize="30dp"/>
-        <Button
-            android:id="@+id/btnAgregarAcontecimiento"
-            android:layout_width="fill_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/addpet"
+                android:layout_margin="5sp"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/btnRegistrarMascota"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_bg"
+                android:textColor="@color/white"
+                android:layout_margin="5sp"
+                android:text="Registrar Mascota"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@drawable/button_bg"
-            android:textColor="@color/white"
-            android:layout_margin="10dp"
-            android:text="Agregar Acontecimiento"
-            android:textSize="30dp"/>
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/petlist"
+                android:layout_margin="5sp"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/btnListadoMascotas"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5sp"
+                android:background="@drawable/button_bg"
+                android:textColor="@color/white"
+                android:text="Listado de Mascotas"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/addevent"
+                android:layout_margin="5sp"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/btnAgregarEvento"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_bg"
+                android:textColor="@color/white"
+                android:layout_margin="5sp"
+                android:text="Agregar Acontecimiento"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

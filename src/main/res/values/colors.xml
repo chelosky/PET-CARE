@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
+    <color name="petcarered">#D35B5B</color>
+    <color name="petcaregreen">#60B21E</color>
+    <color name="petcareblue">#5BA0D3</color>
     <color name="white">#FFFFFF</color>
     <color name="white1">#eeeeee</color>
     <color name="black">#000000</color>
