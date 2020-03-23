@@ -1,4 +1,4 @@
-#Sun Mar 22 16:14:04 CLST 2020
-base.0=C\:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Mon Mar 23 17:31:12 CLST 2020
+base.0=D\:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=C\:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=D\:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

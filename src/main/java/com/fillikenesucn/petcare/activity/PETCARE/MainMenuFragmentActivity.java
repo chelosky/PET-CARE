@@ -11,15 +11,17 @@ import android.widget.TextView;
 import com.fillikenesucn.petcare.R;
 
 public class MainMenuFragmentActivity extends FragmentActivity {
-    private Button btnRegistrarMascota;
-    private Button btnSalir;
     private Button btnScanearMascota;
+    private Button btnRegistrarMascota;
+    private Button btnListadoMascotas;
     private Button btnAddEvent;
+    private Button btnSalir;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu_fragment);
+
         btnRegistrarMascota = (Button) findViewById(R.id.btnRegistrarMascota);
         btnRegistrarMascota.setOnClickListener(
                 new View.OnClickListener() {
@@ -30,13 +32,7 @@ public class MainMenuFragmentActivity extends FragmentActivity {
                     }
                 }
         );
-        btnSalir = (Button)findViewById(R.id.btnSalir);
-        btnSalir.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
+
         btnScanearMascota = (Button) findViewById(R.id.btnEscanearMascota);
         btnScanearMascota.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,10 +46,26 @@ public class MainMenuFragmentActivity extends FragmentActivity {
         btnAddEvent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                    Intent intent = new Intent(MainMenuFragmentActivity.this, AddEventFragmentActivity.class);
-                    startActivity(intent);
+                Intent intent = new Intent(MainMenuFragmentActivity.this, AddEventFragmentActivity.class);
+                startActivity(intent);
             }
         });
 
+        btnListadoMascotas = (Button)findViewById(R.id.btnListadoMascotas);
+        btnListadoMascotas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainMenuFragmentActivity.this, PetListFragmentActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnSalir = (Button)findViewById(R.id.btnSalir);
+        btnSalir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
     }
 }

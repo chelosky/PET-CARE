@@ -4,6 +4,14 @@
         "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\raw\\serror.ogg"
     },
     {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\raw\\serror.ogg",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\raw\\serror.ogg"
+    },
+    {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\raw\\barcodebeep.ogg",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\raw\\barcodebeep.ogg"
+    },
+    {
         "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\raw\\barcodebeep.ogg",
         "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\raw\\barcodebeep.ogg"
     }

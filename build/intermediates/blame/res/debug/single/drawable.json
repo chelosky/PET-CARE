@@ -4,16 +4,92 @@
         "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
         "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg3.xml",
         "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg3.xml"
     },
     {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_bg2.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\rectangle_bg2.xml"
+    },
+    {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\rb_bg.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\rb_bg.xml"
+    },
+    {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\card_press.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\card_press.xml"
+    },
+    {
+        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_up3.xml",
+        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_up3.xml"
+    },
+    {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_up3.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_up3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\rb_bg.xml",
+        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\rb_bg.xml"
+    },
+    {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_gray.xml",
+        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_up.xml",
+        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\card_normal.xml",
+        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\card_normal.xml"
+    },
+    {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg2.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg2.xml"
+    },
+    {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_down2.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_down2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_down3.xml",
+        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_down3.xml"
+    },
+    {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_gray.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_gray.xml"
+    },
+    {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\actionbar_back.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\actionbar_back.xml"
+    },
+    {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\check_text_color.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\check_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
         "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\check_text_color.xml",
         "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\check_text_color.xml"
+    },
+    {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_up.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_up.xml"
+    },
+    {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_bg.xml",
@@ -22,6 +98,10 @@
     {
         "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg2.xml",
         "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg2.xml"
+    },
+    {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg.xml"
     },
     {
         "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_down.xml",
@@ -36,16 +116,20 @@
         "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\actionbar_back.xml"
     },
     {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_down.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_down.xml"
+    },
+    {
         "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_bg2.xml",
         "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\rectangle_bg2.xml"
     },
     {
-        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_up3.xml",
-        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_up3.xml"
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_down3.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_down3.xml"
     },
     {
-        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\rb_bg.xml",
-        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\rb_bg.xml"
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\card_normal.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\card_normal.xml"
     },
     {
         "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_down2.xml",
@@ -56,12 +140,12 @@
         "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_up2.xml"
     },
     {
-        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_gray.xml",
-        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_gray.xml"
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_bg.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\rectangle_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_up.xml",
-        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_up.xml"
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg3.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg3.xml"
     },
     {
         "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
@@ -72,8 +156,8 @@
         "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\card_normal.xml",
-        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\card_normal.xml"
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\check_text_color2.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\check_text_color2.xml"
     },
     {
         "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
@@ -84,7 +168,11 @@
         "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\check_text_color2.xml"
     },
     {
-        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_down3.xml",
-        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_down3.xml"
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg_up2.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable\\button_bg_up2.xml"
+    },
+    {
+        "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable\\notification_bg.xml"
     }
 ]
