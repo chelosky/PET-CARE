@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PETCARE.PetInfoFragmentActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EPC VALUE"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:layout_above="@+id/txtEPC"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/txtEPC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="VALOR"
+        android:textSize="25dp"/>
+</RelativeLayout>

@@ -1,22 +1,74 @@
 package com.fillikenesucn.petcare.activity.PETCARE;
 
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
+import com.fillikenesucn.petcare.activity.BaseTabFragmentActivity;
+import com.rscja.deviceapi.RFIDWithUHF;
 
 public class ScannerMainFragmentActivity extends FragmentActivity {
     private ImageView imageView;
     private int countState = 4; //0,1,2
+    private Button btnLoadInfo;
+    public RFIDWithUHF mReader;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scanner_main_fragment);
         imageView = (ImageView) findViewById(R.id.imgScanner);
+        btnLoadInfo = (Button) findViewById(R.id.btnLoadInfo);
         ExecuteTask();
+        InitUHF();
+        btnLoadInfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                LoadPetInfoActivity("GOKU");
+            }
+        });
+    }
+
+    private void LoadPetInfoActivity(String txtEPC){
+        Intent intent = new Intent(ScannerMainFragmentActivity.this, PetInfoFragmentActivity.class);
+        intent.putExtra("EPC",txtEPC);
+        startActivity(intent);
+        finish();
+    }
+
+    private void Load404Error(){
+        Intent intent = new Intent(ScannerMainFragmentActivity.this, PetNotFoundFragmentActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
+    private void InitUHF(){
+        try {
+            mReader = RFIDWithUHF.getInstance();
+        } catch (Exception ex) {
+            Toast.makeText( ScannerMainFragmentActivity.this,ex.getMessage(), Toast.LENGTH_SHORT).show();
+            return;
+        }
+        if (mReader != null){
+            new InitTask().execute();
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (mReader != null) {
+            mReader.free();
+        }
+        super.onDestroy();
     }
 
     // 4 -> 3 -> 2 -> 1
@@ -50,6 +102,49 @@ public class ScannerMainFragmentActivity extends FragmentActivity {
                 UpdateImageStatus();
                 ExecuteTask();
             }
-        },500);
+        },250);
     }
+
+    public class InitTask extends AsyncTask<String, Integer, Boolean> {
+        ProgressDialog mypDialog;
+        @Override
+        protected void onPreExecute() {
+            // TODO Auto-generated method stub
+            super.onPreExecute();
+
+            mypDialog = new ProgressDialog(ScannerMainFragmentActivity.this);
+            mypDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+            mypDialog.setMessage("Iniciando Lector UHF");
+            mypDialog.setCanceledOnTouchOutside(false);
+            mypDialog.show();
+        }
+        @Override
+        protected Boolean doInBackground(String... params) {
+            // TODO Auto-generated method stub
+            return mReader.init();
+        }
+
+        @Override
+        protected void onPostExecute(Boolean result) {
+            super.onPostExecute(result);
+
+            mypDialog.cancel();
+
+            if (!result) {
+                Toast.makeText(ScannerMainFragmentActivity.this, "FALLO AL INICIAR EL UHF",
+                        Toast.LENGTH_SHORT).show();
+            }else{
+                String strUII = mReader.inventorySingleTag();
+                if(!TextUtils.isEmpty(strUII)){
+                    String strEPC = mReader.convertUiiToEPC(strUII);
+                    LoadPetInfoActivity(strEPC);
+                } else {
+                    Toast.makeText(ScannerMainFragmentActivity.this, "NO HAY TAG CERCA",
+                            Toast.LENGTH_SHORT).show();
+                    //Load404Error();
+                }
+            }
+        }
+    }
+
 }

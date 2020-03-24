@@ -41,4 +41,12 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:src="@drawable/scan4"/>
+
+    <Button
+        android:id="@+id/btnLoadInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOAD INFO"
+        android:textSize="30dp"
+        android:layout_alignParentBottom="true"/>
 </RelativeLayout>

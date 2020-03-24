@@ -80,16 +80,14 @@
             android:layout_margin="10sp"
             />
 
-        <EditText
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/card_press"
-            android:inputType="text"
-            android:padding="10sp"
-            android:enabled="false"
-            android:hint="Mascota"
             android:layout_margin="10sp"
-            />
+            android:background="@drawable/card_normal"
+            android:padding="10sp"
+            android:text="TAG: XXXX-XXXXXX-XXXXX"
+            android:enabled="false"/>
 
         <Button
             android:layout_width="match_parent"
