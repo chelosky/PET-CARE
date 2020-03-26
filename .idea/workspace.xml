@@ -8,7 +8,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="dora" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="DORAT" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
@@ -24,10 +24,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___C__Users_rdora_Desktop_RFID_BASE_libs_cw_deviceapi20190815_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___C__Users_rdora_Desktop_RFID_BASE_libs_gson_2_8_2_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___C__Users_rdora_Desktop_RFID_BASE_libs_jxl_jar_unspecified_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___C__Users_rdora_Desktop_RFID_BASE_libs_xUtils_2_5_5_jar_unspecified_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RFID-BASE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RFID-BASE.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/asynclayoutinflater/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/asynclayoutinflater/R.java" afterDir="false" />
@@ -44,162 +40,18 @@
       <change beforePath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/swiperefreshlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/swiperefreshlayout/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/v4/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/v4/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/v7/viewpager/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/v7/viewpager/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/fillikenesucn/petcare/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/fillikenesucn/petcare/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-af.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-af.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-am.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-am.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-as.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-as.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-az.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-az.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-b+sr+Latn.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-b+sr+Latn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-be.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-be.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-bg.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-bg.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-bn.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-bn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-bs.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-bs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ca.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-cs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-da.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-da.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-de.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-el.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-en-rAU.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-en-rAU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-en-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-en-rCA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-en-rGB.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-en-rGB.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-en-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-en-rIN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-en-rXC.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-en-rXC.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-es-rUS.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-es-rUS.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-es.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-es.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-et.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-et.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-eu.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-eu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-fa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-fi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-gl.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-gl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-gu.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-gu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-hi.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-hi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-hr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-hu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-hy.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-hy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-in.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-in.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-is.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-is.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-it.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-it.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-iw.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-iw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ja.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ka.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ka.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-kk.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-kk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-km.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-km.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-kn.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-kn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ko.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ky.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ky.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-lo.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-lo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-lt.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-lt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-lv.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-lv.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-mk.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-mk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ml.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ml.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-mn.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-mn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-mr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-mr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ms.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ms.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-my.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-my.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-nb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ne.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ne.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-nl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-or.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-or.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-pa.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-pa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-pl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-pt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ro.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ru.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-si.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-si.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-sk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-sl.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-sl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-sq.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-sq.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-sr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-sr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-sv.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-sv.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-sw.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-sw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ta.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-te.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-te.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-th.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-th.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-tl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-tr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-uk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ur.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-ur.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-uz.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-uz.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-v16.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-v16.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-v21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-v24.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-v24.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-vi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-zh.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values-zu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/anim.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/anim.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-mdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-v21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout-v16.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout-v16.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout-v21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/menu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/raw.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/raw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/asynclayoutinflater/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/asynclayoutinflater/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/compat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/compat/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/coordinatorlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/coordinatorlayout/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/coreui/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/coreui/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/coreutils/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/coreutils/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/customview/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/customview/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/drawerlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/drawerlayout/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/fragment/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/fragment/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/loader/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/loader/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/slidingpanelayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/slidingpanelayout/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/swiperefreshlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/swiperefreshlayout/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v4/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v4/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/viewpager/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/viewpager/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$integer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$layout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$raw.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$raw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$style.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$styleable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/BaseTabFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/BaseTabFragmentActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/PetInfoFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/PetInfoFragmentActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/PetListFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/PetListFragmentActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity$InitTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity$InitTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFKillFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFKillFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFLockFragment$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFLockFragment$2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFLockFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFLockFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFReadFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFReadFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFReadTagFragment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFReadTagFragment$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFReadTagFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFReadTagFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFSetFragment$OnMyCheckedChangedListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFSetFragment$OnMyCheckedChangedListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFSetFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFSetFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFWriteFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFWriteFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
@@ -208,21 +60,16 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_add_event_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_add_event_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_register_pet_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_register_pet_fragment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/symbols/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/outputs/apk/RFID-BASE-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/apk/RFID-BASE-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_add_event_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_add_event_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_register_pet_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_register_pet_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/models/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/models/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/utils/IOHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/utils/IOHelper.java" afterDir="false" />
     </list>
     <ignored path="demo-uhf_example2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -239,7 +86,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="AGT4C19926000015" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="HC720A181200107" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -276,79 +123,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1486">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="-1530">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1399#2023#0" expanded="true" />
-                <element signature="e#2022#2023#0" expanded="true" />
+                <element signature="e#4206#4374#0" expanded="true" />
+                <element signature="e#4373#4374#0" expanded="true" />
+                <element signature="method#onActivityResult#0;class#RegisterPetFragmentActivity#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/utils/IOHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+            <state relative-caret-position="65">
+              <caret line="91" column="39" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2268#2625#0" expanded="true" />
-                <element signature="e#2624#2625#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_add_event_fragment.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/models/Pet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="93" column="39" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
+            <state relative-caret-position="697">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_register_pet_fragment.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="132" column="39" selection-start-line="132" selection-start-column="33" selection-end-line="132" selection-end-column="39" />
             </state>
           </provider>
           <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="164" column="13" selection-start-line="162" selection-start-column="12" selection-end-line="164" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3600#3798#0" expanded="true" />
-                <element signature="e#3797#3798#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetInfoFragmentActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="40" column="39" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -428,15 +244,15 @@
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_pet_info_fragment.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/models/pet.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/utils/IOHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/models/Acontecimiento.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/models/Pet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_register_pet_fragment.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_add_event_fragment.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/models/Pet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/utils/IOHelper.java" />
       </list>
     </option>
   </component>
@@ -450,72 +266,62 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
+      <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
-              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
-              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
-              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="petcare" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
-              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="petcare" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="petcare" type="462c0819:PsiDirectoryNode" />
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="petcare" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="activity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="petcare" type="462c0819:PsiDirectoryNode" />
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="petcare" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="activity" type="462c0819:PsiDirectoryNode" />
               <item name="PETCARE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="petcare" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+              <item name="PETCARE" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -632,78 +438,78 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView">
+      <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
-              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
-              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
-              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
-              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fillikenesucn" type="462c0819:PsiDirectoryNode" />
+              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
-              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fillikenesucn" type="462c0819:PsiDirectoryNode" />
+              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="petcare" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
-              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fillikenesucn" type="462c0819:PsiDirectoryNode" />
+              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="petcare" type="462c0819:PsiDirectoryNode" />
               <item name="activity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
-              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="fillikenesucn" type="462c0819:PsiDirectoryNode" />
+              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="petcare" type="462c0819:PsiDirectoryNode" />
               <item name="activity" type="462c0819:PsiDirectoryNode" />
               <item name="PETCARE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
-              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
-              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+              <item name="RFID-BASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RFID-BASE" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1120,10 +926,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4919355" visible="true" weight="0.23389356" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4919355" visible="true" weight="0.23347548" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Captures" order="2" sideWeight="0.5080645" side_tool="true" weight="0.21215352" />
       <window_info id="Nl-Palette" order="3" />
@@ -1140,15 +945,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4988938" weight="0.3281412" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.52030814" side_tool="true" visible="true" weight="0.21581769" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5133262" side_tool="true" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Android Monitor" order="8" visible="true" weight="0.82684565" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4983407" weight="0.21492007" />
       <window_info anchor="bottom" id="Gradle Console" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32921812" />
       <window_info anchor="bottom" id="Android Profiler" order="13" />
-      <window_info anchor="bottom" id="Logcat" order="14" sideWeight="0.48827294" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Build" order="15" sideWeight="0.47969186" visible="true" weight="0.21581769" />
+      <window_info active="true" anchor="bottom" id="Logcat" order="14" sideWeight="0.48667377" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.478145" weight="0.2156013" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1157,7 +962,7 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Gradle" order="6" weight="0.28291318" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Preview" order="8" weight="0.31162465" />
+      <window_info anchor="right" id="Preview" order="8" weight="0.31130064" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="10" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Assistant" order="11" weight="0.32955465" />
@@ -1238,16 +1043,6 @@
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/HomeFragmentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/drawable/button_bg_down2.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1359,8 +1154,6 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/utils/IOHelper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/models/Pet.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
@@ -1383,26 +1176,6 @@
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetInfoFragmentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_scanner_main_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1432,54 +1205,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_register_pet_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="132" column="39" selection-start-line="132" selection-start-column="33" selection-end-line="132" selection-end-column="39" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_add_event_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="93" column="39" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1486">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="-901">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1399#2023#0" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="164" column="13" selection-start-line="162" selection-start-column="12" selection-end-line="164" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3600#3798#0" expanded="true" />
-            <element signature="e#3797#3798#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+        <state relative-caret-position="574">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_add_event_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="95" column="39" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetInfoFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2268#2625#0" expanded="true" />
-            <element signature="e#2624#2625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_register_pet_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="132" column="39" selection-start-line="132" selection-start-column="33" selection-end-line="132" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/HomeFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/models/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#4206#4374#0" expanded="true" />
+            <element signature="e#4373#4374#0" expanded="true" />
+            <element signature="method#onActivityResult#0;class#RegisterPetFragmentActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/utils/IOHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="91" column="39" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

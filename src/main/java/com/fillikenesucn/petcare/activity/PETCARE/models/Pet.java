@@ -11,17 +11,28 @@ public class Pet {
     private String allergies;
     private String species;
     private List<Acontecimiento> acontecimientos;
-    //private String EPC;
+    private String EPC;
+    private Boolean active;
 
-    public Pet(String name, String sex, String birthdate, String address, String allergies, String species) {
+    public Pet(String name, String sex, String birthdate, String address, String allergies, String species, String EPC) {
         this.name = name;
         this.sex = sex;
         this.birthdate = birthdate;
         this.address = address;
         this.allergies = allergies;
         this.species = species;
+        this.EPC = EPC;
+        this.active = true;
         this.acontecimientos = new ArrayList<>();
     }
+
+    public Boolean getActive() { return active; }
+
+    public void setActive(Boolean active) { this.active = active; }
+
+    public String getEPC() { return EPC; }
+
+    public void setEPC(String EPC) { this.EPC = EPC; }
 
     public String getSpecies() {
         return species;

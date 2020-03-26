@@ -1,13 +1,11 @@
 package com.fillikenesucn.petcare.activity.PETCARE;
 
 import android.app.DatePickerDialog;
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -16,12 +14,9 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-// Testing
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
-
-import java.io.FileOutputStream;
 
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.activity.PETCARE.models.Pet;
@@ -112,8 +107,7 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
         tempLeer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ReadJsonFile();
-                Toast.makeText(RegisterPetFragmentActivity.this, "LISTO2", Toast.LENGTH_SHORT).show();
+                txtTest.setText(ReadJsonFile());
             }
         });
         btnRegist = (Button) findViewById(R.id.btnRegist);
@@ -132,23 +126,27 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
                         String birthdate = et_fechaNacimiento.getText().toString();
                         String address = txtAddress.getText().toString();
                         String allergies = txtAllergies.getText().toString();
+                        String epc = txtTAG.getText().toString();
 
-                        Pet pet = new Pet(name,sex,birthdate,address,allergies,species);
+                        Pet pet = new Pet(name,sex,birthdate,address,allergies,species, epc);
                         Gson gson = new Gson();
-                        WriteJsonFile(gson.toJson(pet));
+                        Boolean status = WriteJsonFile(gson.toJson(pet));
 
-                        Toast.makeText(RegisterPetFragmentActivity.this, "LISTO1", Toast.LENGTH_SHORT).show();
+                        if (status) {
+                            Toast.makeText(RegisterPetFragmentActivity.this, "INGRESO EXITOSO", Toast.LENGTH_SHORT).show();
+                        } else {
+                            Toast.makeText(RegisterPetFragmentActivity.this, "INGRESO FALLIDO", Toast.LENGTH_SHORT).show();
+                        }
                     }
                 }
         );
     }
 
-    private void ReadJsonFile(){
-        txtTest.setText(IOHelper.ReadFileString(this));
-    }
+    private String ReadJsonFile(){ return IOHelper.ReadFileString(this); }
 
-    private void WriteJsonFile(String stringvalue){
-        IOHelper.WriteJson(this,"petcare.txt",stringvalue);
+    private Boolean WriteJsonFile(String stringvalue){
+        String tmp = IOHelper.WriteJson(this,"petcare.txt",stringvalue);
+        return true;
     }
 
     @Override

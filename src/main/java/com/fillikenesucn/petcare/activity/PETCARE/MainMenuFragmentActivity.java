@@ -5,10 +5,11 @@ import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
+import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
+import com.fillikenesucn.petcare.activity.PETCARE.utils.IOHelper;
+import com.google.gson.Gson;
 
 public class MainMenuFragmentActivity extends FragmentActivity {
     private Button btnScanearMascota;
@@ -68,5 +69,18 @@ public class MainMenuFragmentActivity extends FragmentActivity {
                 finish();
             }
         });
+
+        Boolean status = InitJsonFile();
+        if (!status) {
+            Gson gson = new Gson();
+            Boolean written = InitJsonFile(gson.toJson("[]"));
+        } else {
+            Gson gson = new Gson();
+            Boolean written = InitJsonFile(gson.toJson("[]"));
+        }
     }
+
+    private Boolean InitJsonFile(){ return IOHelper.CheckFile(this); }
+
+    private Boolean InitJsonFile(String stringvalue){ return IOHelper.InitJson(this,"petcare.txt", stringvalue); }
 }
