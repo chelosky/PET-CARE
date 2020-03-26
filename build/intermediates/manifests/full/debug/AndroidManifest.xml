@@ -17,6 +17,8 @@
         android:icon="@drawable/ic_launcher"
         android:label="Pet Care"
         android:theme="@style/CustomTheme" >
+        <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.AddEventOldPetFragmentActivity" />
+        <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.EventListFragmentActivity" />
         <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.PetInfoFragmentActivity" />
         <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.PetListFragmentActivity" />
         <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.AddEventFragmentActivity" />

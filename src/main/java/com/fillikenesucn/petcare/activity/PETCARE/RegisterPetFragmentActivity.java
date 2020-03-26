@@ -1,6 +1,7 @@
 package com.fillikenesucn.petcare.activity.PETCARE;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -23,6 +24,9 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
     private int nYearIni, nMonthIni, nDayIni, sYearIni, sMonthIni, sDayIni;
     private Calendar calendar = Calendar.getInstance();
     private Spinner spinner;
+
+    private Button btnEscanearMascota;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,6 +59,15 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
                     }
                 }, sYearIni, sMonthIni, sDayIni);
                 dpd.show();
+            }
+        });
+
+        btnEscanearMascota = (Button)findViewById(R.id.btnEscanearMascota);
+        btnEscanearMascota.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(RegisterPetFragmentActivity.this, ScannerMainFragmentActivity.class);
+                startActivity(intent);
             }
         });
     }
