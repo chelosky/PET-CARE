@@ -27,6 +27,9 @@ public class AddEventFragmentActivity extends FragmentActivity {
     private static final int DATE_ID = 0;
     private int nYearIni, nMonthIni, nDayIni, sYearIni, sMonthIni, sDayIni;
     private Calendar calendar = Calendar.getInstance();
+
+    private Button btnEscanearMascota;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RFID-BASE.iml" filepath="$PROJECT_DIR$/RFID-BASE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo-uhf_as.iml" filepath="$PROJECT_DIR$/demo-uhf_as.iml" />
     </modules>
   </component>
 </project>

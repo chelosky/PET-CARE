@@ -30,6 +30,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\interpolator\28.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="70bf65523dc3db43f6c3749931976585a8f4dd20">
+        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-interpolator-28.0.0_d3f6f3e36c5567f9104219b682d4d8a524838999.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rdora\.gradle\caches\modules-2\files-2.1\com.android.support\collections\28.0.0\c1bcdade4d3cc2836130424a3f3e4182c666a745\collections-28.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c1bcdade4d3cc2836130424a3f3e4182c666a745">
+        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\collections-28.0.0_3e406ebb3c93b00ce95c1f47d39e7cf3b9c07434.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -45,6 +63,42 @@
         revision="23.0.1"
         sha1="fad505737146925636e28753e26523c3a8a03e48">
         <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-drawerlayout-28.0.0_0238c8dda6b13c4c9b5a4b989c5406b8338a917e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\coordinatorlayout\28.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a6d4c3181151ffbcd67897e94c688f6c200c5bec">
+        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-coordinatorlayout-28.0.0_5de0c24d3fcae331f0c59621ed61e0211c6dd2f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\versionedparcelable\28.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2e85417e7990657be8fe07d63fd5278d82eb960e">
+        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-versionedparcelable-28.0.0_267c1b5f8f6f9a63f91bd0d3d62c1cb646e520c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-core-utils\28.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b99e6cdcb85894164e1a06145a5f6b78e3cb7270">
+        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-28.0.0_5b4a16126da3f516c7d1f9d581e322d6780bbd9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-core-ui\28.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b05ce31f5d87a7f16cdbdbc5e3a7cf2190bf0118">
+        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-28.0.0_a62aa928877924a539d763b91f0c62910df2b601.jar" />
     </item>
     <item
         is-multidex="false"
@@ -75,6 +129,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\swiperefreshlayout\28.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="19e63f5c3afd0a4379bfb830816bb8a9661aba75">
+        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-swiperefreshlayout-28.0.0_9f6c17a376cf4c9ccb01784b6463854e12a712e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\android.arch.lifecycle\viewmodel\1.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de467de1baba33a922246561f87c0a910206d1ff">
+        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\android.arch.lifecycle-viewmodel-1.1.1_9a31020e410a3d06f668fe1a46a306a881f14ec7.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\rdora\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\28.0.0\ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8\support-annotations-28.0.0.jar"
         jumboMode="false"
         optimize="true"
@@ -93,12 +165,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\documentfile\28.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e9b03dd36d3c106574e2cdeb8edd543bd5e51d0e">
+        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-documentfile-28.0.0_e4b867a8152c1fbfb23d76c01c7d731420ccbec0.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\asynclayoutinflater\28.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="8510837b7e70ee5f12cf2a20dd0a1b3d23a0cdeb">
         <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-asynclayoutinflater-28.0.0_b754422c83efe633a485e7dca14b4b51099173c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\cursoradapter\28.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b9aff7eec7a0b091e460e44b8bb0bf64cadc0844">
+        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-cursoradapter-28.0.0_22cc6340767912732a38cb4a81a8f42d36261009.jar" />
     </item>
     <item
         is-multidex="false"
@@ -111,12 +201,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-fragment\28.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5b049b5525643f62ebe162013dae975c7e74dcc5">
+        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-28.0.0_6435600b97b66f803b223b0440f87a1a5028edec.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\android.arch.lifecycle\livedata-core\1.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="b1173d9f45ae18f2e0dc8ec42d15fa5b95c391d1">
         <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\android.arch.lifecycle-livedata-core-1.1.1_b49b54d1d67a2e6aa5e1af080701560ee6f59e9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\slidingpanelayout\28.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="41b8c7e99024d4288d7dfc709bb72fdaa5fdc32f">
+        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-slidingpanelayout-28.0.0_1c51aaf269271d7c4c2b06fa2526b4f59d69e99d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -162,114 +270,6 @@
         revision="23.0.1"
         sha1="955fa72ef2e3d5a45db59d84802401f75bc973a5">
         <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\jxl_1816c07dbcd7a2fa9b8f16df5584bea82e145111.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\interpolator\28.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="70bf65523dc3db43f6c3749931976585a8f4dd20">
-        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-interpolator-28.0.0_d3f6f3e36c5567f9104219b682d4d8a524838999.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\rdora\.gradle\caches\modules-2\files-2.1\com.android.support\collections\28.0.0\c1bcdade4d3cc2836130424a3f3e4182c666a745\collections-28.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c1bcdade4d3cc2836130424a3f3e4182c666a745">
-        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\collections-28.0.0_3e406ebb3c93b00ce95c1f47d39e7cf3b9c07434.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\coordinatorlayout\28.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a6d4c3181151ffbcd67897e94c688f6c200c5bec">
-        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-coordinatorlayout-28.0.0_5de0c24d3fcae331f0c59621ed61e0211c6dd2f6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\versionedparcelable\28.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="2e85417e7990657be8fe07d63fd5278d82eb960e">
-        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-versionedparcelable-28.0.0_267c1b5f8f6f9a63f91bd0d3d62c1cb646e520c9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-core-utils\28.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="b99e6cdcb85894164e1a06145a5f6b78e3cb7270">
-        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-28.0.0_5b4a16126da3f516c7d1f9d581e322d6780bbd9a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-core-ui\28.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="b05ce31f5d87a7f16cdbdbc5e3a7cf2190bf0118">
-        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-28.0.0_a62aa928877924a539d763b91f0c62910df2b601.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\swiperefreshlayout\28.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="19e63f5c3afd0a4379bfb830816bb8a9661aba75">
-        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-swiperefreshlayout-28.0.0_9f6c17a376cf4c9ccb01784b6463854e12a712e8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\android.arch.lifecycle\viewmodel\1.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="de467de1baba33a922246561f87c0a910206d1ff">
-        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\android.arch.lifecycle-viewmodel-1.1.1_9a31020e410a3d06f668fe1a46a306a881f14ec7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\documentfile\28.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e9b03dd36d3c106574e2cdeb8edd543bd5e51d0e">
-        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-documentfile-28.0.0_e4b867a8152c1fbfb23d76c01c7d731420ccbec0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\cursoradapter\28.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="b9aff7eec7a0b091e460e44b8bb0bf64cadc0844">
-        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-cursoradapter-28.0.0_22cc6340767912732a38cb4a81a8f42d36261009.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-fragment\28.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5b049b5525643f62ebe162013dae975c7e74dcc5">
-        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-28.0.0_6435600b97b66f803b223b0440f87a1a5028edec.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\slidingpanelayout\28.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="41b8c7e99024d4288d7dfc709bb72fdaa5fdc32f">
-        <dex dex="C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\pre-dexed\debug\com.android.support-slidingpanelayout-28.0.0_1c51aaf269271d7c4c2b06fa2526b4f59d69e99d.jar" />
     </item>
     <item
         is-multidex="false"

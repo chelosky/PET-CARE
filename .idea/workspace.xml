@@ -14,6 +14,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74deab53-9109-4647-8d3f-ddc1d2d5ad84" name="Default" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/AddEventOldPetFragmentActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/EventListFragmentActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterScannedPetFragmentActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_add_event_old_pet_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_event_list_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_register_scanned_pet_fragment.xml" afterDir="false" />
+=======
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterDir="false" />
@@ -24,6 +33,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___C__Users_marce_Desktop_petcare_RFID_BASE_libs_cw_deviceapi20190815_jar_unspecified_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__Panchy_Documents_U_PR__TAIS_Pet_Care___Code_RFID_BASE_libs_cw_deviceapi20190815_jar_unspecified_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___C__Users_marce_Desktop_petcare_RFID_BASE_libs_jxl_jar_unspecified_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__Panchy_Documents_U_PR__TAIS_Pet_Care___Code_RFID_BASE_libs_jxl_jar_unspecified_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___C__Users_marce_Desktop_petcare_RFID_BASE_libs_xUtils_2_5_5_jar_unspecified_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___D__Panchy_Documents_U_PR__TAIS_Pet_Care___Code_RFID_BASE_libs_xUtils_2_5_5_jar_unspecified_jar.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___C__Users_rdora_Desktop_RFID_BASE_libs_cw_deviceapi20190815_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___C__Users_rdora_Desktop_RFID_BASE_libs_gson_2_8_2_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___C__Users_rdora_Desktop_RFID_BASE_libs_jxl_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_jars___C__Users_rdora_Desktop_RFID_BASE_libs_xUtils_2_5_5_jar_unspecified_jar.xml" beforeDir="false" />
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
+>>>>>>> origin/master
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RFID-BASE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RFID-BASE.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/asynclayoutinflater/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/android/support/asynclayoutinflater/R.java" afterDir="false" />
@@ -43,7 +65,51 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-mdpi.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/drawable.json" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$1.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout-v16.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout-v16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/layout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/menu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/raw.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/raw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/asynclayoutinflater/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/asynclayoutinflater/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/compat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/compat/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/coordinatorlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/coordinatorlayout/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/coreui/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/coreui/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/coreutils/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/coreutils/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/customview/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/customview/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/drawerlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/drawerlayout/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/fragment/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/fragment/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/loader/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/loader/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/slidingpanelayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/slidingpanelayout/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/swiperefreshlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/swiperefreshlayout/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v4/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v4/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/viewpager/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/android/support/v7/viewpager/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$raw.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$raw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/BaseTabFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/BaseTabFragmentActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity.class" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/HomeFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/HomeFragmentActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/PetInfoFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/PetInfoFragmentActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/PetListFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/PetListFragmentActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/PetNotFoundFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/PetNotFoundFragmentActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.class" afterDir="false" />
+=======
+>>>>>>> origin/master
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity$4.class" afterDir="false" />
@@ -52,6 +118,24 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.class" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity$InitTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity$InitTask.class" afterDir="false" />
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/UHFMainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/activity/UHFMainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFKillFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFKillFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFLockFragment$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFLockFragment$2$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFLockFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFLockFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFReadFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFReadFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFReadTagFragment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFReadTagFragment$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFReadTagFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFReadTagFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFSetFragment$OnMyCheckedChangedListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFSetFragment$OnMyCheckedChangedListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFSetFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFSetFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFWriteFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/fillikenesucn/petcare/fragment/UHFWriteFragment.class" afterDir="false" />
+>>>>>>> origin/master
       <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
@@ -60,16 +144,78 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterDir="false" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/zip-cache/0aCN_ywrBDP8oZy_ptjE8fuyz1U=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/zip-cache/kmMEWxPTz8X8OcC4V1vSBnvGHmE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/android.arch.core-runtime-1.1.1_472dfb3ab67960764b9979c86cdba3dcfde38e7b.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/android.arch.lifecycle-livedata-1.1.1_4a5a5b3d78b3bf1e785b8d578d621b9a83e45788.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/android.arch.lifecycle-livedata-core-1.1.1_93fbf4ac212100780950c6b8b1f941aa059c5c40.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/android.arch.lifecycle-runtime-1.1.1_b23f9144c35867bbb5d7217c6f19e14bdfd94a46.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/android.arch.lifecycle-viewmodel-1.1.1_43de9acf9daef656660b56b64a169526721c8e12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/collections-28.0.0_941914e7e35876c508584d0c3168f882845ff729.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-asynclayoutinflater-28.0.0_d127cbbd26bd5d3ddad6379f21b02e229fa16c89.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-coordinatorlayout-28.0.0_ad77911139dab881e41892991990b65e7eb727c7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-cursoradapter-28.0.0_b01e04c7ce2b9d4aec3387bcc12d2c379f501ea1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-customview-28.0.0_1bb8255c30bc5516726c65089bdfc4b12bea1bc8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-documentfile-28.0.0_99d6f661bd829e3a98d573261557baec9f8de81b.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-drawerlayout-28.0.0_bf3e7a4c035cd237fe95a694f297e287dab449d8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-interpolator-28.0.0_2f92580e2269202b0ef72018491c12b1867265a9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-loader-28.0.0_15988a8333ac277d69cd9ba79f9d8635e0a01550.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-localbroadcastmanager-28.0.0_ae5ef1423be0cbd82fad548106f13c90e81fe6af.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-print-28.0.0_f03a958cdedc93523d11b3493f110ad83ff1eed0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-slidingpanelayout-28.0.0_9cb40d67355cd77f5c0e1c2cf007d802de6f9c06.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-support-compat-28.0.0_706e1a23a0b9ba8373decb97a8c986920c4d581a.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-28.0.0_45cdcc63f1a8107228ac68d88bf7462158441429.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-28.0.0_e58fb9b359b8cf46aaf05d768eb0a54c629f362c.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-28.0.0_170e8998723f07717e9cd9550de92b37c695e9f4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-28.0.0_17ac99b477f5689d4f3a15392d7761a4fc323452.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-swiperefreshlayout-28.0.0_8b293dd23a765d38407f72c6611e41ab8734ce60.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-versionedparcelable-28.0.0_3d895360208301ceedbf3f98403cd358fcaa7a46.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/com.android.support-viewpager-28.0.0_791848630447f1f0987cc482bef1424f8b4bacc5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/common-1.1.1_727ebabf1708390f8b53b421ca159d3a1bf8b0b6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/common-1.1.1_f7bf1c95cbd8db81cddd8bf51b4e72d2d969edf6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/cw-deviceapi20190815_bb86bb2d5b78b145cd90c99896bf2037ea514086.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/debug_0f7e5a028dc0769472a4e60d549a75c1e88d8c32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/jxl_ee1bc36c818e908c9bc908d0fcf0c9abfcbc2ea6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/support-annotations-28.0.0_d2291369b587eef5b403db3b1228ea24bfdb2204.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/xUtils-2.5.5_007c2334bcc3948096386eb1f079f4a70bf72d3d.jar" beforeDir="false" />
+=======
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_add_event_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_add_event_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_pet_info_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_pet_info_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_pet_not_found_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_pet_not_found_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_register_pet_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_register_pet_fragment.xml" afterDir="false" />
+>>>>>>> origin/master
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/outputs/apk/RFID-BASE-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/apk/RFID-BASE-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/models/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/models/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/utils/IOHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/utils/IOHelper.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity.java" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetInfoFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetInfoFragmentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetNotFoundFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetNotFoundFragmentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity.java" afterDir="false" />
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_add_event_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_add_event_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_pet_info_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_pet_info_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_pet_not_found_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_pet_not_found_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_register_pet_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_register_pet_fragment.xml" afterDir="false" />
+>>>>>>> origin/master
     </list>
     <ignored path="demo-uhf_example2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,7 +232,11 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="HC720A181200107" />
+=======
+  <component name="ExecutionTargetManager" SELECTED_TARGET="AGT0219920004576" />
+>>>>>>> origin/master
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -122,6 +272,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterScannedPetFragmentActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1886#2444#0" expanded="true" />
+                <element signature="e#2076#2360#0" expanded="true" />
+                <element signature="e#2359#2360#0" expanded="true" />
+                <element signature="e#2443#2444#0" expanded="true" />
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -137,7 +300,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/utils/IOHelper.java">
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2268#2625#0" expanded="true" />
+                <element signature="e#2624#2625#0" expanded="true" />
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="62" column="11" selection-start-line="33" selection-start-column="8" selection-end-line="62" selection-end-column="11" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_add_event_fragment.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="93" column="39" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java">
+>>>>>>> origin/master
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="65">
               <caret line="91" column="39" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
@@ -160,8 +358,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_register_pet_fragment.xml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="192">
               <caret line="132" column="39" selection-start-line="132" selection-start-column="33" selection-end-line="132" selection-end-column="39" />
+=======
+            <state relative-caret-position="187">
+              <caret line="40" column="39" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="39" />
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> origin/master
             </state>
           </provider>
           <provider editor-type-id="android-designer2" />
@@ -234,39 +441,128 @@
         <option value="$PROJECT_DIR$/src/main/res/font/rumraisin.xml" />
         <option value="$PROJECT_DIR$/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_main_menu_fragment.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_pet_not_found_fragment.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetListFragmentActivity.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_pet_list_fragment.xml" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+=======
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_scanner_main_fragment.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetInfoFragmentActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/fragment/UHFReadTagFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_add_event_old_pet_fragment.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_pet_info_fragment.xml" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetInfoFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_register_pet_fragment.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java" />
+=======
         <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/models/pet.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/models/Acontecimiento.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_register_pet_fragment.xml" />
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_add_event_fragment.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/models/Pet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/utils/IOHelper.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_event_list_fragment.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/EventListFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/AddEventOldPetFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_pet_not_found_fragment.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetNotFoundFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_register_scanned_pet_fragment.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterScannedPetFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+>>>>>>> origin/master
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
+    <option name="x" value="945" />
+    <option name="width" value="984" />
+    <option name="height" value="1035" />
+=======
     <option name="x" value="946" />
     <option name="width" value="983" />
     <option name="height" value="1034" />
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="AndroidView">
+=======
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="petcare" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="petcare" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="petcare" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+              <item name="PETCARE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="RFID-BASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="RFID-BASE" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+=======
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
+      <pane id="ProjectPane">
+>>>>>>> origin/master
         <subPane>
           <expand>
             <path>
@@ -521,7 +817,7 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="F:/android/adt-bundle-android_studio/android-sdk_r24.4.1-windows/android-sdk-windows" />
     <property name="device.picker.selection" value="0123456789ABCDEF" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/res/layout" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="project.structure.last.edited" value="Suggestions" />
     <property name="project.structure.proportion" value="0.17" />
@@ -529,19 +825,20 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Panchy\Desktop\Pet Care - Code\RFID-BASE\src\main\res\font" />
-      <recent name="C:\Users\rdora\Desktop\PROFE ROSS KAWAI\RFID-BASE\src\main\res\drawable-mdpi" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Panchy\Documents\U\PR. TAIS\Pet Care - Code\RFID-BASE\src\main\res\layout" />
+      <recent name="C:\Users\Panchy\Desktop\Pet Care - Code\RFID-BASE\src\main\res\drawable-mdpi" />
+      <recent name="E:\AndroidStudioSimple\demo-uhf_example2\src\main\jniLibs" />
+      <recent name="E:\AndroidStudioSimple\demo-uhf_example2\libs" />
+      <recent name="E:\AndroidStudioSimple\demo-uhf_example2\src\main\jniLibs\armeabi-v7a" />
     </key>
     <key name="android.template.packageName">
       <recent name="com.fillikenesucn.petcare.activity.PETCARE" />
       <recent name="com.fillikenesucn.petcare.activity" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Panchy\Desktop\Pet Care - Code\RFID-BASE\src\main\res\drawable-mdpi" />
-      <recent name="E:\AndroidStudioSimple\demo-uhf_example2\src\main\jniLibs" />
-      <recent name="E:\AndroidStudioSimple\demo-uhf_example2\libs" />
-      <recent name="E:\AndroidStudioSimple\demo-uhf_example2\src\main\jniLibs\armeabi-v7a" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Panchy\Desktop\Pet Care - Code\RFID-BASE\src\main\res\font" />
+      <recent name="C:\Users\rdora\Desktop\PROFE ROSS KAWAI\RFID-BASE\src\main\res\drawable-mdpi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -926,9 +1223,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4919355" visible="true" weight="0.23347548" />
+=======
+<<<<<<< HEAD
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49421966" visible="true" weight="0.2097166" />
+=======
+    <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4919355" visible="true" weight="0.23389356" />
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
+>>>>>>> origin/master
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Captures" order="2" sideWeight="0.5080645" side_tool="true" weight="0.21215352" />
       <window_info id="Nl-Palette" order="3" />
@@ -945,15 +1256,34 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4988938" weight="0.3281412" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5133262" side_tool="true" visible="true" weight="0.32827735" />
+=======
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51902837" side_tool="true" visible="true" weight="0.21847247" />
+=======
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.52030814" side_tool="true" visible="true" weight="0.21581769" />
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
+>>>>>>> origin/master
       <window_info anchor="bottom" id="Android Monitor" order="8" visible="true" weight="0.82684565" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4983407" weight="0.21492007" />
       <window_info anchor="bottom" id="Gradle Console" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32921812" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Build" order="13" sideWeight="0.48097166" visible="true" weight="0.21847247" />
+      <window_info anchor="bottom" id="Android Profiler" order="14" />
+      <window_info anchor="bottom" id="Logcat" order="15" sideWeight="0.49557522" weight="0.32917964" />
+=======
       <window_info anchor="bottom" id="Android Profiler" order="13" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Logcat" order="14" sideWeight="0.48667377" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Build" order="15" sideWeight="0.478145" weight="0.2156013" />
+=======
+      <window_info anchor="bottom" id="Logcat" order="14" sideWeight="0.48827294" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Build" order="15" sideWeight="0.47969186" visible="true" weight="0.21581769" />
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
+>>>>>>> origin/master
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -962,7 +1292,15 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Gradle" order="6" weight="0.28291318" />
       <window_info anchor="right" id="Theme Preview" order="7" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Preview" order="8" weight="0.31130064" />
+=======
+<<<<<<< HEAD
+      <window_info anchor="right" id="Preview" order="8" weight="0.37975708" />
+=======
+      <window_info anchor="right" id="Preview" order="8" weight="0.31162465" />
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
+>>>>>>> origin/master
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="10" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Assistant" order="11" weight="0.32955465" />
@@ -989,9 +1327,12 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/src/main/res/drawable-hdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
     <entry file="file://$PROJECT_DIR$/src/main/res/drawable-hdpi/webtext.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1094,14 +1435,23 @@
     <entry file="file://$PROJECT_DIR$/src/main/res/drawable/button_bg.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main_menu_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+=======
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_pet_not_found_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
           <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetNotFoundFragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1118,6 +1468,7 @@
       </provider>
       <provider editor-type-id="android-manifest" />
     </entry>
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1161,6 +1512,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/BaseTabFragmentActivity.java">
+=======
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/models/Acontecimiento.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetListFragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1177,6 +1531,30 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetInfoFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java">
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> origin/master
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_scanner_main_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -1205,7 +1583,18 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity.java">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_uhfset.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_scanner_main_fragment.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_register_pet_fragment.xml">
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-901">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
@@ -1223,6 +1612,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_add_event_fragment.xml">
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="95" column="39" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
@@ -1230,34 +1620,177 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetInfoFragmentActivity.java">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_pet_list_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetListFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="10" selection-start-line="17" selection-start-column="8" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="e#668#983#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_add_event_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="92" column="47" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_event_list_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_add_event_old_pet_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_pet_info_fragment.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="4743">
+          <caret line="279" column="49" selection-start-line="279" selection-start-column="33" selection-end-line="279" selection-end-column="49" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetInfoFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="52" column="88" selection-start-line="52" selection-start-column="88" selection-end-line="52" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/ScannerMainFragmentActivity.java">
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
+=======
+            <element signature="e#1399#2023#0" expanded="true" />
+            <element signature="e#2022#2023#0" expanded="true" />
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/EventListFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> origin/master
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_register_pet_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="132" column="39" selection-start-line="132" selection-start-column="33" selection-end-line="132" selection-end-column="39" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_pet_not_found_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="79" column="54" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="54" />
+>>>>>>> origin/master
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/HomeFragmentActivity.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/AddEventOldPetFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="37" column="90" selection-start-line="37" selection-start-column="90" selection-end-line="37" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1470#1754#0" expanded="true" />
+            <element signature="e#1753#1754#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java">
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="58" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+<<<<<<< HEAD
+=======
+            <element signature="e#3600#3798#0" expanded="true" />
+            <element signature="e#3797#3798#0" expanded="true" />
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="60" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_register_scanned_pet_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/PetNotFoundFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> origin/master
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/MainMenuFragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1285,11 +1818,52 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/utils/IOHelper.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_register_pet_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/AddEventFragmentActivity.java">
+>>>>>>> origin/master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
           <caret line="91" column="39" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterPetFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="62" column="11" selection-start-line="33" selection-start-column="8" selection-end-line="62" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fillikenesucn/petcare/activity/PETCARE/RegisterScannedPetFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1886#2444#0" expanded="true" />
+            <element signature="e#2076#2360#0" expanded="true" />
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2443#2444#0" expanded="true" />
           </folding>
         </state>
       </provider>

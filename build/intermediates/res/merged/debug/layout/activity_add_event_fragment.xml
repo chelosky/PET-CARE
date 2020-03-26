@@ -94,10 +94,11 @@
             android:id="@+id/btnScanTag"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_bg"
-            android:textColor="@color/white"
             android:layout_margin="10sp"
-            android:text="Escanear Tag Mascota"/>
+            android:background="@drawable/button_bg"
+            android:text="Escanear Tag Mascota"
+            android:textColor="@color/white" />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
