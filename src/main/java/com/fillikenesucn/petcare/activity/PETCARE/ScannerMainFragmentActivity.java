@@ -22,6 +22,7 @@ public class ScannerMainFragmentActivity extends FragmentActivity {
     private int countState = 4; //0,1,2
     private Button btnLoadInfo;
     public RFIDWithUHF mReader;
+    private String statusScannaer; //es el tipo de scannear si para el menu principal, para acontecimiento o para añadir pet
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,11 +30,25 @@ public class ScannerMainFragmentActivity extends FragmentActivity {
         imageView = (ImageView) findViewById(R.id.imgScanner);
         btnLoadInfo = (Button) findViewById(R.id.btnLoadInfo);
         ExecuteTask();
+        Intent parentIntent = getIntent();
+        statusScannaer = parentIntent.getStringExtra("STATUS");
         InitUHF();
         btnLoadInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                LoadPetInfoActivity("GOKU");
+                switch (statusScannaer){
+                    case "MAIN-MENU":
+                        LoadPetInfoActivity("TAG-DE-PRUEBA");
+                        break;
+                    case "PET-ADD":
+                        ReturnEPCParent("TAG-DE-PRUEBA");
+                        break;
+                    case "EVENT-ADD":
+                        ReturnEPCParent("TAG-DE-PRUEBA");
+                        break;
+                    default:
+                        break;
+                }
             }
         });
     }
@@ -44,6 +59,14 @@ public class ScannerMainFragmentActivity extends FragmentActivity {
         startActivity(intent);
         finish();
     }
+
+    private void ReturnEPCParent(String txtEPC){
+        Intent resultIntent = new Intent();
+        resultIntent.putExtra("result",txtEPC);
+        setResult(RESULT_OK, resultIntent);
+        finish();
+    }
+
 
     private void Load404Error(){
         Intent intent = new Intent(ScannerMainFragmentActivity.this, PetNotFoundFragmentActivity.class);
@@ -137,7 +160,19 @@ public class ScannerMainFragmentActivity extends FragmentActivity {
                 String strUII = mReader.inventorySingleTag();
                 if(!TextUtils.isEmpty(strUII)){
                     String strEPC = mReader.convertUiiToEPC(strUII);
-                    LoadPetInfoActivity(strEPC);
+                    switch (statusScannaer){
+                        case "MAIN-MENU":
+                            LoadPetInfoActivity(strEPC);
+                            break;
+                        case "PET-ADD":
+                            ReturnEPCParent(strEPC);
+                            break;
+                        case "EVENT-ADD":
+                            ReturnEPCParent(strEPC);
+                            break;
+                        default:
+                            break;
+                    }
                 } else {
                     Toast.makeText(ScannerMainFragmentActivity.this, "NO HAY TAG CERCA",
                             Toast.LENGTH_SHORT).show();

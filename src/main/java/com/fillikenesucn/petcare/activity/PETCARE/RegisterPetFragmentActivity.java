@@ -3,6 +3,8 @@ package com.fillikenesucn.petcare.activity.PETCARE;
 import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
+import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -31,6 +33,10 @@ import java.util.Calendar;
 import java.util.List;
 
 public class RegisterPetFragmentActivity extends FragmentActivity {
+
+    private final int RESULT_SCANNER_PET_ADD = 616;
+
+    private TextView txtTAG;
     private Button btnFechaNacimiento;
     private EditText et_fechaNacimiento;
     private static final int DATE_ID = 0;
@@ -47,6 +53,7 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
     private EditText txtAllergies;
     private TextView txtTest;
 
+    private Button btnScanTag;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +72,9 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
         this.sMonthIni = this.calendar.get(Calendar.MONTH);
         this.sYearIni = this.calendar.get(Calendar.YEAR);
         this.sDayIni = this.calendar.get(Calendar.DAY_OF_MONTH);
+
+        btnScanTag = (Button)findViewById(R.id.btnScanTag);
+        txtTAG = (TextView)findViewById(R.id.txtTAG);
 
         et_fechaNacimiento = (EditText)findViewById(R.id.fechaNacimiento);
         btnFechaNacimiento = (Button)findViewById(R.id.btnFechaNacimiento);
@@ -89,6 +99,14 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
             }
         });
 
+        btnScanTag.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(RegisterPetFragmentActivity.this, ScannerMainFragmentActivity.class);
+                intent.putExtra("STATUS","PET-ADD");
+                startActivityForResult(intent,RESULT_SCANNER_PET_ADD);
+            }
+        });
         // Testing
         Button tempLeer = (Button)findViewById(R.id.leerjson);
         tempLeer.setOnClickListener(new View.OnClickListener() {
@@ -133,4 +151,18 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
         IOHelper.WriteJson(this,"petcare.txt",stringvalue);
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == RESULT_SCANNER_PET_ADD){
+            if(resultCode == RESULT_OK){
+                String txtEPC = data.getStringExtra("result");
+                txtTAG.setText(txtEPC);
+            }
+            if(resultCode == RESULT_CANCELED){
+                Toast.makeText(this, "ERROR AL OBTENER TAG", Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
 }

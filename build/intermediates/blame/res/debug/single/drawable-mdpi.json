@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\rectangle.png",
-        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\rectangle.png"
-    },
-    {
         "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\wallpaper.png",
         "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\wallpaper.png"
+    },
+    {
+        "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\rectangle.png",
+        "source": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\rectangle.png"
     },
     {
         "merged": "C:\\Users\\Panchy\\Desktop\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\scanpet.png",
@@ -44,16 +44,16 @@
         "source": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\scan3.png",
-        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\scan3.png"
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\scanpet.png",
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\scanpet.png"
     },
     {
-        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
-        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\scan3.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\scan3.png"
     },
     {
         "merged": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\addevent.png",

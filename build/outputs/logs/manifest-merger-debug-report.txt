@@ -1,120 +1,120 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:2:1-44:12
 	package
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:3:5-40
-		INJECTED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-v4\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-compat\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\versionedparcelable\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-media-compat\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-core-utils\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\documentfile\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\loader\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\android.arch.lifecycle\livedata\1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\android.arch.core\runtime\1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\android.arch.lifecycle\livedata-core\1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\android.arch.lifecycle\viewmodel\1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\localbroadcastmanager\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\print\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-core-ui\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\customview\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\viewpager\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\coordinatorlayout\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\drawerlayout\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\slidingpanelayout\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\interpolator\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\swiperefreshlayout\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\asynclayoutinflater\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\cursoradapter\28.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-fragment\28.0.0\AndroidManifest.xml:20:5-44
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-v4\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-compat\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\versionedparcelable\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-media-compat\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-core-utils\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\documentfile\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\loader\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\android.arch.lifecycle\livedata\1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\android.arch.core\runtime\1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\android.arch.lifecycle\livedata-core\1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\android.arch.lifecycle\viewmodel\1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\localbroadcastmanager\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\print\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-core-ui\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\customview\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\viewpager\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\coordinatorlayout\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\drawerlayout\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\slidingpanelayout\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\interpolator\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\swiperefreshlayout\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\asynclayoutinflater\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\cursoradapter\28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-fragment\28.0.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:11:5-81
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:11:22-78
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:11:22-78
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:12:5-68
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:12:5-68
 	android:name
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:12:22-65
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:12:22-65
 application
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:14:5-42:19
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-compat\28.0.0\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\versionedparcelable\28.0.0\AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:14:5-42:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-compat\28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\versionedparcelable\28.0.0\AndroidManifest.xml:22:5-23:19
 	android:label
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:17:9-33
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:17:9-33
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\rdora\Desktop\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-compat\28.0.0\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\support-compat\28.0.0\AndroidManifest.xml:22:18-91
 	android:allowBackup
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:16:9-45
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:16:9-45
 	android:theme
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:18:9-43
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:18:9-43
 activity#com.fillikenesucn.petcare.activity.PETCARE.PetInfoFragmentActivity
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:19:9-87
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:19:9-87
 	android:name
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:19:19-75
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:19:19-75
 activity#com.fillikenesucn.petcare.activity.PETCARE.PetListFragmentActivity
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:20:9-78
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:20:9-78
 	android:name
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:20:19-75
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:20:19-75
 activity#com.fillikenesucn.petcare.activity.PETCARE.AddEventFragmentActivity
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:21:9-79
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:21:9-79
 	android:name
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:21:19-76
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:21:19-76
 activity#com.fillikenesucn.petcare.activity.PETCARE.ScannerMainFragmentActivity
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:22:9-82
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:22:9-82
 	android:name
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:22:19-79
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:22:19-79
 activity#com.fillikenesucn.petcare.activity.PETCARE.RegisterPetFragmentActivity
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:23:9-82
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:23:9-82
 	android:name
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:23:19-79
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:23:19-79
 activity#com.fillikenesucn.petcare.activity.PETCARE.MainMenuFragmentActivity
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:24:9-79
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:24:9-79
 	android:name
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:24:19-76
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:24:19-76
 activity#com.fillikenesucn.petcare.activity.PETCARE.HomeFragmentActivity
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:25:9-31:20
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:25:19-72
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:25:19-72
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:27:17-69
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:27:25-66
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:29:17-77
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:29:27-74
 activity#com.fillikenesucn.petcare.activity.UHFMainActivity
-ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:32:9-41:20
+ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:32:9-41:20
 	android:screenOrientation
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:35:13-49
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:35:13-49
 	android:label
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:34:13-36
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from C:\Users\rdora\Desktop\RFID-BASE\src\main\AndroidManifest.xml:33:13-53
+		ADDED from C:\Users\marce\Desktop\petcare\RFID-BASE\src\main\AndroidManifest.xml:33:13-53

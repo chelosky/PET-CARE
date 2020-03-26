@@ -81,15 +81,17 @@
             />
 
         <TextView
+            android:id="@+id/txtTAG"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10sp"
             android:background="@drawable/card_normal"
+            android:enabled="false"
             android:padding="10sp"
-            android:text="TAG: XXXX-XXXXXX-XXXXX"
-            android:enabled="false"/>
+            android:text="TAG: XXXX-XXXXXX-XXXXX" />
 
         <Button
+            android:id="@+id/btnScanTag"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/button_bg"
