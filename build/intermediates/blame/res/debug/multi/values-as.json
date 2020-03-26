@@ -24,6 +24,30 @@
         ]
     },
     {
+        "outputFile": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-as\\values-as.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 100,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\values-as\\values-as.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "D:\\Panchy\\Documents\\U\\PR. TAIS\\Pet Care - Code\\RFID-BASE\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-as\\values-as.xml",
         "map": [
             {

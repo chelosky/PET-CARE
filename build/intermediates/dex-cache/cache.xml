@@ -255,7 +255,20 @@
     </item>
     <item
         is-multidex="false"
+<<<<<<< HEAD
         jar="D:\Panchy\Documents\U\PR. TAIS\Pet Care - Code\RFID-BASE\build\intermediates\exploded-aar\com.android.support\print\28.0.0\jars\classes.jar"
+=======
+        jar="C:\Users\marce\Desktop\petcare\RFID-BASE\libs\gson-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\pre-dexed\debug\gson-2.8.2_88d7b2dc0bb121882195a7f85cdcfdad17139847.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marce\Desktop\petcare\RFID-BASE\build\intermediates\exploded-aar\com.android.support\swiperefreshlayout\28.0.0\jars\classes.jar"
+>>>>>>> ac322df9f0382cd2be5c004c3d38f0e348548993
         jumboMode="false"
         optimize="true"
         revision="23.0.1"

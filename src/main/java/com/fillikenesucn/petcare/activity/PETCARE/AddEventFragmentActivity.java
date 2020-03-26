@@ -2,18 +2,26 @@ package com.fillikenesucn.petcare.activity.PETCARE;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
+import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
 
 import java.util.Calendar;
 
 public class AddEventFragmentActivity extends FragmentActivity {
+    private final int RESULT_SCANNER_EVENT_ADD = 541;
+
+    private Button btnScanner;
+    private TextView txtTag;
+
     private Button btnFechaNacimiento;
     private EditText et_fechaNacimiento;
     private static final int DATE_ID = 0;
@@ -46,13 +54,30 @@ public class AddEventFragmentActivity extends FragmentActivity {
             }
         });
 
-        btnEscanearMascota = (Button)findViewById(R.id.btnEscanearMascota);
-        btnEscanearMascota.setOnClickListener(new View.OnClickListener() {
+        txtTag = (TextView)findViewById(R.id.txtTAG);
+        btnScanner = (Button)findViewById(R.id.btnScanTag);
+        btnScanner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(AddEventFragmentActivity.this, ScannerMainFragmentActivity.class);
-                startActivity(intent);
+                intent.putExtra("STATUS","EVENT-ADD");
+                startActivityForResult(intent,RESULT_SCANNER_EVENT_ADD);
             }
         });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == RESULT_SCANNER_EVENT_ADD){
+            if(resultCode == RESULT_OK){
+                String txtEPC = data.getStringExtra("result");
+                txtTag.setText(txtEPC);
+            }
+            if(resultCode == RESULT_CANCELED){
+                Toast.makeText(this, "ERROR AL OBTENER TAG", Toast.LENGTH_SHORT).show();
+            }   
+        }
     }
 }

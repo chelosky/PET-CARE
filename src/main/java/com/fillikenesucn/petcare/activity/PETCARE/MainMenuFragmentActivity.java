@@ -38,6 +38,7 @@ public class MainMenuFragmentActivity extends FragmentActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainMenuFragmentActivity.this, ScannerMainFragmentActivity.class);
+                intent.putExtra("STATUS","MAIN-MENU");
                 startActivity(intent);
             }
         });
