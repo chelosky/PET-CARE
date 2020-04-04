@@ -16,7 +16,27 @@
         "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
         "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png",
         "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\28.0.0\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     }
 ]

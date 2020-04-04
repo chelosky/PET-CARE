@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     }

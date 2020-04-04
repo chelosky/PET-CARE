@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\anim\\grow_from_topleft_to_bottomright.xml",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\anim\\grow_from_topleft_to_bottomright.xml"
+    },
+    {
         "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_out.xml",
         "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\anim\\slide_left_out.xml"
     },
@@ -16,7 +20,23 @@
         "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\anim\\slide_left_in.xml"
     },
     {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_in.xml",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\anim\\slide_left_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_in.xml",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\anim\\slide_right_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_out.xml",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\anim\\slide_right_out.xml"
+    },
+    {
         "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_in.xml",
         "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\anim\\slide_right_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_out.xml",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\anim\\slide_left_out.xml"
     }
 ]
