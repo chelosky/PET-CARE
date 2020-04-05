@@ -272,4 +272,32 @@ public class IOHelper {
         }
     }
 
+    public static void UpdatePetInfo(Context context, Pet newPet, String oldEPC){
+        try {
+            // Obtener el JSON desde el contexto de la APP
+            String sxml = ReadFileString(context);
+            // Transformar el String a formato JSONArray
+            JSONArray json = new JSONArray(sxml);
+            //
+            JSONObject epc = new JSONObject();
+            epc.put("EPC",oldEPC);
+            Integer pos = CheckActiveEPC(json,epc);
+            // Guardamos el JSONObject de la mascota en una variable
+            JSONObject curr = json.getJSONObject(pos);
+            // Transformamos de JSONObject a un objecto Pet
+            curr.put("name", newPet.getName());
+            curr.put("sex", newPet.getName());
+            curr.put("birthdate", newPet.getName());
+            curr.put("address", newPet.getName());
+            curr.put("allergies", newPet.getName());
+            curr.put("species", newPet.getName());
+            curr.put("EPC", newPet.getName());
+            // Escribimos el nuevo txt
+            WriteJson(context,json.toString());
+        } catch (Exception e) {
+            Toast.makeText(context, "sdfsdaf", Toast.LENGTH_SHORT).show();
+            Log.d("DORAT", e.toString());
+        }
+    }
+
 }
