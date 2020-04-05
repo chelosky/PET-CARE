@@ -13,6 +13,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
+import com.fillikenesucn.petcare.activity.PETCARE.models.Acontecimiento;
+import com.fillikenesucn.petcare.activity.PETCARE.utils.IOHelper;
+import com.google.gson.Gson;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.Calendar;
 
@@ -28,12 +34,17 @@ public class AddEventFragmentActivity extends FragmentActivity {
     private int nYearIni, nMonthIni, nDayIni, sYearIni, sMonthIni, sDayIni;
     private Calendar calendar = Calendar.getInstance();
 
-    private Button btnEscanearMascota;
+    private Button btnAgregar;
+    private EditText txtTitulo;
+    private EditText txtDescripcion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_event_fragment);
+
+        txtTitulo = (EditText) findViewById(R.id.txtTitulo);
+        txtDescripcion = (EditText) findViewById(R.id.txtDescripcion);
         btnFechaNacimiento = (Button) findViewById(R.id.btnFechaNacimiento);
         this.sMonthIni = this.calendar.get(Calendar.MONTH);
         this.sYearIni = this.calendar.get(Calendar.YEAR);
@@ -64,6 +75,33 @@ public class AddEventFragmentActivity extends FragmentActivity {
                 startActivityForResult(intent,RESULT_SCANNER_EVENT_ADD);
             }
         });
+
+        btnAgregar = (Button)findViewById(R.id.btnAgregarEvento);
+        btnAgregar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    String titulo = txtTitulo.getText().toString();
+                    String fecha = et_fechaNacimiento.getText().toString();
+                    String descripcion = txtDescripcion.getText().toString();
+                    String epc = txtTag.getText().toString();
+
+                    JSONObject tag = new JSONObject();
+                    tag.put("EPC", epc);
+                    Gson gson = new Gson();
+                    Acontecimiento acontecimiento = new Acontecimiento(titulo,fecha,descripcion);
+                    Boolean status = WriteJsonFile(gson.toJson(acontecimiento), tag);
+
+                    if (status) {
+                        Toast.makeText(AddEventFragmentActivity.this, "INGRESO EXITOSO", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Toast.makeText(AddEventFragmentActivity.this, "INGRESO FALLIDO", Toast.LENGTH_SHORT).show();
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
     }
 
     @Override
@@ -80,4 +118,7 @@ public class AddEventFragmentActivity extends FragmentActivity {
             }   
         }
     }
+
+    private Boolean WriteJsonFile(String stringvalue, JSONObject tag){ return IOHelper.AddEvent(this,stringvalue, tag); }
+
 }

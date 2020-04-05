@@ -76,12 +76,17 @@
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\layout\\activity_scanner_main_fragment.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\28.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\28.0.0\\res\\layout\\abc_alert_dialog_material.xml"
+=======
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\layout\\layout_petlistitem.xml",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\layout\\layout_petlistitem.xml"
+>>>>>>> 72f05a798dc97e7d8817bf32950a08ab1bf87d7d
     },
     {
         "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",

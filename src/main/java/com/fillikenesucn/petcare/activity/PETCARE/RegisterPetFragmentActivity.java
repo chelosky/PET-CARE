@@ -19,10 +19,14 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
+import com.fillikenesucn.petcare.activity.PETCARE.models.Acontecimiento;
 import com.fillikenesucn.petcare.activity.PETCARE.models.Pet;
 import com.fillikenesucn.petcare.activity.PETCARE.utils.DataHelper;
 import com.fillikenesucn.petcare.activity.PETCARE.utils.IOHelper;
 import com.google.gson.Gson;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -103,7 +107,16 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
         tempLeer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                txtTest.setText(ReadJsonFile());
+                ArrayList<Pet> petList = PetList();
+                String list = "";
+                for(int i = 0; i < petList.size(); i++){
+                    list += "Mascota (" + (i+1) + ") { ";
+                    list += "EPC: " + petList.get(i).getEPC();
+                    list += ", Nombre: " + petList.get(i).getName();
+                    list += ", Dirección: " + petList.get(i).getAddress();
+                    list += " }\n";
+                }
+                txtTest.setText(list);
             }
         });
         btnRegist = (Button) findViewById(R.id.btnRegist);
@@ -138,11 +151,12 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
         );
     }
 
-    private String ReadJsonFile(){ return IOHelper.ReadFileString(this); }
+    private ArrayList<Pet> PetList(){ return IOHelper.PetList(this); }
+
+    private Pet GetPet() { return IOHelper.GetPet(this, txtTAG.getText().toString()); }
 
     private Boolean WriteJsonFile(String stringvalue){
-        String tmp = IOHelper.WriteJson(this,"petcare.txt",stringvalue);
-        return true;
+        return IOHelper.WriteJson(this,stringvalue);
     }
 
     @Override

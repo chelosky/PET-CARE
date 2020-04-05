@@ -8,10 +8,6 @@
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro6.png"
     },
     {
-        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gato1.png",
-        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\gato1.png"
-    },
-    {
         "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro3.png",
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro3.png"
     },
@@ -20,20 +16,8 @@
         "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro4.png",
-        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro4.png"
-    },
-    {
-        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gato4.png",
-        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\gato4.png"
-    },
-    {
-        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro1.png",
-        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro1.png"
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro7.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro7.png"
     },
     {
         "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gato3.png",
@@ -44,6 +28,58 @@
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro7.png"
     },
     {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro4.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro4.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro1.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro1.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gato2.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\gato2.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro5.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro5.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro2.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro2.png"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gato1.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\gato1.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro8.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro8.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gato1.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\gato1.png"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro4.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro4.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gato3.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\gato3.png"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gato4.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\gato4.png"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro1.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro1.png"
+    },
+    {
         "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gato2.png",
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\gato2.png"
     },
@@ -52,11 +88,27 @@
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro5.png"
     },
     {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro9.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro9.png"
+    },
+    {
         "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro2.png",
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro2.png"
     },
     {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gato4.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\gato4.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro6.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro6.png"
+    },
+    {
         "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro8.png",
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro8.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\perro3.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-xhdpi\\perro3.png"
     }
 ]

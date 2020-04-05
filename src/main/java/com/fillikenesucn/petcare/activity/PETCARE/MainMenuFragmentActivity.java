@@ -82,5 +82,5 @@ public class MainMenuFragmentActivity extends FragmentActivity {
 
     private Boolean InitJsonFile(){ return IOHelper.CheckFile(this); }
 
-    private Boolean InitJsonFile(String stringvalue){ return IOHelper.InitJson(this,"petcare.txt", stringvalue); }
+    private Boolean InitJsonFile(String stringvalue){ return IOHelper.InitJson(this, stringvalue); }
 }

@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Sun Apr 05 01:02:48 CLST 2020
 base.0=C\:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+=======
+#Sat Apr 04 23:00:24 CLST 2020
+base.0=C\:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+>>>>>>> 72f05a798dc97e7d8817bf32950a08ab1bf87d7d
 renamed.0=classes.dex
-file.0=C\:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=C\:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
