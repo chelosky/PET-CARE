@@ -20,6 +20,7 @@ import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.activity.PETCARE.models.Pet;
+import com.fillikenesucn.petcare.activity.PETCARE.utils.DataHelper;
 import com.fillikenesucn.petcare.activity.PETCARE.utils.IOHelper;
 import com.google.gson.Gson;
 
@@ -55,12 +56,7 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_pet_fragment);
         this.spinner = findViewById(R.id.spinnerRegisterPet);
-        final List<String> pets = new ArrayList<>();
-        pets.add(0, "Seleccione Especie");
-        pets.add("Perro");
-        pets.add("Gato");
-
-        ArrayAdapter<String> petsAdapter = new ArrayAdapter(this,android.R.layout.simple_spinner_item,pets);
+        ArrayAdapter<String> petsAdapter = new ArrayAdapter(this,android.R.layout.simple_spinner_item, DataHelper.GetSpecies());
         petsAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         this.spinner.setAdapter(petsAdapter);
 

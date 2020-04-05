@@ -246,43 +246,31 @@
                 android:layout_marginTop="10sp"
                 android:src="@drawable/rectangle" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Historial de Acontecimientos"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/card_press"
-                android:inputType="textMultiLine"
-                android:lines="3"
-                android:gravity="top"
-                android:padding="10sp"
-                android:hint="ACONTECIMIENTO 1
-                              ACONTECIMIENTO 2"
-                android:layout_margin="10sp"
-                />
-
             <Button
-                android:id="@+id/btnVerLista"
+                android:id="@+id/btnEditInfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10sp"
                 android:background="@drawable/button_bg"
-                android:text="Editar acontecimientos"
+                android:text="Modificar Mascota"
                 android:textColor="@color/white" />
 
             <Button
-                android:id="@+id/btnAgregarEvento"
+            android:id="@+id/btnVerLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:background="@drawable/button_bg3"
+            android:text="Ver Acontecimientos"
+            android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnDesvincular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10sp"
-                android:background="@drawable/button_bg3"
-                android:text="Agregar acontecimiento"
+                android:background="@drawable/button_bg2"
+                android:text="Desvincular Mascota"
                 android:textColor="@color/white" />
         </LinearLayout>
     </ScrollView>

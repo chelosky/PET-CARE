@@ -32,5 +32,25 @@
             android:layout_marginBottom="10sp"
             android:src="@drawable/rectangle" />
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/btnAgregarEvento"
+                android:id="@+id/recycler_view">
+
+            </android.support.v7.widget.RecyclerView>
+            <Button
+                android:id="@+id/btnAgregarEvento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/button_bg3"
+                android:text="Agregar Acontecimiento"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </RelativeLayout>
     </LinearLayout>
 </RelativeLayout>

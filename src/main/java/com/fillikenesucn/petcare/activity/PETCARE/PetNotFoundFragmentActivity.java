@@ -8,10 +8,20 @@ import android.widget.Button;
 
 import com.fillikenesucn.petcare.R;
 
+/**
+ * Esta clase representa a la actividad que se de la funcionalidad del 404 error
+ * @author: FRANCISCA HERNANDEZ PIÑA
+ * @version: 22/03/2020
+ */
 public class PetNotFoundFragmentActivity extends FragmentActivity {
+    // VARIABLES
     private Button btnRegistrarMascota;
     private Button btnNoRegistrarMascota;
 
+    /**
+     * CONSTRUCTOR DE LA ACTIVIDAD
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

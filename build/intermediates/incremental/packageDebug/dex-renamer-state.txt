@@ -1,4 +1,4 @@
-#Sat Apr 04 04:57:32 CLST 2020
+#Sun Apr 05 01:02:48 CLST 2020
 base.0=C\:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

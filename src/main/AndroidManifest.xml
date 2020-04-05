@@ -16,10 +16,11 @@
         android:icon="@drawable/ic_launcher"
         android:label="Pet Care"
         android:theme="@style/CustomTheme">
+        <activity android:name=".activity.PETCARE.ModifyPetInfoFragmentActivity"></activity>
         <activity android:name=".activity.PETCARE.RegisterScannedPetFragmentActivity" />
         <activity android:name=".activity.PETCARE.AddEventOldPetFragmentActivity" />
         <activity android:name=".activity.PETCARE.EventListFragmentActivity" />
-        <activity android:name=".activity.PETCARE.PetInfoFragmentActivity"></activity>
+        <activity android:name=".activity.PETCARE.PetInfoFragmentActivity" />
         <activity android:name=".activity.PETCARE.PetListFragmentActivity" />
         <activity android:name=".activity.PETCARE.AddEventFragmentActivity" />
         <activity android:name=".activity.PETCARE.ScannerMainFragmentActivity" />
