@@ -90,13 +90,7 @@ public class AddEventFragmentActivity extends FragmentActivity {
                     tag.put("EPC", epc);
                     Gson gson = new Gson();
                     Acontecimiento acontecimiento = new Acontecimiento(titulo,fecha,descripcion);
-                    Boolean status = WriteJsonFile(gson.toJson(acontecimiento), tag);
-
-                    if (status) {
-                        Toast.makeText(AddEventFragmentActivity.this, "INGRESO EXITOSO", Toast.LENGTH_SHORT).show();
-                    } else {
-                        Toast.makeText(AddEventFragmentActivity.this, "INGRESO FALLIDO", Toast.LENGTH_SHORT).show();
-                    }
+                    WriteJsonFile(gson.toJson(acontecimiento), tag);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -119,6 +113,6 @@ public class AddEventFragmentActivity extends FragmentActivity {
         }
     }
 
-    private Boolean WriteJsonFile(String stringvalue, JSONObject tag){ return IOHelper.AddEvent(this,stringvalue, tag); }
+    private void WriteJsonFile(String stringvalue, JSONObject tag){ IOHelper.AddEvent(this,stringvalue, tag); }
 
 }

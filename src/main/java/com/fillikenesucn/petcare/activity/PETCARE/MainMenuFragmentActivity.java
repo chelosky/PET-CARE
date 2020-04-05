@@ -70,17 +70,21 @@ public class MainMenuFragmentActivity extends FragmentActivity {
             }
         });
 
-        Boolean status = InitJsonFile();
+        Boolean status = CheckFile();
         if (!status) {
             Gson gson = new Gson();
-            Boolean written = InitJsonFile(gson.toJson("[]"));
-        } else {
+            InitJsonFile();
+        }
+        /** Esto debe eliminarse al terminar las pruebas */
+        else {
             Gson gson = new Gson();
-            Boolean written = InitJsonFile(gson.toJson("[]"));
+            InitJsonFile();
         }
     }
 
-    private Boolean InitJsonFile(){ return IOHelper.CheckFile(this); }
+    /** Verifica si ya existe un archivo de texto */
+    private Boolean CheckFile(){ return IOHelper.CheckFile(this); }
 
-    private Boolean InitJsonFile(String stringvalue){ return IOHelper.InitJson(this, stringvalue); }
+    /** Crea el archivo de texto vacío nuevo (elimina el anterior is existe) */
+    private void InitJsonFile(){ IOHelper.WriteJson(this, "[]"); }
 }

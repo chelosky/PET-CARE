@@ -108,7 +108,7 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
             @Override
             public void onClick(View view) {
                 ArrayList<Pet> petList = PetList();
-                String list = "";
+                String list = "[\n";
                 for(int i = 0; i < petList.size(); i++){
                     list += "Mascota (" + (i+1) + ") { ";
                     list += "EPC: " + petList.get(i).getEPC();
@@ -116,19 +116,24 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
                     list += ", Dirección: " + petList.get(i).getAddress();
                     list += " }\n";
                 }
+                list += "]";
                 txtTest.setText(list);
             }
         });
         btnRegist = (Button) findViewById(R.id.btnRegist);
         btnRegist.setOnClickListener(
                 new View.OnClickListener() {
+                    /**
+                     * Función que se encarga de agregar la nueva mascota a la lista de mascotas
+                     * @param view
+                     */
                     @Override
                     public void onClick(View view) {
-                        // get selected radio button from radioGroup
+                        // Obtenemos el ID de la opción seleccionada
                         int selectedId = radioGroup.getCheckedRadioButtonId();
-                        // find the radiobutton by returned id
+                        // Obtenemos el botón
                         radioButton = (RadioButton) findViewById(selectedId);
-
+                        // Extraemos la información de los inputs
                         String name = txtName.getText().toString();
                         String sex = radioButton.getText().toString();
                         String species = spinner.getSelectedItem().toString();
@@ -136,16 +141,10 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
                         String address = txtAddress.getText().toString();
                         String allergies = txtAllergies.getText().toString();
                         String epc = txtTAG.getText().toString();
-
-                        Pet pet = new Pet(name,sex,birthdate,address,allergies,species, epc);
+                        // Creamos el objeto mascota y lo guardamos en el archivo de texto
+                        Pet pet = new Pet(name,sex,birthdate,address,allergies,species,epc);
                         Gson gson = new Gson();
-                        Boolean status = WriteJsonFile(gson.toJson(pet));
-
-                        if (status) {
-                            Toast.makeText(RegisterPetFragmentActivity.this, "INGRESO EXITOSO", Toast.LENGTH_SHORT).show();
-                        } else {
-                            Toast.makeText(RegisterPetFragmentActivity.this, "INGRESO FALLIDO", Toast.LENGTH_SHORT).show();
-                        }
+                        WriteJsonFile(gson.toJson(pet));
                     }
                 }
         );
@@ -155,9 +154,9 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
 
     private Pet GetPet() { return IOHelper.GetPet(this, txtTAG.getText().toString()); }
 
-    private Boolean WriteJsonFile(String stringvalue){
-        return IOHelper.WriteJson(this,stringvalue);
-    }
+    private String test(){ return IOHelper.ReadFileString(this); }
+
+    private void WriteJsonFile(String stringvalue){ IOHelper.AddPet(this,stringvalue); }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {

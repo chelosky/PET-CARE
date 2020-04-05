@@ -1,35 +1,27 @@
 [
     {
-        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\scan1.png",
-        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\scan1.png"
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\wallpaper.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\wallpaper.png"
     },
     {
-        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\wallpaper.png",
-        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\wallpaper.png"
-    },
-    {
-        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\scan4.png",
-        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\scan4.png"
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\error404.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\error404.png"
     },
     {
         "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\petlist.png",
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\petlist.png"
     },
     {
-        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\splashlogin.png",
-        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\splashlogin.png"
-    },
-    {
-        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\rectangle.png",
-        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\rectangle.png"
-    },
-    {
         "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\scan2.png",
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\scan2.png"
     },
     {
-        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\addpet.png",
-        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\addpet.png"
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\petlist.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\petlist.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\scan2.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\scan2.png"
     },
     {
         "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\scan3.png",
@@ -50,5 +42,65 @@
     {
         "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\error404.png",
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\error404.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\addpet.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\addpet.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\rectangle.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\rectangle.png"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\scan1.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\scan1.png"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\wallpaper.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\wallpaper.png"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\scan4.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\scan4.png"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\splashlogin.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\splashlogin.png"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\rectangle.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\rectangle.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\scan3.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\scan3.png"
+    },
+    {
+        "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\addpet.png",
+        "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\addpet.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\splashlogin.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\splashlogin.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\scan1.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\scan1.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\scanpet.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\scanpet.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\scan4.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\scan4.png"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\addevent.png",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\drawable-mdpi\\addevent.png"
     }
 ]

@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\raw\\serror.ogg",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\raw\\serror.ogg"
+    },
+    {
+        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\raw\\barcodebeep.ogg",
+        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\raw\\barcodebeep.ogg"
+    },
+    {
         "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\raw\\serror.ogg",
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\raw\\serror.ogg"
     },
