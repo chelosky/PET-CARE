@@ -33,6 +33,7 @@
             android:src="@drawable/rectangle" />
 
         <EditText
+            android:id="@+id/txtTitulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/card_press"
@@ -69,6 +70,7 @@
         </LinearLayout>
 
         <EditText
+            android:id="@+id/txtDescripcion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/card_press"
@@ -100,6 +102,7 @@
             android:textColor="@color/white" />
 
         <Button
+            android:id="@+id/btnAgregarEvento"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/button_bg3"
