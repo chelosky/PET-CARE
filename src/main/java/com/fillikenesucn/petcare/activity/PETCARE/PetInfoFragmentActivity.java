@@ -3,6 +3,7 @@ package com.fillikenesucn.petcare.activity.PETCARE;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -23,6 +24,7 @@ import com.fillikenesucn.petcare.activity.PETCARE.utils.IOHelper;
  */
 public class PetInfoFragmentActivity extends FragmentActivity {
     // VARIABLES
+    private final int RESULT_MODIFY_PET_INFO = 444;
     private TextView txtEPC;
     private Button btnVerLista;
     private Button btnEditInfo;
@@ -39,7 +41,7 @@ public class PetInfoFragmentActivity extends FragmentActivity {
         setContentView(R.layout.activity_pet_info_fragment);
         txtEPC = (TextView) findViewById(R.id.txtEPC);
         // OBTIENE LA INFORMACIÓN DE LA MASCOTA EN BASE AL EPC ASOCIADO
-        LoadInfoPet();
+        GetEPCExtra();
         btnVerLista = (Button)findViewById(R.id.btnVerLista);
         // FUNCIONALIDAD PARA INSTANCIAR LA ACTIVIDAD PARA VER EL LISTADO DE ACONTECIMIENTOS ASOCIADOS A LA MASCOTA
         btnVerLista.setOnClickListener(new View.OnClickListener() {
@@ -52,13 +54,13 @@ public class PetInfoFragmentActivity extends FragmentActivity {
         });
 
         btnEditInfo = (Button)findViewById(R.id.btnEditInfo);
-        // FUNCIONALIDAD PARA INSTANCIAR LA ACTIVIDAD PARA AÑADIR UN NUEVO ACONTECIMIENTO A LA MASCOTA
+        // FUNCIONALIDAD PARA INSTANCIAR LA ACTIVIDAD PARA EDITAR A LA MASCOTA
         btnEditInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(PetInfoFragmentActivity.this, ModifyPetInfoFragmentActivity.class);
                 intent.putExtra("EPC",txtEPC.getText().toString());
-                startActivity(intent);
+                startActivityForResult(intent, RESULT_MODIFY_PET_INFO);
             }
         });
 
@@ -96,14 +98,18 @@ public class PetInfoFragmentActivity extends FragmentActivity {
         dialog.show();
     }
 
+    private void GetEPCExtra(){
+        Bundle extras = getIntent().getExtras();
+        String txtExtra = extras.getString("EPC");
+        LoadInfoPet(txtExtra);
+    }
+
     /**
      * Método que se encarga de obtener la información asociada a una mascota en base a su EPC asociado
      * y actualizar la vista con su información correspondiente
      */
-    private void LoadInfoPet(){
-        Bundle extras = getIntent().getExtras();
-        String txtExtra = extras.getString("EPC");
-        petOBJ = IOHelper.GetPet(PetInfoFragmentActivity.this, txtExtra);
+    private void LoadInfoPet(String epcValue){
+        petOBJ = IOHelper.GetPet(PetInfoFragmentActivity.this, epcValue);
         SetInfoPetView();
     }
 
@@ -121,5 +127,20 @@ public class PetInfoFragmentActivity extends FragmentActivity {
         EditText txtAlergias = (EditText) findViewById(R.id.alergias);
         txtAlergias.setText(petOBJ.getAllergies());
         txtEPC.setText(petOBJ.getEPC());
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == RESULT_MODIFY_PET_INFO){
+            if(resultCode == RESULT_OK){
+                String txtEPC = data.getStringExtra("result");
+                // NUEVO EPC
+                LoadInfoPet(txtEPC);
+            }
+            if(resultCode == RESULT_CANCELED){
+                // to do
+            }
+        }
     }
 }

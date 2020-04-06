@@ -11,7 +11,9 @@ import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.activity.PETCARE.models.Acontecimiento;
+import com.fillikenesucn.petcare.activity.PETCARE.models.Pet;
 import com.fillikenesucn.petcare.activity.PETCARE.utils.AcontecimientoListAdapter;
+import com.fillikenesucn.petcare.activity.PETCARE.utils.IOHelper;
 
 import java.util.ArrayList;
 
@@ -24,7 +26,7 @@ public class EventListFragmentActivity extends FragmentActivity {
     // VARIABLES
     Button btnAgregarEvento;
     String txtEPC;
-
+    ArrayList<Acontecimiento> acontecimientosList;
     /**
      * Constructor de la Actividad
      * @param savedInstanceState
@@ -46,24 +48,15 @@ public class EventListFragmentActivity extends FragmentActivity {
                     }
                 }
         );
-        // OBTIENE LA INFORMACIÓN DE LOS ACONTECIMIENTOS DE LA MASCOTA
-        InitAcontecimientos();
     }
 
     /**
      * Método que Obtiene el listado de acontecimientos pertenecientes a una mascota en base a su EPC
      */
     private void InitAcontecimientos(){
-        RecyclerView recycler_view = (RecyclerView) findViewById(R.id.recycler_view);
-        RecyclerView recyclerView = findViewById(R.id.recycler_view);
-        ArrayList<Acontecimiento> acontecimientosList = new ArrayList<>();
-        acontecimientosList.add(new Acontecimiento("TITULO 1", "30/01/2020","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"));
-        acontecimientosList.add(new Acontecimiento("TITULO 2", "30/01/2020","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"));
-        acontecimientosList.add(new Acontecimiento("TITULO 3", "30/01/2020","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"));
-        acontecimientosList.add(new Acontecimiento("TITULO 4", "30/01/2020","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"));
-        acontecimientosList.add(new Acontecimiento("TITULO 5", "30/01/2020","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"));
-        acontecimientosList.add(new Acontecimiento("TITULO 6", "30/01/2020","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"));
-        acontecimientosList.add(new Acontecimiento("TITULO 7", "30/01/2020","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"));
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        Pet currentPet = IOHelper.GetPet(EventListFragmentActivity.this, txtEPC);
+        acontecimientosList = currentPet.getEventList();
         AcontecimientoListAdapter adapter = new AcontecimientoListAdapter(this, acontecimientosList);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -74,6 +67,7 @@ public class EventListFragmentActivity extends FragmentActivity {
      * @param index es la posicion del acontecimiento que se desea eliminar
      */
     public void DeleteAcontecimiento(int index){
+
         //Toast.makeText(EventListFragmentActivity.this, String.valueOf(index) , Toast.LENGTH_SHORT).show();
         Toast.makeText(EventListFragmentActivity.this, "DELETE EVENT " + index  , Toast.LENGTH_SHORT).show();
     }
@@ -85,5 +79,13 @@ public class EventListFragmentActivity extends FragmentActivity {
     private void LoadInfoPet(){
         Bundle extras = getIntent().getExtras();
         txtEPC = extras.getString("EPC");
+        // OBTIENE LA INFORMACIÓN DE LOS ACONTECIMIENTOS DE LA MASCOTA
+        InitAcontecimientos();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        InitAcontecimientos();
     }
 }

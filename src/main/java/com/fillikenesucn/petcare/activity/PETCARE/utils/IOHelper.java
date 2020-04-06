@@ -169,6 +169,17 @@ public class IOHelper {
         }
     }
 
+    public static void AddEvent(Context context, Acontecimiento acontecimiento, String epc){
+        try{
+            Gson gson = new Gson();
+            JSONObject tag = new JSONObject();
+            tag.put("EPC", epc);
+            AddEvent(context,gson.toJson(acontecimiento),tag);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
     /**
      * Función que se encarga de agregar un nuevo evento a la mascota
      * @param context contexto asociado a la vista que llama a la función
@@ -318,16 +329,17 @@ public class IOHelper {
             JSONObject curr = json.getJSONObject(indexPet);
             // Transformamos de un objeto Pet a un JSONObject
             curr.put("name", newPet.getName());
-            curr.put("sex", newPet.getName());
-            curr.put("birthdate", newPet.getName());
-            curr.put("address", newPet.getName());
-            curr.put("allergies", newPet.getName());
-            curr.put("species", newPet.getName());
-            curr.put("EPC", newPet.getName());
+            curr.put("sex", newPet.getSex());
+            curr.put("birthdate", newPet.getBirthdate());
+            curr.put("address", newPet.getAddress());
+            curr.put("allergies", newPet.getAllergies());
+            curr.put("species", newPet.getSpecies());
+            curr.put("EPC", newPet.getEPC());
             // Escribimos el nuevo txt
             WriteJson(context,json.toString());
+            Toast.makeText(context, "MASCOTA ACTUALIZADA", Toast.LENGTH_SHORT).show();
         } catch (Exception e) {
-            Toast.makeText(context, "sdfsdaf", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "HA OCURRIDO UN ERROR", Toast.LENGTH_SHORT).show();
             Log.d("DORAT", e.toString());
         }
     }

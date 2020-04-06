@@ -17,7 +17,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
+import com.fillikenesucn.petcare.activity.PETCARE.models.Pet;
 import com.fillikenesucn.petcare.activity.PETCARE.utils.DataHelper;
+import com.fillikenesucn.petcare.activity.PETCARE.utils.IOHelper;
 
 import java.util.Calendar;
 
@@ -48,6 +50,8 @@ public class ModifyPetInfoFragmentActivity extends FragmentActivity {
     private EditText txtAllergies;
     private Button btnScanTag;
 
+    private Pet petOBJ;
+    private ArrayAdapter<String> petsAdapter;
     /**
      * CONSTRUCTOR de la actividad
      * @param savedInstanceState
@@ -57,18 +61,9 @@ public class ModifyPetInfoFragmentActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_modify_pet_info_fragment);
         this.spinner = findViewById(R.id.spinnerRegisterPet);
-        ArrayAdapter<String> petsAdapter = new ArrayAdapter(this,android.R.layout.simple_spinner_item, DataHelper.GetSpecies());
+        petsAdapter = new ArrayAdapter(this,android.R.layout.simple_spinner_item, DataHelper.GetSpecies());
         petsAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         this.spinner.setAdapter(petsAdapter);
-
-        this.sMonthIni = this.calendar.get(Calendar.MONTH);
-        this.sYearIni = this.calendar.get(Calendar.YEAR);
-        this.sDayIni = this.calendar.get(Calendar.DAY_OF_MONTH);
-
-        btnScanTag = (Button)findViewById(R.id.btnScanTag);
-        txtTAG = (TextView)findViewById(R.id.txtTAG);
-        // OBTENEMOS LA INFORMACIÓN DE LA MASCOTA
-        LoadInfoPet();
 
         et_fechaNacimiento = (EditText)findViewById(R.id.fechaNacimiento);
         btnFechaNacimiento = (Button)findViewById(R.id.btnFechaNacimiento);
@@ -77,6 +72,17 @@ public class ModifyPetInfoFragmentActivity extends FragmentActivity {
         spinner = findViewById(R.id.spinnerRegisterPet);
         txtAddress = (EditText) findViewById(R.id.txtAddress);
         txtAllergies = (EditText) findViewById(R.id.txtAllergies);
+        btnModificarMascota = (Button) findViewById(R.id.btnModificarMascota);
+
+        this.sMonthIni = this.calendar.get(Calendar.MONTH);
+        this.sYearIni = this.calendar.get(Calendar.YEAR);
+        this.sDayIni = this.calendar.get(Calendar.DAY_OF_MONTH);
+
+        btnScanTag = (Button)findViewById(R.id.btnScanTag);
+        txtTAG = (TextView)findViewById(R.id.txtTAG);
+
+        // OBTENEMOS LA INFORMACIÓN DE LA MASCOTA
+        LoadInfoPet();
 
         btnFechaNacimiento.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -100,6 +106,46 @@ public class ModifyPetInfoFragmentActivity extends FragmentActivity {
                 startActivityForResult(intent,RESULT_SCANNER_PET_MODIFY);
             }
         });
+
+        btnModificarMascota.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ModififyCurrentPet();
+            }
+        });
+    }
+
+    private void ModififyCurrentPet(){
+        // Obtenemos el ID de la opción seleccionada
+        int selectedId = radioGroup.getCheckedRadioButtonId();
+        // Obtenemos el botón
+        radioButton = (RadioButton) findViewById(selectedId);
+        // Extraemos la información de los inputs
+        String name = txtName.getText().toString();
+        String sex = radioButton.getText().toString();
+        String species = spinner.getSelectedItem().toString();
+        String birthdate = et_fechaNacimiento.getText().toString();
+        String address = txtAddress.getText().toString();
+        String allergies = txtAllergies.getText().toString();
+        String epc = txtTAG.getText().toString();
+        // Creamos el objeto mascota y lo guardamos en el archivo de texto
+        Pet newPet = new Pet(name,sex,birthdate,address,allergies,species,epc);
+        IOHelper.UpdatePetInfo(ModifyPetInfoFragmentActivity.this, newPet, petOBJ.getEPC());
+        Intent resultIntent = new Intent();
+        resultIntent.putExtra("result",epc);
+        setResult(RESULT_OK, resultIntent);
+        finish();
+    }
+    /**
+     * Método que se encarga de retornar el valor del EPC a la actividad padre
+     * (Utilizado por el agregar mascota y agregar acontecimiento global)
+     * @param txtEPC Es el valor asociado al epc del tag escaneado
+     */
+    private void ReturnEPCParent(String txtEPC){
+        Intent resultIntent = new Intent();
+        resultIntent.putExtra("result",txtEPC);
+        setResult(RESULT_OK, resultIntent);
+        finish();
     }
 
     /**
@@ -130,6 +176,23 @@ public class ModifyPetInfoFragmentActivity extends FragmentActivity {
     private void LoadInfoPet(){
         Bundle extras = getIntent().getExtras();
         String txtExtra = extras.getString("EPC");
-        txtTAG.setText(txtExtra);
+        petOBJ = IOHelper.GetPet(ModifyPetInfoFragmentActivity.this, txtExtra);
+        SetInfoPetView();
+    }
+
+    private void SetInfoPetView(){
+        et_fechaNacimiento.setText(petOBJ.getBirthdate());
+        txtName.setText(petOBJ.getName());
+        spinner.setSelection(petsAdapter.getPosition(petOBJ.getSpecies()));
+        txtAddress.setText(petOBJ.getAddress());
+        txtAllergies.setText(petOBJ.getAllergies());
+        txtTAG.setText(petOBJ.getEPC());
+        for(int i=0; i< radioGroup.getChildCount(); i++){
+            RadioButton radioButton = (RadioButton)radioGroup.getChildAt(i);
+            if(radioButton.getText().toString().toUpperCase().equals(petOBJ.getSex().toUpperCase())){
+                radioButton.setChecked(true);
+                break;
+            }
+        }
     }
 }
