@@ -11,6 +11,7 @@ import android.widget.Button;
 
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.activity.PETCARE.models.Pet;
+import com.fillikenesucn.petcare.activity.PETCARE.utils.IOHelper;
 import com.fillikenesucn.petcare.activity.PETCARE.utils.PetListAdapter;
 
 import java.util.ArrayList;
@@ -49,13 +50,7 @@ public class PetListFragmentActivity extends FragmentActivity {
      * Método que se encarga de obtener las mascotas que se encuentran registradas en el sistema
      */
     private void InitPetData(){
-        petList.add(new Pet("PERRO 1", "MACHO", "30/01/2019","XXXX","","PERRO","XXX1"));
-        petList.add(new Pet("GATO 1", "MACHO", "30/01/2019","XXXX","","GATO","XXX2"));
-        petList.add(new Pet("PERRO 2", "MACHO", "30/01/2019","XXXX","","PERRO","XXX3"));
-        petList.add(new Pet("GATO 2", "HEMBRA", "30/01/2019","XXXX","","GATO","XXX4"));
-        petList.add(new Pet("PERRO 3", "HEMBRA", "30/01/2019","XXXX","","PERRO","XXX5"));
-        petList.add(new Pet("GATO 3", "HEMBRA", "30/01/2019","XXXX","","GATO","XXX6"));
-        petList.add(new Pet("PERRO 4", "MACHO", "30/01/2019","XXXX","","PERRO","XXX7"));
+        petList = IOHelper.PetList(PetListFragmentActivity.this);
         InitPetList();
     }
 
@@ -75,6 +70,13 @@ public class PetListFragmentActivity extends FragmentActivity {
         Intent intent = new Intent(this, PetInfoFragmentActivity.class);
         intent.putExtra("EPC",txtEPC);
         startActivity(intent);
+    }
+
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        InitPetData();
     }
 }
 

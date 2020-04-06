@@ -15,7 +15,10 @@ import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.activity.BaseTabFragmentActivity;
+import com.fillikenesucn.petcare.activity.PETCARE.utils.IOHelper;
 import com.rscja.deviceapi.RFIDWithUHF;
+
+import java.util.Random;
 
 /**
  * Esta clase representa a la actividad que se encargará de escanear los tags rfids asociadas a la mascotas
@@ -55,14 +58,15 @@ public class ScannerMainFragmentActivity extends FragmentActivity {
         btnLoadInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Random random = new Random();
                 switch (statusScannaer){
                     case "MAIN-MENU":
-                        LoadPetInfoActivity("TAG-DE-PRUEBA");
+                        LoadPetInfoActivity("TAG-DE-PRUEBA-" + random.nextInt(255 - 0 + 1));
                         break;
                     case "PET-ADD":
                     case "PET-MODIFY":
                     case "EVENT-ADD":
-                        ReturnEPCParent("TAG-DE-PRUEBA");
+                        ReturnEPCParent("TAG-DE-PRUEBA-" + random.nextInt(255 - 0 + 1));
                         break;
                     default:
                         break;
@@ -76,10 +80,17 @@ public class ScannerMainFragmentActivity extends FragmentActivity {
      * @param txtEPC Es el valor asociado al epc del tag escaneado
      */
     private void LoadPetInfoActivity(String txtEPC){
-        Intent intent = new Intent(ScannerMainFragmentActivity.this, PetInfoFragmentActivity.class);
-        intent.putExtra("EPC",txtEPC);
-        startActivity(intent);
-        finish();
+        // VERIFICA SI EXISTE
+        int resultEPC = IOHelper.CheckActiveEPC(ScannerMainFragmentActivity.this, txtEPC);
+        //SI EXISTE
+        if (resultEPC != -1){
+            Intent intent = new Intent(ScannerMainFragmentActivity.this, PetInfoFragmentActivity.class);
+            intent.putExtra("EPC",txtEPC);
+            startActivity(intent);
+            finish();
+        }else{ //SI NO EXISTE
+            Load404Error();
+        }
     }
 
     /**
@@ -236,9 +247,9 @@ public class ScannerMainFragmentActivity extends FragmentActivity {
                             break;
                     }
                 } else {
+                    //NO CARGO TAG
                     Toast.makeText(ScannerMainFragmentActivity.this, "NO HAY TAG CERCA",
                             Toast.LENGTH_SHORT).show();
-                    //Load404Error();
                 }
             }
         }

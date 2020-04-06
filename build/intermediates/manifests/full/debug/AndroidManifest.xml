@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="16"
+        android:minSdkVersion="19"
         android:targetSdkVersion="28" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -22,6 +22,7 @@
         <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.AddEventOldPetFragmentActivity" />
         <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.EventListFragmentActivity" />
         <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.PetInfoFragmentActivity" />
+        <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.PetNotFoundFragmentActivity" />
         <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.PetListFragmentActivity" />
         <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.AddEventFragmentActivity" />
         <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.ScannerMainFragmentActivity" />

@@ -33,6 +33,7 @@ public class PetNotFoundFragmentActivity extends FragmentActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(PetNotFoundFragmentActivity.this, RegisterScannedPetFragmentActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -42,6 +43,7 @@ public class PetNotFoundFragmentActivity extends FragmentActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(PetNotFoundFragmentActivity.this, MainMenuFragmentActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

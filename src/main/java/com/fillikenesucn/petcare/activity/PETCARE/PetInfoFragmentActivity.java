@@ -7,11 +7,14 @@ import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
+import com.fillikenesucn.petcare.activity.PETCARE.models.Pet;
 import com.fillikenesucn.petcare.activity.PETCARE.utils.DataHelper;
+import com.fillikenesucn.petcare.activity.PETCARE.utils.IOHelper;
 
 /**
  * Esta clase representa a la actividad que desplegará la información asociada a una mascota del sistema
@@ -24,6 +27,7 @@ public class PetInfoFragmentActivity extends FragmentActivity {
     private Button btnVerLista;
     private Button btnEditInfo;
     private Button btnDesvincular;
+    private Pet petOBJ;
 
     /**
      * Constructor de la actividad
@@ -62,24 +66,34 @@ public class PetInfoFragmentActivity extends FragmentActivity {
         btnDesvincular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AlertDialog.Builder builder = DataHelper.CreateAlertDialog(PetInfoFragmentActivity.this,"Confirmación","¿Está seguro de que desea desvincular a la mascota?");
-                builder.setPositiveButton("Confirmar",
-                        new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                Toast.makeText(PetInfoFragmentActivity.this,"DELETE PET", Toast.LENGTH_SHORT).show();
-                            }
-                        });
-                builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        // do nothing
-                    }
-                });
-                AlertDialog dialog = builder.create();
-                dialog.show();
+                DeleteAPet();
             }
         });
+    }
+
+    private void DeleteAPet(){
+        AlertDialog.Builder builder = DataHelper.CreateAlertDialog(PetInfoFragmentActivity.this,"Confirmación","¿Está seguro de que desea desvincular a la mascota?");
+        builder.setPositiveButton("Confirmar",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        if(IOHelper.UnlinkPet(PetInfoFragmentActivity.this, txtEPC.getText().toString())){
+                            Toast.makeText(PetInfoFragmentActivity.this,"MASCOTA ELIMINADA", Toast.LENGTH_SHORT).show();
+                            finish();
+                        }else{
+                            Toast.makeText(PetInfoFragmentActivity.this,"HA OCURRIDO UN ERROR!", Toast.LENGTH_SHORT).show();
+                        }
+
+                    }
+                });
+        builder.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                // do nothing
+            }
+        });
+        AlertDialog dialog = builder.create();
+        dialog.show();
     }
 
     /**
@@ -89,6 +103,23 @@ public class PetInfoFragmentActivity extends FragmentActivity {
     private void LoadInfoPet(){
         Bundle extras = getIntent().getExtras();
         String txtExtra = extras.getString("EPC");
-        txtEPC.setText(txtExtra);
+        petOBJ = IOHelper.GetPet(PetInfoFragmentActivity.this, txtExtra);
+        SetInfoPetView();
+    }
+
+    private void SetInfoPetView(){
+        EditText txtName = (EditText) findViewById(R.id.nombre);
+        txtName.setText(petOBJ.getName());
+        EditText txtTipo = (EditText) findViewById(R.id.tipo);
+        txtTipo.setText(petOBJ.getSpecies());
+        EditText txtSexo = (EditText) findViewById(R.id.sexo);
+        txtSexo.setText(petOBJ.getSex());
+        EditText txtNacimiento = (EditText) findViewById(R.id.nacimiento);
+        txtNacimiento.setText(petOBJ.getBirthdate());
+        EditText txtDireccion = (EditText) findViewById(R.id.direccion);
+        txtDireccion.setText(petOBJ.getAddress());
+        EditText txtAlergias = (EditText) findViewById(R.id.alergias);
+        txtAlergias.setText(petOBJ.getAllergies());
+        txtEPC.setText(petOBJ.getEPC());
     }
 }

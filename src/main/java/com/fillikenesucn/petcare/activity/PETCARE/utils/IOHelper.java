@@ -7,6 +7,7 @@ import android.widget.Toast;
 import com.fillikenesucn.petcare.activity.PETCARE.models.Acontecimiento;
 import com.fillikenesucn.petcare.activity.PETCARE.models.Pet;
 import com.google.gson.Gson;
+import com.google.gson.JsonObject;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -112,6 +113,19 @@ public class IOHelper {
         } catch (Exception e) {
             e.printStackTrace();
             Log.d("DORAT", e.toString());
+            return -1;
+        }
+    }
+
+    public static Integer CheckActiveEPC(Context context, String epc){
+        try{
+            String jsonTxt = IOHelper.ReadFileString(context);
+            JSONArray jsonArray = new JSONArray(jsonTxt);
+            JSONObject jsonObject = new JSONObject();
+            jsonObject.put("EPC",epc);
+            return CheckActiveEPC(jsonArray, jsonObject);
+        }catch (Exception e){
+            e.printStackTrace();
             return -1;
         }
     }
@@ -297,6 +311,23 @@ public class IOHelper {
         } catch (Exception e) {
             Toast.makeText(context, "sdfsdaf", Toast.LENGTH_SHORT).show();
             Log.d("DORAT", e.toString());
+        }
+    }
+
+    public static boolean UnlinkPet(Context context, String epc){
+        try{
+            String txtJson = ReadFileString(context);
+            JSONArray jsonArray = new JSONArray(txtJson);
+            int indexPet = CheckActiveEPC(context,epc);
+            if (indexPet != -1){
+                jsonArray.remove(indexPet);
+                WriteJson(context, jsonArray.toString());
+                return true;
+            }
+            return false;
+        }catch (Exception e){
+            e.printStackTrace();
+            return false;
         }
     }
 
