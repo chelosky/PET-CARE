@@ -117,12 +117,22 @@ public class IOHelper {
         }
     }
 
+    /**
+     * Función complementaria que se encarga de revisar si el EPC que queremos asignar a una mascota ya está en uso
+     * @param context contexto asociado a la vista que llama a la función
+     * @param epc el tag escaneado para buscar a la mascota
+     * @return Retorna un Integer que corresponde a la posición en la lista si encontró el EPC utilizado, en su defecto -1
+     */
     public static Integer CheckActiveEPC(Context context, String epc){
         try{
+            // Se lee el archivo
             String jsonTxt = IOHelper.ReadFileString(context);
+            // Lo transformamos a una lista
             JSONArray jsonArray = new JSONArray(jsonTxt);
+            // Inicializamos un objeto que tendrá el EPC
             JSONObject jsonObject = new JSONObject();
             jsonObject.put("EPC",epc);
+            // Usamos la función original para ver si existe
             return CheckActiveEPC(jsonArray, jsonObject);
         }catch (Exception e){
             e.printStackTrace();
@@ -174,10 +184,10 @@ public class IOHelper {
             // Transformamos el String a JSONObject
             JSONObject event = new JSONObject(objStr);
             // Verificamos si el EPC esta usado por alguna mascota activa
-            Integer pos = CheckActiveEPC(json, tag);
-            if (pos != -1){
+            Integer indexPet = CheckActiveEPC(json, tag);
+            if (indexPet != -1){
                 // Obtenemos la mascota
-                JSONObject object = json.getJSONObject(pos);
+                JSONObject object = json.getJSONObject(indexPet);
                 // Obtener los acontecimientos de la mascota
                 JSONArray acontecimientos = object.getJSONArray("acontecimientos");
                 // Agregar un nuevo Acontecimeinto
@@ -206,18 +216,17 @@ public class IOHelper {
             String sxml = ReadFileString(context);
             // Transformar el String a formato JSONArray
             JSONArray json = new JSONArray(sxml);
-            // Verificar cada elemento de la lista
-            for (int i = 0; i < json.length(); i++) {
-                JSONObject curr = json.getJSONObject(i);
-                // Verificamos si el objeto que se esta visitando posee el EPC que buscamos y si esta activa
-                if (curr.getString("EPC").equals(epc) && curr.getBoolean("active")) {
-                    // Transformar el JSONObject a un objeto Pet
-                    Pet pet = new Pet(curr.getString("name"),curr.getString("sex"),curr.getString("birthdate"),curr.getString("address"),curr.getString("allergies"),curr.getString("species"),curr.getString("EPC"));
-                    // Obtenemos la lista de acontecimientos
-                    pet = GetEventsPerPet(pet,curr);
-                    // Return the Pet Object with the Event List
-                    return pet;
-                }
+            // Verificar el EPC
+            int indexPet = CheckActiveEPC(context,epc);
+            if(indexPet != -1){
+                JSONObject jsonObject = json.getJSONObject(indexPet);
+                // Transformar el JSONObject a un objeto Pet
+                Pet pet = new Pet(jsonObject.getString("name"),jsonObject.getString("sex"),jsonObject.getString("birthdate"),jsonObject.getString("address"),
+                        jsonObject.getString("allergies"),jsonObject.getString("species"),jsonObject.getString("EPC"));
+                // Obtenemos la lista de acontecimientos
+                pet = GetEventsPerPet(pet,jsonObject);
+                // Return the Pet Object with the Event List
+                return pet;
             }
             // Retornamos vacío si no encontramos el EPC o si la mascota estaba inactiva
             return null;
@@ -244,12 +253,14 @@ public class IOHelper {
             for (int i = 0; i < json.length(); i++) {
                 // Guardamos el JSONObject de la mascota en una variable
                 JSONObject curr = json.getJSONObject(i);
-                // Transformamos de JSONObject a un objecto Pet
-                Pet pet = new Pet(curr.getString("name"),curr.getString("sex"),curr.getString("birthdate"),curr.getString("address"),curr.getString("allergies"),curr.getString("species"),curr.getString("EPC"));
-                // Obtenemos la lista de acontecimientos
-                pet = GetEventsPerPet(pet,curr);
-                // Se añade a la lista
-                petList.add(pet);
+                if (curr.getBoolean("active")) {
+                    // Transformamos de JSONObject a un objecto Pet
+                    Pet pet = new Pet(curr.getString("name"), curr.getString("sex"), curr.getString("birthdate"), curr.getString("address"), curr.getString("allergies"), curr.getString("species"), curr.getString("EPC"));
+                    // Obtenemos la lista de acontecimientos
+                    pet = GetEventsPerPet(pet, curr);
+                    // Se añade a la lista
+                    petList.add(pet);
+                }
             }
             // Retorna una lista de objeto Pet
             return petList;
@@ -286,6 +297,13 @@ public class IOHelper {
         }
     }
 
+    /**
+     * Función que se encarga de actualizar la información de una mascota
+     * @param context contexto asociado a la vista que llama a la función
+     * @param newPet objeto mascota que se va a actualizar
+     * @param oldEPC el el EPC que tenía originalmente la mascota (para encontrarlo en la base de datos)
+     * @return Retorna la mascota con su lista de eventos
+     */
     public static void UpdatePetInfo(Context context, Pet newPet, String oldEPC){
         try {
             // Obtener el JSON desde el contexto de la APP
@@ -295,10 +313,10 @@ public class IOHelper {
             //
             JSONObject epc = new JSONObject();
             epc.put("EPC",oldEPC);
-            Integer pos = CheckActiveEPC(json,epc);
+            Integer indexPet = CheckActiveEPC(json,epc);
             // Guardamos el JSONObject de la mascota en una variable
-            JSONObject curr = json.getJSONObject(pos);
-            // Transformamos de JSONObject a un objecto Pet
+            JSONObject curr = json.getJSONObject(indexPet);
+            // Transformamos de un objeto Pet a un JSONObject
             curr.put("name", newPet.getName());
             curr.put("sex", newPet.getName());
             curr.put("birthdate", newPet.getName());
@@ -314,13 +332,26 @@ public class IOHelper {
         }
     }
 
+    /**
+     * Función que se encarga de obtener la información de todas las actividades por la mascota
+     * @param context contexto asociado a la vista que llama a la función
+     * @param epc el el EPC que tiene asignada la mascota
+     * @return Retorna la mascota con su lista de eventos
+     */
     public static boolean UnlinkPet(Context context, String epc){
         try{
+            // Leemos el archivo
             String txtJson = ReadFileString(context);
+            // Transformamos a una lista
             JSONArray jsonArray = new JSONArray(txtJson);
+            // Obtenemos la posición en la lista
             int indexPet = CheckActiveEPC(context,epc);
             if (indexPet != -1){
-                jsonArray.remove(indexPet);
+                // Obtenemos la mascota
+                JSONObject jsonObject = jsonArray.getJSONObject(indexPet);
+                // Lo desvinculamos
+                jsonObject.put("active", false);
+                // Se escribe el nuevo archivo
                 WriteJson(context, jsonArray.toString());
                 return true;
             }
