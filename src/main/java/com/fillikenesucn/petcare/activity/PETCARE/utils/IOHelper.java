@@ -24,7 +24,7 @@ import java.util.ArrayList;
 /**
  * Esta clase representa a un helper para la obtencion de información de las mascotas y sus acontecimientos
  * @author: Rodrigo Dorat Merejo
- * @version: 04/04/2020
+ * @version: 06/04/2020
  */
 
 public class IOHelper {
@@ -143,31 +143,26 @@ public class IOHelper {
      * Función que se encarga de generar un nuevo archivo de texto con la información ACTUALIZADA
      * @param context contexto asociado a la vista que llama a la función
      * @param pet objeto Pet que se añadirá a la lista
+     * @return retorna true si termina de agregar la mascota, en caso contrario false
      */
-    public static void AddPet(Context context, Pet pet){
+    public static boolean AddPet(Context context, Pet pet){
         try {
-            // Obtenemos el JSON desde el contexto de la APP
-            String sxml = ReadFileString(context);
-            // Transformamos el String a JSONArray
-            JSONArray json = new JSONArray(sxml);
-            // Transformamos el Pet a String
+            String sxml = ReadFileString(context); // Obtenemos el JSON desde el contexto de la APP
+            JSONArray json = new JSONArray(sxml); // Transformamos el String a JSONArray
             Gson gson = new Gson();
-            String objStr = gson.toJson(pet);
-            // Transformamos el String a JSONObject
-            JSONObject object = new JSONObject(objStr);
-            // Check if the EPC is used by an active pet
-            if (CheckActiveEPC(json, object) == -1){
-                // Agregamos el JSONObject al JSONArray
-                json.put(object);
-                // Escribimos el nuevo txt
-                WriteJson(context,json.toString());
-                Toast.makeText(context, "INGRESO EXITOSO", Toast.LENGTH_SHORT).show();
-            } else {
-                Toast.makeText(context, "TAG OCUPADO", Toast.LENGTH_SHORT).show();
+            String objStr = gson.toJson(pet); // Transformamos el Pet a String
+            JSONObject object = new JSONObject(objStr); // Transformamos el String a JSONObject
+            if (CheckActiveEPC(json, object) == -1){ // Check if the EPC is used by an active pet
+                json.put(object); // Agregamos el JSONObject al JSONArray
+                WriteJson(context,json.toString()); // Escribimos el nuevo txt
+                return true;
             }
+            Toast.makeText(context, "TAG OCUPADO", Toast.LENGTH_SHORT).show();
+            return false;
         } catch (Exception e) {
             Log.d("DORAT", e.toString());
             Toast.makeText(context, "ERROR AL REGISTRAR", Toast.LENGTH_SHORT).show();
+            return false;
         }
     }
 
@@ -176,39 +171,32 @@ public class IOHelper {
      * @param context contexto asociado a la vista que llama a la función
      * @param acontecimiento información del nuevo evento que se va a agregar
      * @param epc el EPC que corresponde al de la mascota que le pertenece el evento
+     * @return retorna true si termina de agregar el evento, en caso contrario false
      */
-    public static void AddEvent(Context context, Acontecimiento acontecimiento, String epc){
+    public static boolean AddEvent(Context context, Acontecimiento acontecimiento, String epc){
         try {
-            // Obtenemos el JSON desde el contexto de la APP
-            String sxml = ReadFileString(context);
-            // Transformamos el String a JSONArray
-            JSONArray json = new JSONArray(sxml);
-            // Transformamos el acontecimiento a String
+            String sxml = ReadFileString(context); // Obtenemos el JSON desde el contexto de la APP
+            JSONArray json = new JSONArray(sxml); // Transformamos el String a JSONArray
             Gson gson = new Gson();
-            String objStr = gson.toJson(acontecimiento);
-            // Transformamos el String a JSONObject
-            JSONObject event = new JSONObject(objStr);
-            // Transformamos el epc a formato JSONObject
-            JSONObject tag = new JSONObject();
+            String objStr = gson.toJson(acontecimiento); // Transformamos el acontecimiento a String
+            JSONObject event = new JSONObject(objStr); // Transformamos el String a JSONObject
+            JSONObject tag = new JSONObject(); // Transformamos el epc a formato JSONObject
             tag.put("EPC", epc);
-            // Verificamos si el EPC esta usado por alguna mascota activa
-            Integer indexPet = CheckActiveEPC(json, tag);
+            Integer indexPet = CheckActiveEPC(json, tag); // Verificamos si el EPC esta usado por alguna mascota activa
             if (indexPet != -1){
-                // Obtenemos la mascota
-                JSONObject object = json.getJSONObject(indexPet);
-                // Obtener los acontecimientos de la mascota
-                JSONArray acontecimientos = object.getJSONArray("acontecimientos");
-                // Agregar un nuevo Acontecimeinto
-                acontecimientos.put(event);
-                // Escribir el nuevo txt
-                WriteJson(context,json.toString());
-                Toast.makeText(context, "INGRESO EXITOSO", Toast.LENGTH_SHORT).show();
+                JSONObject object = json.getJSONObject(indexPet); // Obtenemos la mascota
+                JSONArray acontecimientos = object.getJSONArray("acontecimientos"); // Obtener los acontecimientos de la mascota
+                acontecimientos.put(event); // Agregar un nuevo Acontecimeinto
+                WriteJson(context,json.toString()); // Escribir el nuevo txt
+                return true;
             } else {
                 Toast.makeText(context, "NO HAY REGISTRO PARA ESTE TAG", Toast.LENGTH_SHORT).show();
+                return false;
             }
         } catch (Exception e) {
             Log.d("DORAT", e.toString());
             Toast.makeText(context, "ERROR AL AGREGAR EVENTO", Toast.LENGTH_SHORT).show();
+            return false;
         }
     }
 
@@ -220,24 +208,18 @@ public class IOHelper {
      */
     public static Pet GetPet(Context context, String epc){
         try {
-            // Obtener el JSON desde el contexto de la APP
-            String sxml = ReadFileString(context);
-            // Transformar el String a formato JSONArray
-            JSONArray json = new JSONArray(sxml);
-            // Verificar el EPC
-            int indexPet = CheckActiveEPC(context,epc);
+            String sxml = ReadFileString(context); // Obtener el JSON desde el contexto de la APP
+            JSONArray json = new JSONArray(sxml); // Transformar el String a formato JSONArray
+            int indexPet = CheckActiveEPC(context,epc); // Verificar el EPC
             if(indexPet != -1){
                 JSONObject jsonObject = json.getJSONObject(indexPet);
                 // Transformar el JSONObject a un objeto Pet
                 Pet pet = new Pet(jsonObject.getString("name"),jsonObject.getString("sex"),jsonObject.getString("birthdate"),jsonObject.getString("address"),
                         jsonObject.getString("allergies"),jsonObject.getString("species"),jsonObject.getString("EPC"));
-                // Obtenemos la lista de acontecimientos
-                pet = GetEventsPerPet(pet,jsonObject);
-                // Return the Pet Object with the Event List
-                return pet;
+                pet = GetEventsPerPet(pet,jsonObject); // Obtenemos la lista de acontecimientos
+                return pet; // Return the Pet Object with the Event List
             }
-            // Retornamos vacío si no encontramos el EPC o si la mascota estaba inactiva
-            return null;
+            return null; // Retornamos vacío si no encontramos el EPC o si la mascota estaba inactiva
         } catch (Exception e) {
             Log.d("DORAT", e.toString());
             Toast.makeText(context, "NO SE PUDO OBTENER LA MASCOTA", Toast.LENGTH_SHORT).show();
@@ -252,26 +234,19 @@ public class IOHelper {
      */
     public static ArrayList<Pet> PetList(Context context){
         try {
-            // Obtener el JSON desde el contexto de la APP
-            String sxml = ReadFileString(context);
-            // Transformar el String a formato JSONArray
-            JSONArray json = new JSONArray(sxml);
-            // Variable de una lista de objetos Pet
-            ArrayList<Pet> petList = new ArrayList<Pet>();
+            String sxml = ReadFileString(context); // Obtener el JSON desde el contexto de la APP
+            JSONArray json = new JSONArray(sxml); // Transformar el String a formato JSONArray
+            ArrayList<Pet> petList = new ArrayList<Pet>(); // Variable de una lista de objetos Pet
             for (int i = 0; i < json.length(); i++) {
-                // Guardamos el JSONObject de la mascota en una variable
-                JSONObject curr = json.getJSONObject(i);
+                JSONObject curr = json.getJSONObject(i); // Guardamos el JSONObject de la mascota en una variable
                 if (curr.getBoolean("active")) {
                     // Transformamos de JSONObject a un objecto Pet
                     Pet pet = new Pet(curr.getString("name"), curr.getString("sex"), curr.getString("birthdate"), curr.getString("address"), curr.getString("allergies"), curr.getString("species"), curr.getString("EPC"));
-                    // Obtenemos la lista de acontecimientos
-                    pet = GetEventsPerPet(pet, curr);
-                    // Se añade a la lista
-                    petList.add(pet);
+                    pet = GetEventsPerPet(pet, curr); // Obtenemos la lista de acontecimientos
+                    petList.add(pet); // Se añade a la lista
                 }
             }
-            // Retorna una lista de objeto Pet
-            return petList;
+            return petList; // Retorna una lista de objeto Pet
         } catch (Exception e) {
             Toast.makeText(context, "NO SE PUDO OBTENER EL LISTADO DE MASCOTAS", Toast.LENGTH_SHORT).show();
             Log.d("DORAT", e.toString());
@@ -313,16 +288,12 @@ public class IOHelper {
      */
     public static void UpdatePetInfo(Context context, Pet newPet, String oldEPC){
         try {
-            // Obtener el JSON desde el contexto de la APP
-            String sxml = ReadFileString(context);
-            // Transformar el String a formato JSONArray
-            JSONArray json = new JSONArray(sxml);
-            //
+            String sxml = ReadFileString(context); // Obtener el JSON desde el contexto de la APP
+            JSONArray json = new JSONArray(sxml); // Transformar el String a formato JSONArray
             JSONObject epc = new JSONObject();
             epc.put("EPC",oldEPC);
             Integer indexPet = CheckActiveEPC(json,epc);
-            // Guardamos el JSONObject de la mascota en una variable
-            JSONObject curr = json.getJSONObject(indexPet);
+            JSONObject curr = json.getJSONObject(indexPet); // Guardamos el JSONObject de la mascota en una variable
             // Transformamos de un objeto Pet a un JSONObject
             curr.put("name", newPet.getName());
             curr.put("sex", newPet.getSex());
@@ -331,8 +302,7 @@ public class IOHelper {
             curr.put("allergies", newPet.getAllergies());
             curr.put("species", newPet.getSpecies());
             curr.put("EPC", newPet.getEPC());
-            // Escribimos el nuevo txt
-            WriteJson(context,json.toString());
+            WriteJson(context,json.toString()); // Escribimos el nuevo txt
             Toast.makeText(context, "MASCOTA ACTUALIZADA", Toast.LENGTH_SHORT).show();
         } catch (Exception e) {
             Toast.makeText(context, "HA OCURRIDO UN ERROR", Toast.LENGTH_SHORT).show();
@@ -348,19 +318,13 @@ public class IOHelper {
      */
     public static boolean UnlinkPet(Context context, String epc){
         try{
-            // Leemos el archivo
-            String txtJson = ReadFileString(context);
-            // Transformamos a una lista
-            JSONArray jsonArray = new JSONArray(txtJson);
-            // Obtenemos la posición en la lista
-            int indexPet = CheckActiveEPC(context,epc);
+            String txtJson = ReadFileString(context); // Leemos el archivo
+            JSONArray jsonArray = new JSONArray(txtJson); // Transformamos a una lista
+            int indexPet = CheckActiveEPC(context,epc); // Obtenemos la posición en la lista
             if (indexPet != -1){
-                // Obtenemos la mascota
-                JSONObject jsonObject = jsonArray.getJSONObject(indexPet);
-                // Lo desvinculamos
-                jsonObject.put("active", false);
-                // Se escribe el nuevo archivo
-                WriteJson(context, jsonArray.toString());
+                JSONObject jsonObject = jsonArray.getJSONObject(indexPet); // Obtenemos la mascota
+                jsonObject.put("active", false); // Lo desvinculamos
+                WriteJson(context, jsonArray.toString()); // Se escribe el nuevo archivo
                 return true;
             }
             return false;
@@ -379,24 +343,16 @@ public class IOHelper {
      */
     public static void UpdateEventList(Context context, String epc, int indexAcontecimiento){
         try{
-            // Leemos el archivo
-            String txtJson = ReadFileString(context);
-            // Transformamos a una lista
-            JSONArray jsonArray = new JSONArray(txtJson);
-            // Obtenemos la posición en la lista
-            int indexPet = CheckActiveEPC(context,epc);
+            String txtJson = ReadFileString(context); // Leemos el archivo
+            JSONArray jsonArray = new JSONArray(txtJson); // Transformamos a una lista
+            int indexPet = CheckActiveEPC(context,epc); // Obtenemos la posición en la lista
             if (indexPet != -1){
                 Pet pet = GetPet(context, epc);
-                // Obtenemos la lista de acontecimientos
-                ArrayList<Acontecimiento> acontecimientos = pet.getEventList();
-                // Removemos el que no necesitamos
-                acontecimientos.remove(indexAcontecimiento);
-                // Eliminamos la mascota
-                jsonArray.remove(indexPet);
-                // actualiza el archivo
-                WriteJson(context, jsonArray.toString());
-                // La añadimos con las acutalizaciones
-                AddPet(context,pet);
+                ArrayList<Acontecimiento> acontecimientos = pet.getEventList(); // Obtenemos la lista de acontecimientos
+                acontecimientos.remove(indexAcontecimiento); // Removemos el que no necesitamos
+                jsonArray.remove(indexPet); // Eliminamos la mascota
+                WriteJson(context, jsonArray.toString()); // actualiza el archivo
+                AddPet(context,pet); // La añadimos con las acutalizaciones
                 Toast.makeText(context, "LISTA DE EVENTOS ACTUALIZADA", Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(context, "NO SE ENCONTRÓ LA MASCOTA", Toast.LENGTH_SHORT).show();

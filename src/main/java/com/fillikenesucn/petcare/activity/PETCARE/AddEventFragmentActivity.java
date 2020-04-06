@@ -23,9 +23,15 @@ import org.json.JSONObject;
 
 import java.util.Calendar;
 
+/**
+ * Esta clase representa a la actividad que se encarga de agregar la información de un evento, necesita escanear el EPC
+ * @author: Rodrigo Dorat Merejo
+ * @version: 06/04/2020
+ */
 public class AddEventFragmentActivity extends FragmentActivity {
     private final int RESULT_SCANNER_EVENT_ADD = 541;
 
+    // VARIABLES
     private Button btnScanner;
     private TextView txtTag;
 
@@ -39,19 +45,21 @@ public class AddEventFragmentActivity extends FragmentActivity {
     private EditText txtTitulo;
     private EditText txtDescripcion;
 
+    /**
+     * CONSTRUCTOR de la actividad
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_event_fragment);
 
-        txtTitulo = (EditText) findViewById(R.id.txtTitulo);
-        txtDescripcion = (EditText) findViewById(R.id.txtDescripcion);
-        btnFechaNacimiento = (Button) findViewById(R.id.btnFechaNacimiento);
         this.sMonthIni = this.calendar.get(Calendar.MONTH);
         this.sYearIni = this.calendar.get(Calendar.YEAR);
         this.sDayIni = this.calendar.get(Calendar.DAY_OF_MONTH);
-        et_fechaNacimiento = (EditText)findViewById(R.id.fechaNacimiento);
-        btnFechaNacimiento = (Button)findViewById(R.id.btnFechaNacimiento);
+
+        LoadInputs();
+
         btnFechaNacimiento.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -66,9 +74,6 @@ public class AddEventFragmentActivity extends FragmentActivity {
             }
         });
 
-        txtTag = (TextView)findViewById(R.id.txtTAG);
-        txtTag.setText(DataHelper.GetDefaultTagRFID());
-        btnScanner = (Button)findViewById(R.id.btnScanTag);
         btnScanner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -78,23 +83,57 @@ public class AddEventFragmentActivity extends FragmentActivity {
             }
         });
 
-        btnAgregar = (Button)findViewById(R.id.btnAgregarEvento);
         btnAgregar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String titulo = txtTitulo.getText().toString();
-                String fecha = et_fechaNacimiento.getText().toString();
-                String descripcion = txtDescripcion.getText().toString();
-                String epc = txtTag.getText().toString();
-
-                Acontecimiento acontecimiento = new Acontecimiento(titulo,fecha,descripcion);
-                if(DataHelper.VerificarAcontecimientoValido(AddEventFragmentActivity.this, acontecimiento, epc)){
-                    AddEvent(acontecimiento, epc);
-                }
+                RegisterNewEvent();
             }
         });
     }
 
+    /**
+     * Método que registra el evento en la mascota que tenga el EPC
+     */
+    private void RegisterNewEvent(){
+        String titulo = txtTitulo.getText().toString();
+        String fecha = et_fechaNacimiento.getText().toString();
+        String descripcion = txtDescripcion.getText().toString();
+        String epc = txtTag.getText().toString();
+        // Guardamos el acontecimientos como un objeto Acontecimiento
+        Acontecimiento acontecimiento = new Acontecimiento(titulo,fecha,descripcion);
+        // Revisamos que la información sea válida
+        if(DataHelper.VerificarAcontecimientoValido(AddEventFragmentActivity.this, acontecimiento, epc)){
+            // Si puede agregar el evento cierra la actividad
+            if (IOHelper.AddEvent(AddEventFragmentActivity.this,acontecimiento,epc)) {
+                Toast.makeText(AddEventFragmentActivity.this, "INGRESO EXITOSO", Toast.LENGTH_SHORT).show();
+                finish();
+            }
+        }
+    }
+
+    /**
+     * Método que carga los inputs del Layout
+     */
+    private void LoadInputs(){
+        txtTitulo = (EditText) findViewById(R.id.txtTitulo);
+        txtDescripcion = (EditText) findViewById(R.id.txtDescripcion);
+
+        btnFechaNacimiento = (Button) findViewById(R.id.btnFechaNacimiento);
+        et_fechaNacimiento = (EditText)findViewById(R.id.fechaNacimiento);
+
+        txtTag = (TextView)findViewById(R.id.txtTAG);
+        txtTag.setText(DataHelper.GetDefaultTagRFID());
+
+        btnScanner = (Button)findViewById(R.id.btnScanTag);
+        btnAgregar = (Button)findViewById(R.id.btnAgregarEvento);
+    }
+
+    /**
+     * Mpetodo que se utiliza para recibir el epc que se lea del escaner y actualizar el campo correspondiente en la vista
+     * @param requestCode CODIGO DE LA PETICION
+     * @param resultCode CODIGO DEL RESULTADO DEL ESCANER
+     * @param data CONJUNTO DE DATOS QUE SE RETORNAR (OBTENER STRING "result" -> ES EL EPC)
+     */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -109,7 +148,5 @@ public class AddEventFragmentActivity extends FragmentActivity {
             }   
         }
     }
-
-    private void AddEvent(Acontecimiento acontecimiento, String tag){ IOHelper.AddEvent(this,acontecimiento, tag); }
 
 }
