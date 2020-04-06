@@ -12,11 +12,18 @@ import android.widget.TextView;
 
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.activity.PETCARE.models.Acontecimiento;
+import com.fillikenesucn.petcare.activity.PETCARE.utils.DataHelper;
 import com.fillikenesucn.petcare.activity.PETCARE.utils.IOHelper;
 
 import java.util.Calendar;
 
+/**
+ * Esta clase representa a la actividad que se registrará una nueva mascota, cuando ya se tiene el epc en memoria
+ * @author: Marcelo Lazo Chavez
+ * @version: 02/04/2020
+ */
 public class AddEventOldPetFragmentActivity extends FragmentActivity {
+    // VARIABLES
     private Button btnFechaNacimiento;
     private EditText et_fechaNacimiento;
     private static final int DATE_ID = 0;
@@ -27,6 +34,10 @@ public class AddEventOldPetFragmentActivity extends FragmentActivity {
     private EditText txtDescripcion;
     private Button btnAddAcontecimiento;
 
+    /**
+     * Constructor de la actividad
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,12 +72,17 @@ public class AddEventOldPetFragmentActivity extends FragmentActivity {
             @Override
             public void onClick(View view) {
                 Acontecimiento acontecimiento = new Acontecimiento(txtTittle.getText().toString(), et_fechaNacimiento.getText().toString(),txtDescripcion.getText().toString());
-                IOHelper.AddEvent(AddEventOldPetFragmentActivity.this,acontecimiento,txtEPC.getText().toString());
-                finish();
+                if(DataHelper.VerificarAcontecimientoValido(AddEventOldPetFragmentActivity.this, acontecimiento, txtEPC.getText().toString())){
+                    IOHelper.AddEvent(AddEventOldPetFragmentActivity.this,acontecimiento,txtEPC.getText().toString());
+                    finish();
+                }
             }
         });
     }
 
+    /**
+     * Método que se encarga de obtener el epc que se envia por EXTRA
+     */
     private void LoadPetExtraEpc(){
         Bundle extras = getIntent().getExtras();
         txtEPC.setText(extras.getString("EPC"));

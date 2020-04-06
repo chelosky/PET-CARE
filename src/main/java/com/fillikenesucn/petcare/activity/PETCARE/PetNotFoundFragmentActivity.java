@@ -32,6 +32,8 @@ public class PetNotFoundFragmentActivity extends FragmentActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(PetNotFoundFragmentActivity.this, RegisterScannedPetFragmentActivity.class);
+                // SE LE ENTREGA A SU VEZ EL EPC PARA QUE PUEDA REGISTRAR UNA NUEVA MASCOTA CON ESE EPC
+                intent.putExtra("EPC",GetEpcExtra());
                 startActivity(intent);
                 finish();
             }
@@ -41,10 +43,19 @@ public class PetNotFoundFragmentActivity extends FragmentActivity {
         btnNoRegistrarMascota.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(PetNotFoundFragmentActivity.this, MainMenuFragmentActivity.class);
-                startActivity(intent);
+                // CIERRA EL LOAD 404
                 finish();
             }
         });
+    }
+
+    /**
+     * Función que retorna el epc que fue entregado como EXTRA a la actividad
+     * @return es el epc entregado por el escaner
+     */
+    private String GetEpcExtra(){
+        Bundle extras = getIntent().getExtras();
+        String txtExtra = extras.getString("EPC");
+        return txtExtra;
     }
 }

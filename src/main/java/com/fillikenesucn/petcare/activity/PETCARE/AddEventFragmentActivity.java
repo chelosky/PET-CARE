@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.activity.PETCARE.models.Acontecimiento;
+import com.fillikenesucn.petcare.activity.PETCARE.utils.DataHelper;
 import com.fillikenesucn.petcare.activity.PETCARE.utils.IOHelper;
 import com.google.gson.Gson;
 
@@ -66,6 +67,7 @@ public class AddEventFragmentActivity extends FragmentActivity {
         });
 
         txtTag = (TextView)findViewById(R.id.txtTAG);
+        txtTag.setText(DataHelper.GetDefaultTagRFID());
         btnScanner = (Button)findViewById(R.id.btnScanTag);
         btnScanner.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -86,7 +88,9 @@ public class AddEventFragmentActivity extends FragmentActivity {
                 String epc = txtTag.getText().toString();
 
                 Acontecimiento acontecimiento = new Acontecimiento(titulo,fecha,descripcion);
-                AddEvent(acontecimiento, epc);
+                if(DataHelper.VerificarAcontecimientoValido(AddEventFragmentActivity.this, acontecimiento, epc)){
+                    AddEvent(acontecimiento, epc);
+                }
             }
         });
     }

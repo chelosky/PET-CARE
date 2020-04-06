@@ -66,13 +66,20 @@ public class PetListFragmentActivity extends FragmentActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
+    /**
+     * Método que se encarga en redireccionar a la actividad de pet info con el epc de la mascota que fue seleccionada del listado
+     * @param txtEPC es el epc asociado a la mascota
+     */
     public void OpenInfoPet(String txtEPC){
         Intent intent = new Intent(this, PetInfoFragmentActivity.class);
         intent.putExtra("EPC",txtEPC);
         startActivity(intent);
     }
 
-
+    /**
+     * Método que se encarga de refrescar la información de la actividad, una vez que esta vuelva a ser la actividad
+     * principal de la aplicación
+     */
     @Override
     protected void onRestart() {
         super.onRestart();

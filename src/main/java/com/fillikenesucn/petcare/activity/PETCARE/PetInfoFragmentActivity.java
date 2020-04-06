@@ -73,6 +73,10 @@ public class PetInfoFragmentActivity extends FragmentActivity {
         });
     }
 
+    /**
+     * Método que se encarga de desvincular a una mascota registrada en el sistema
+     * Desplegando un dialog de confirmación y liberando el epc para que pueda ser usado por otra mascota
+     */
     private void DeleteAPet(){
         AlertDialog.Builder builder = DataHelper.CreateAlertDialog(PetInfoFragmentActivity.this,"Confirmación","¿Está seguro de que desea desvincular a la mascota?");
         builder.setPositiveButton("Confirmar",
@@ -98,6 +102,9 @@ public class PetInfoFragmentActivity extends FragmentActivity {
         dialog.show();
     }
 
+    /**
+     * Método que se encarga de obtener el epc de la mascota que se entrega como extra
+     */
     private void GetEPCExtra(){
         Bundle extras = getIntent().getExtras();
         String txtExtra = extras.getString("EPC");
@@ -113,6 +120,9 @@ public class PetInfoFragmentActivity extends FragmentActivity {
         SetInfoPetView();
     }
 
+    /**
+     * Método que setea la información de la vista con los datos de la mascota segun su epc
+     */
     private void SetInfoPetView(){
         EditText txtName = (EditText) findViewById(R.id.nombre);
         txtName.setText(petOBJ.getName());
@@ -129,6 +139,12 @@ public class PetInfoFragmentActivity extends FragmentActivity {
         txtEPC.setText(petOBJ.getEPC());
     }
 
+    /**
+     * Método que se encarga de actualizar los datos de la mascota, si sus datos fueron modificados
+     * @param requestCode codigo de la peticion
+     * @param resultCode codigo de la respuesta (OK or Cancel)
+     * @param data Conjuntos de datos que tendra el valor del epc actualizado de la mascota (result -> new epc)
+     */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -139,7 +155,7 @@ public class PetInfoFragmentActivity extends FragmentActivity {
                 LoadInfoPet(txtEPC);
             }
             if(resultCode == RESULT_CANCELED){
-                // to do
+                // do nothing
             }
         }
     }

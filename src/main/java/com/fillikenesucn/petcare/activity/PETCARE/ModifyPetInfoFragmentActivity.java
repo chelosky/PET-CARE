@@ -115,7 +115,11 @@ public class ModifyPetInfoFragmentActivity extends FragmentActivity {
         });
     }
 
-    private void ModififyCurrentPet(){
+    /**
+     * Método que retorna la mascota con los datos actualizados
+     * @return retorna la mascota con los datos modificados/actualizados
+     */
+    private Pet GetModifiedPet(){
         // Obtenemos el ID de la opción seleccionada
         int selectedId = radioGroup.getCheckedRadioButtonId();
         // Obtenemos el botón
@@ -130,11 +134,21 @@ public class ModifyPetInfoFragmentActivity extends FragmentActivity {
         String epc = txtTAG.getText().toString();
         // Creamos el objeto mascota y lo guardamos en el archivo de texto
         Pet newPet = new Pet(name,sex,birthdate,address,allergies,species,epc);
-        IOHelper.UpdatePetInfo(ModifyPetInfoFragmentActivity.this, newPet, petOBJ.getEPC());
-        Intent resultIntent = new Intent();
-        resultIntent.putExtra("result",epc);
-        setResult(RESULT_OK, resultIntent);
-        finish();
+        return newPet;
+    }
+
+    /**
+     * Método que se encarga de actualizar los valores de la mascota
+     */
+    private void ModififyCurrentPet(){
+        Pet newPet = GetModifiedPet();
+        if(DataHelper.VerificarMascotaValida(ModifyPetInfoFragmentActivity.this, newPet)){
+            IOHelper.UpdatePetInfo(ModifyPetInfoFragmentActivity.this, newPet, petOBJ.getEPC());
+            Intent resultIntent = new Intent();
+            resultIntent.putExtra("result",txtTAG.getText().toString());
+            setResult(RESULT_OK, resultIntent);
+            finish();
+        }
     }
     /**
      * Método que se encarga de retornar el valor del EPC a la actividad padre
@@ -180,6 +194,9 @@ public class ModifyPetInfoFragmentActivity extends FragmentActivity {
         SetInfoPetView();
     }
 
+    /**
+     * Método que se encarga de actualizar la información de la mascota en la vista de la actividad
+     */
     private void SetInfoPetView(){
         et_fechaNacimiento.setText(petOBJ.getBirthdate());
         txtName.setText(petOBJ.getName());

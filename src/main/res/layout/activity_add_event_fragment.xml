@@ -90,7 +90,7 @@
             android:background="@drawable/card_normal"
             android:enabled="false"
             android:padding="10sp"
-            android:text="TAG: XXXX-XXXXXX-XXXXX" />
+            android:text="" />
 
         <Button
             android:id="@+id/btnScanTag"

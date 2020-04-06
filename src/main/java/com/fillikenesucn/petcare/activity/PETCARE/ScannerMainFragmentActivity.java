@@ -89,7 +89,7 @@ public class ScannerMainFragmentActivity extends FragmentActivity {
             startActivity(intent);
             finish();
         }else{ //SI NO EXISTE
-            Load404Error();
+            Load404Error(txtEPC);
         }
     }
 
@@ -108,8 +108,9 @@ public class ScannerMainFragmentActivity extends FragmentActivity {
     /**
      * Método que se encarga de redireccionar a la vista o actividad de 404 error al falla la lectura de un tag
      */
-    private void Load404Error(){
+    private void Load404Error(String epc){
         Intent intent = new Intent(ScannerMainFragmentActivity.this, PetNotFoundFragmentActivity.class);
+        intent.putExtra("EPC",epc);
         startActivity(intent);
         finish();
     }

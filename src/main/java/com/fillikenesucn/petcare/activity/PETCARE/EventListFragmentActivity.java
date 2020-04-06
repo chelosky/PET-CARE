@@ -82,6 +82,10 @@ public class EventListFragmentActivity extends FragmentActivity {
         InitAcontecimientos();
     }
 
+    /**
+     * Método que se encarga de refrescar el listado de acontecimientos, cuando la actividad vuelve a ser la actividad
+     * principal del sistema ( deja de estar en pausa)
+     */
     @Override
     protected void onRestart() {
         super.onRestart();

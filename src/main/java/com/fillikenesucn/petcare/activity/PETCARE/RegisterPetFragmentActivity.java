@@ -70,6 +70,7 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
 
         btnScanTag = (Button)findViewById(R.id.btnScanTag);
         txtTAG = (TextView)findViewById(R.id.txtTAG);
+        txtTAG.setText(DataHelper.GetDefaultTagRFID());
 
         et_fechaNacimiento = (EditText)findViewById(R.id.fechaNacimiento);
         btnFechaNacimiento = (Button)findViewById(R.id.btnFechaNacimiento);
@@ -133,16 +134,15 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
                         String epc = txtTAG.getText().toString();
                         // Creamos el objeto mascota y lo guardamos en el archivo de texto
                         Pet pet = new Pet(name,sex,birthdate,address,allergies,species,epc);
-                        Gson gson = new Gson();
-                        WriteJsonFile(pet);
+                        if(DataHelper.VerificarMascotaValida(RegisterPetFragmentActivity.this, pet)){
+                            IOHelper.AddPet(RegisterPetFragmentActivity.this,pet);
+                        }
                     }
                 }
         );
     }
 
     private String test(){ return IOHelper.ReadFileString(this); }
-
-    private void WriteJsonFile(Pet pet){ IOHelper.AddPet(this,pet); }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {

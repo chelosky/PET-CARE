@@ -11,6 +11,11 @@ import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.activity.PETCARE.utils.IOHelper;
 import com.google.gson.Gson;
 
+/**
+ * Esta clase representa a la actividad que se encarga de ejecutar el menu principal del sistema
+ * @author: Marcelo Lazo Chavez
+ * @version: 03/04/2020
+ */
 public class MainMenuFragmentActivity extends FragmentActivity {
     private Button btnScanearMascota;
     private Button btnRegistrarMascota;
@@ -18,6 +23,10 @@ public class MainMenuFragmentActivity extends FragmentActivity {
     private Button btnAddEvent;
     private Button btnSalir;
 
+    /**
+     * Constructor de la actividad
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -70,21 +79,9 @@ public class MainMenuFragmentActivity extends FragmentActivity {
             }
         });
 
-        Boolean status = CheckFile();
-        if (!status) {
-            Gson gson = new Gson();
-            InitJsonFile();
-        }
-        /** Esto debe eliminarse al terminar las pruebas */
-        else {
-            Gson gson = new Gson();
-            InitJsonFile();
+        if (!IOHelper.CheckFile(MainMenuFragmentActivity.this)) {
+            IOHelper.WriteJson(MainMenuFragmentActivity.this, "[]");
         }
     }
 
-    /** Verifica si ya existe un archivo de texto */
-    private Boolean CheckFile(){ return IOHelper.CheckFile(this); }
-
-    /** Crea el archivo de texto vacío nuevo (elimina el anterior is existe) */
-    private void InitJsonFile(){ IOHelper.WriteJson(this, "[]"); }
 }

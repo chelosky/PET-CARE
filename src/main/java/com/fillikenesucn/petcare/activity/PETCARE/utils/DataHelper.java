@@ -4,6 +4,10 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
+import android.widget.Toast;
+
+import com.fillikenesucn.petcare.activity.PETCARE.models.Acontecimiento;
+import com.fillikenesucn.petcare.activity.PETCARE.models.Pet;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,4 +60,74 @@ public class DataHelper {
         builder.setMessage(description);
         return builder;
     }
+
+    /**
+     * Función que se encarga de verificar si una mascota es valida para registrarla
+     * @param context contexto actual de la aplicación
+     * @param pet objeto mascota con los datos a evaluar
+     * @return retorna true si es una mascota valida, en caso contrario retorna false
+     */
+    public static boolean VerificarMascotaValida(Context context, Pet pet){
+        int errorOcurred = 0;
+        // NOMBRE, DIRECCION Y NACIMIENTO
+        errorOcurred += VerificarString(context, pet.getName(), "Nombre Requerido");
+        errorOcurred += VerificarString(context, pet.getAddress(), "Dirección Requerida");
+        errorOcurred += VerificarString(context, pet.getBirthdate(), "Fecha de Nacimiento Requerida");
+        // VERIFICAR EPC
+        if( pet.getEPC().equals(GetDefaultTagRFID()) ){
+            Toast.makeText(context,"Seleccione Tag Valido",Toast.LENGTH_SHORT).show();
+            errorOcurred++;
+        }
+        // ESPECIE
+        if(DataHelper.GetSpecies().get(0).equals(pet.getSpecies())){
+            Toast.makeText(context,"Seleccione una Especie",Toast.LENGTH_SHORT).show();
+            errorOcurred++;
+        }
+        return errorOcurred > 0 ? false : true;
+    }
+
+    /**
+     * Función que se encarga de verificar si un acontecimiento es valido para registrarlo
+     * @param context contexto actual de la aplicación
+     * @param acontecimiento Objeto acontecimiento con los datos a validar
+     * @param epc valor del epc asociado a la mascota del ascontecimiento
+     * @return retorna true si el acontecimiento es valido, en caso contrario false
+     */
+    public static boolean VerificarAcontecimientoValido(Context context,Acontecimiento acontecimiento, String epc){
+        int errorOcurred = 0;
+        // TITULO Y FECHA
+        errorOcurred += VerificarString(context, acontecimiento.getTitulo(), "Titulo Requerido");
+        errorOcurred += VerificarString(context, acontecimiento.getTitulo(), "Fecha Requerida");
+        if( epc.equals(GetDefaultTagRFID()) ){
+            Toast.makeText(context,"Seleccione Tag Valido",Toast.LENGTH_SHORT).show();
+            errorOcurred++;
+        }
+        return errorOcurred > 0 ? false : true;
+    }
+
+    /**
+     * Función que verifica si un string esta vacio
+     * @param context contexto actual de la aplicación
+     * @param txtEvaluate string a evaluar
+     * @param error string que se desplegará como información al usuarios
+     * @return retorna 1 si esta vacio y 0 si no lo esta
+     */
+    public static int VerificarString(Context context, String txtEvaluate, String error){
+        if(txtEvaluate.isEmpty()){
+            Toast.makeText(context,error, Toast.LENGTH_SHORT).show();
+            return 1;
+        }else{
+            return 0;
+        }
+    }
+
+    /**
+     * Función que retorna el string definido como el tag por defecto de la aplicación
+     * @return retorna el string default
+     */
+    public static String GetDefaultTagRFID(){
+        return "TAG: XXXX-XXXXXX-XXXXX";
+    }
+
+
 }
