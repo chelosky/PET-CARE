@@ -111,7 +111,6 @@ public class IOHelper {
             }
             return -1;
         } catch (Exception e) {
-            e.printStackTrace();
             Log.d("DORAT", e.toString());
             return -1;
         }
@@ -135,7 +134,7 @@ public class IOHelper {
             // Usamos la función original para ver si existe
             return CheckActiveEPC(jsonArray, jsonObject);
         }catch (Exception e){
-            e.printStackTrace();
+            Log.d("DORAT", e.toString());
             return -1;
         }
     }
@@ -143,14 +142,17 @@ public class IOHelper {
     /**
      * Función que se encarga de generar un nuevo archivo de texto con la información ACTUALIZADA
      * @param context contexto asociado a la vista que llama a la función
-     * @param objStr String que representa la nueva información que habrá dentro del texto
+     * @param pet objeto Pet que se añadirá a la lista
      */
-    public static void AddPet(Context context, String objStr){
+    public static void AddPet(Context context, Pet pet){
         try {
             // Obtenemos el JSON desde el contexto de la APP
             String sxml = ReadFileString(context);
             // Transformamos el String a JSONArray
             JSONArray json = new JSONArray(sxml);
+            // Transformamos el Pet a String
+            Gson gson = new Gson();
+            String objStr = gson.toJson(pet);
             // Transformamos el String a JSONObject
             JSONObject object = new JSONObject(objStr);
             // Check if the EPC is used by an active pet
@@ -164,36 +166,31 @@ public class IOHelper {
                 Toast.makeText(context, "TAG OCUPADO", Toast.LENGTH_SHORT).show();
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            Log.d("DORAT", e.toString());
             Toast.makeText(context, "ERROR AL REGISTRAR", Toast.LENGTH_SHORT).show();
-        }
-    }
-
-    public static void AddEvent(Context context, Acontecimiento acontecimiento, String epc){
-        try{
-            Gson gson = new Gson();
-            JSONObject tag = new JSONObject();
-            tag.put("EPC", epc);
-            AddEvent(context,gson.toJson(acontecimiento),tag);
-        }catch (Exception e){
-            e.printStackTrace();
         }
     }
 
     /**
      * Función que se encarga de agregar un nuevo evento a la mascota
      * @param context contexto asociado a la vista que llama a la función
-     * @param objStr información del nuevo evento que se va a agregar
-     * @param tag el EPC que corresponde al de la mascota que le pertenece el evento
+     * @param acontecimiento información del nuevo evento que se va a agregar
+     * @param epc el EPC que corresponde al de la mascota que le pertenece el evento
      */
-    public static void AddEvent(Context context, String objStr, JSONObject tag){
+    public static void AddEvent(Context context, Acontecimiento acontecimiento, String epc){
         try {
             // Obtenemos el JSON desde el contexto de la APP
             String sxml = ReadFileString(context);
             // Transformamos el String a JSONArray
             JSONArray json = new JSONArray(sxml);
+            // Transformamos el acontecimiento a String
+            Gson gson = new Gson();
+            String objStr = gson.toJson(acontecimiento);
             // Transformamos el String a JSONObject
             JSONObject event = new JSONObject(objStr);
+            // Transformamos el epc a formato JSONObject
+            JSONObject tag = new JSONObject();
+            tag.put("EPC", epc);
             // Verificamos si el EPC esta usado por alguna mascota activa
             Integer indexPet = CheckActiveEPC(json, tag);
             if (indexPet != -1){
@@ -302,7 +299,6 @@ public class IOHelper {
             }
             return pet;
         } catch (JSONException e) {
-            e.printStackTrace();
             Log.d("DORAT", e.toString());
             return null;
         }
@@ -369,8 +365,45 @@ public class IOHelper {
             }
             return false;
         }catch (Exception e){
-            e.printStackTrace();
+            Log.d("DORAT", e.toString());
             return false;
+        }
+    }
+
+    /**
+     * Función que se encarga de obtener la información de todas las actividades por la mascota
+     * @param context contexto asociado a la vista que llama a la función
+     * @param epc tag para buscar la mascota correspondiente
+     * @param indexAcontecimiento la posición en la lista de acontecimientos
+     * @return Retorna la mascota con su lista de eventos
+     */
+    public static void UpdateEventList(Context context, String epc, int indexAcontecimiento){
+        try{
+            // Leemos el archivo
+            String txtJson = ReadFileString(context);
+            // Transformamos a una lista
+            JSONArray jsonArray = new JSONArray(txtJson);
+            // Obtenemos la posición en la lista
+            int indexPet = CheckActiveEPC(context,epc);
+            if (indexPet != -1){
+                Pet pet = GetPet(context, epc);
+                // Obtenemos la lista de acontecimientos
+                ArrayList<Acontecimiento> acontecimientos = pet.getEventList();
+                // Removemos el que no necesitamos
+                acontecimientos.remove(indexAcontecimiento);
+                // Eliminamos la mascota
+                jsonArray.remove(indexPet);
+                // actualiza el archivo
+                WriteJson(context, jsonArray.toString());
+                // La añadimos con las acutalizaciones
+                AddPet(context,pet);
+                Toast.makeText(context, "LISTA DE EVENTOS ACTUALIZADA", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(context, "NO SE ENCONTRÓ LA MASCOTA", Toast.LENGTH_SHORT).show();
+            }
+        }catch (Exception e){
+            Log.d("DORAT", e.toString());
+            Toast.makeText(context, "ERROR AL BORRAR ACONTECIMIENTO", Toast.LENGTH_SHORT).show();
         }
     }
 

@@ -80,20 +80,13 @@ public class AddEventFragmentActivity extends FragmentActivity {
         btnAgregar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                try {
-                    String titulo = txtTitulo.getText().toString();
-                    String fecha = et_fechaNacimiento.getText().toString();
-                    String descripcion = txtDescripcion.getText().toString();
-                    String epc = txtTag.getText().toString();
+                String titulo = txtTitulo.getText().toString();
+                String fecha = et_fechaNacimiento.getText().toString();
+                String descripcion = txtDescripcion.getText().toString();
+                String epc = txtTag.getText().toString();
 
-                    JSONObject tag = new JSONObject();
-                    tag.put("EPC", epc);
-                    Gson gson = new Gson();
-                    Acontecimiento acontecimiento = new Acontecimiento(titulo,fecha,descripcion);
-                    WriteJsonFile(gson.toJson(acontecimiento), tag);
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
+                Acontecimiento acontecimiento = new Acontecimiento(titulo,fecha,descripcion);
+                AddEvent(acontecimiento, epc);
             }
         });
     }
@@ -113,6 +106,6 @@ public class AddEventFragmentActivity extends FragmentActivity {
         }
     }
 
-    private void WriteJsonFile(String stringvalue, JSONObject tag){ IOHelper.AddEvent(this,stringvalue, tag); }
+    private void AddEvent(Acontecimiento acontecimiento, String tag){ IOHelper.AddEvent(this,acontecimiento, tag); }
 
 }

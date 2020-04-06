@@ -67,9 +67,8 @@ public class EventListFragmentActivity extends FragmentActivity {
      * @param index es la posicion del acontecimiento que se desea eliminar
      */
     public void DeleteAcontecimiento(int index){
-
-        //Toast.makeText(EventListFragmentActivity.this, String.valueOf(index) , Toast.LENGTH_SHORT).show();
-        Toast.makeText(EventListFragmentActivity.this, "DELETE EVENT " + index  , Toast.LENGTH_SHORT).show();
+        IOHelper.UpdateEventList(EventListFragmentActivity.this,txtEPC,index);
+        InitAcontecimientos();
     }
 
     /**

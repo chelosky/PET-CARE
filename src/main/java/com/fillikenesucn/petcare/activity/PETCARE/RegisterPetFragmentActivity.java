@@ -134,7 +134,7 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
                         // Creamos el objeto mascota y lo guardamos en el archivo de texto
                         Pet pet = new Pet(name,sex,birthdate,address,allergies,species,epc);
                         Gson gson = new Gson();
-                        WriteJsonFile(gson.toJson(pet));
+                        WriteJsonFile(pet);
                     }
                 }
         );
@@ -142,7 +142,7 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
 
     private String test(){ return IOHelper.ReadFileString(this); }
 
-    private void WriteJsonFile(String stringvalue){ IOHelper.AddPet(this,stringvalue); }
+    private void WriteJsonFile(Pet pet){ IOHelper.AddPet(this,pet); }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
