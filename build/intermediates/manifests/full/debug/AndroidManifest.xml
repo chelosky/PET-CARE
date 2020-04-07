@@ -17,28 +17,23 @@
         android:icon="@drawable/ic_launcher"
         android:label="Pet Care"
         android:theme="@style/CustomTheme" >
-        <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.ModifyPetInfoFragmentActivity" />
-        <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.RegisterScannedPetFragmentActivity" />
-        <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.AddEventOldPetFragmentActivity" />
-        <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.EventListFragmentActivity" />
-        <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.PetInfoFragmentActivity" />
-        <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.PetNotFoundFragmentActivity" />
-        <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.PetListFragmentActivity" />
-        <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.AddEventFragmentActivity" />
-        <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.ScannerMainFragmentActivity" />
-        <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.RegisterPetFragmentActivity" />
-        <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.MainMenuFragmentActivity" />
-        <activity android:name="com.fillikenesucn.petcare.activity.PETCARE.HomeFragmentActivity" >
+        <activity android:name="com.fillikenesucn.petcare.activities.ModifyPetInfoFragmentActivity" />
+        <activity android:name="com.fillikenesucn.petcare.activities.RegisterScannedPetFragmentActivity" />
+        <activity android:name="com.fillikenesucn.petcare.activities.AddEventOldPetFragmentActivity" />
+        <activity android:name="com.fillikenesucn.petcare.activities.EventListFragmentActivity" />
+        <activity android:name="com.fillikenesucn.petcare.activities.PetInfoFragmentActivity" />
+        <activity android:name="com.fillikenesucn.petcare.activities.PetNotFoundFragmentActivity" />
+        <activity android:name="com.fillikenesucn.petcare.activities.PetListFragmentActivity" />
+        <activity android:name="com.fillikenesucn.petcare.activities.AddEventFragmentActivity" />
+        <activity android:name="com.fillikenesucn.petcare.activities.ScannerMainFragmentActivity" />
+        <activity android:name="com.fillikenesucn.petcare.activities.RegisterPetFragmentActivity" />
+        <activity android:name="com.fillikenesucn.petcare.activities.MainMenuFragmentActivity" />
+        <activity android:name="com.fillikenesucn.petcare.activities.HomeFragmentActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="com.fillikenesucn.petcare.activity.UHFMainActivity"
-            android:label="PetCare"
-            android:screenOrientation="portrait" >
         </activity>
     </application>
 

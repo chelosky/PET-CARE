@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Apr 06 02:02:28 CLST 2020
+#Tue Apr 07 20:21:47 CLST 2020
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\folders\\2000\\1f\\main\\lib\\armeabi\\libbarcodereader44.so
 118.set=ANDROID_RESOURCE

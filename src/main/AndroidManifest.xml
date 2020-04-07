@@ -16,28 +16,23 @@
         android:icon="@drawable/ic_launcher"
         android:label="Pet Care"
         android:theme="@style/CustomTheme">
-        <activity android:name=".activity.PETCARE.ModifyPetInfoFragmentActivity"></activity>
-        <activity android:name=".activity.PETCARE.RegisterScannedPetFragmentActivity" />
-        <activity android:name=".activity.PETCARE.AddEventOldPetFragmentActivity" />
-        <activity android:name=".activity.PETCARE.EventListFragmentActivity" />
-        <activity android:name=".activity.PETCARE.PetInfoFragmentActivity" />
-        <activity android:name=".activity.PETCARE.PetNotFoundFragmentActivity"/>
-        <activity android:name=".activity.PETCARE.PetListFragmentActivity" />
-        <activity android:name=".activity.PETCARE.AddEventFragmentActivity" />
-        <activity android:name=".activity.PETCARE.ScannerMainFragmentActivity" />
-        <activity android:name=".activity.PETCARE.RegisterPetFragmentActivity" />
-        <activity android:name=".activity.PETCARE.MainMenuFragmentActivity" />
-        <activity android:name=".activity.PETCARE.HomeFragmentActivity">
+        <activity android:name=".activities.ModifyPetInfoFragmentActivity"></activity>
+        <activity android:name=".activities.RegisterScannedPetFragmentActivity" />
+        <activity android:name=".activities.AddEventOldPetFragmentActivity" />
+        <activity android:name=".activities.EventListFragmentActivity" />
+        <activity android:name=".activities.PetInfoFragmentActivity" />
+        <activity android:name=".activities.PetNotFoundFragmentActivity"/>
+        <activity android:name=".activities.PetListFragmentActivity" />
+        <activity android:name=".activities.AddEventFragmentActivity" />
+        <activity android:name=".activities.ScannerMainFragmentActivity" />
+        <activity android:name=".activities.RegisterPetFragmentActivity" />
+        <activity android:name=".activities.MainMenuFragmentActivity" />
+        <activity android:name=".activities.HomeFragmentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".activity.UHFMainActivity"
-            android:label="PetCare"
-            android:screenOrientation="portrait">
         </activity>
     </application>
 
