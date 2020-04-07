@@ -73,10 +73,12 @@
                     android:orientation="horizontal">
                     <RadioButton
                         android:checked="true"
+                        android:id="@+id/radioRegistedPetMale"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Macho"/>
                     <RadioButton
+                        android:id="@+id/radioRegistedPetFemale"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Hembra"/>
@@ -118,7 +120,7 @@
                 android:layout_margin="10sp"
                 />
             <EditText
-                android:id="@+id/txtRegistedPetAlergies"
+                android:id="@+id/txtRegistedPetAllergies"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"

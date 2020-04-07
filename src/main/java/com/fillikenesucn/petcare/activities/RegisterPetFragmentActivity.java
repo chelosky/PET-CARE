@@ -24,10 +24,16 @@ import com.fillikenesucn.petcare.utils.IOHelper;
 
 import java.util.Calendar;
 
+/**
+ * Esta clase representa a la actividad que se encarga de agregar la información de una mascota, necesita escanear el EPC
+ * @author: Rodrigo Dorat Merejo
+ * @version: 06/04/2020
+ */
 public class RegisterPetFragmentActivity extends FragmentActivity {
 
     private final int RESULT_SCANNER_PET_ADD = 616;
 
+    // VARIABLES
     private TextView txtTAG;
     private Button btnFechaNacimiento;
     private EditText et_fechaNacimiento;
@@ -36,7 +42,6 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
     private Calendar calendar = Calendar.getInstance();
     private Spinner spinner;
 
-    // Testing
     private Button btnRegist;
     private EditText txtName;
     private RadioGroup radioGroup;
@@ -44,9 +49,12 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
     private EditText txtAddress;
     private EditText txtAllergies;
     private TextView txtTest;
-
     private Button btnScanTag;
 
+    /**
+     * CONSTRUCTOR de la actividad
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,18 +68,7 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
         this.sYearIni = this.calendar.get(Calendar.YEAR);
         this.sDayIni = this.calendar.get(Calendar.DAY_OF_MONTH);
 
-        btnScanTag = (Button)findViewById(R.id.btnScanTag);
-        txtTAG = (TextView)findViewById(R.id.txtTAG);
-        txtTAG.setText(DataHelper.GetDefaultTagRFID());
-
-        et_fechaNacimiento = (EditText)findViewById(R.id.fechaNacimiento);
-        btnFechaNacimiento = (Button)findViewById(R.id.btnFechaNacimiento);
-        txtTest = (TextView) findViewById(R.id.txtTest);
-        txtName = (EditText) findViewById(R.id.txtName);
-        radioGroup = (RadioGroup) findViewById(R.id.radio);
-        spinner = findViewById(R.id.spinnerRegisterPet);
-        txtAddress = (EditText) findViewById(R.id.txtAddress);
-        txtAllergies = (EditText) findViewById(R.id.txtAllergies);
+        LoadInputs();
 
         btnFechaNacimiento.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,14 +92,18 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
                 startActivityForResult(intent,RESULT_SCANNER_PET_ADD);
             }
         });
-        // Testing
+
+        // Sección de pruebas para leer los que hay dentro del archivo de 'base de datos'
         Button tempLeer = (Button)findViewById(R.id.leerjson);
         tempLeer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                txtTest.setText(test());
+                // Ver el archivo de texto completo (desactivado)
+                txtTest.setText(IOHelper.ReadFileString(RegisterPetFragmentActivity.this));
             }
         });
+
+        // Sección que registra la mascota al pulsar el botón de guardar
         btnRegist = (Button) findViewById(R.id.btnRegist);
         btnRegist.setOnClickListener(
                 new View.OnClickListener() {
@@ -111,31 +112,79 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
                      * @param view
                      */
                     @Override
-                    public void onClick(View view) {
-                        // Obtenemos el ID de la opción seleccionada
-                        int selectedId = radioGroup.getCheckedRadioButtonId();
-                        // Obtenemos el botón
-                        radioButton = (RadioButton) findViewById(selectedId);
-                        // Extraemos la información de los inputs
-                        String name = txtName.getText().toString();
-                        String sex = radioButton.getText().toString();
-                        String species = spinner.getSelectedItem().toString();
-                        String birthdate = et_fechaNacimiento.getText().toString();
-                        String address = txtAddress.getText().toString();
-                        String allergies = txtAllergies.getText().toString();
-                        String epc = txtTAG.getText().toString();
-                        // Creamos el objeto mascota y lo guardamos en el archivo de texto
-                        Pet pet = new Pet(name,sex,birthdate,address,allergies,species,epc);
-                        if(DataHelper.VerificarMascotaValida(RegisterPetFragmentActivity.this, pet)){
-                            IOHelper.AddPet(RegisterPetFragmentActivity.this,pet);
-                        }
-                    }
+                    public void onClick(View view) { RegisterPet(); }
                 }
         );
     }
 
-    private String test(){ return IOHelper.ReadFileString(this); }
+    /**
+     * Método que registra la mascota en el sistema
+     */
+    private Pet NewPet(){
+        // Obtenemos el ID de la opción seleccionada
+        int selectedId = radioGroup.getCheckedRadioButtonId();
+        // Obtenemos el botón
+        radioButton = (RadioButton) findViewById(selectedId);
+        // Extraemos la información de los inputs
+        String name = txtName.getText().toString();
+        String sex = radioButton.getText().toString();
+        String species = spinner.getSelectedItem().toString();
+        String birthdate = et_fechaNacimiento.getText().toString();
+        String address = txtAddress.getText().toString();
+        String allergies = txtAllergies.getText().toString();
+        String epc = txtTAG.getText().toString();
+        // Creamos el objeto mascota y lo guardamos en el archivo de texto
+        return new Pet(name,sex,birthdate,address,allergies,species,epc);
+    }
 
+    /**
+     * Método que registra la mascota en el sistema
+     */
+    private void RegisterPet() {
+        Pet pet = NewPet();
+        // Revisamos que la información sea válida
+        if(DataHelper.VerificarMascotaValida(RegisterPetFragmentActivity.this,pet)){
+            // Si puede agregar a la mascota cierra la actividad
+            if (IOHelper.AddPet(RegisterPetFragmentActivity.this,pet)) {
+                Toast.makeText(RegisterPetFragmentActivity.this, "INGRESO EXITOSO", Toast.LENGTH_SHORT).show();
+                RedirectToPetList();
+            }
+        }
+    }
+
+    /**
+     * Método que redirecciona a la lista de mascotas
+     */
+    private void RedirectToPetList(){
+        Intent intent = new Intent(RegisterPetFragmentActivity.this, PetListFragmentActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
+    /**
+     * Método que carga los inputs del Layout
+     */
+    private void LoadInputs(){
+        btnScanTag = (Button)findViewById(R.id.btnScanTag);
+        txtTAG = (TextView)findViewById(R.id.txtTAG);
+        txtTAG.setText(DataHelper.GetDefaultTagRFID());
+
+        et_fechaNacimiento = (EditText)findViewById(R.id.fechaNacimiento);
+        btnFechaNacimiento = (Button)findViewById(R.id.btnFechaNacimiento);
+        txtTest = (TextView) findViewById(R.id.txtTest);
+        txtName = (EditText) findViewById(R.id.txtName);
+        radioGroup = (RadioGroup) findViewById(R.id.radio);
+        spinner = findViewById(R.id.spinnerRegisterPet);
+        txtAddress = (EditText) findViewById(R.id.txtAddress);
+        txtAllergies = (EditText) findViewById(R.id.txtAllergies);
+    }
+
+    /**
+     * Mpetodo que se utiliza para recibir el epc que se lea del escaner y actualizar el campo correspondiente en la vista
+     * @param requestCode CODIGO DE LA PETICION
+     * @param resultCode CODIGO DEL RESULTADO DEL ESCANER
+     * @param data CONJUNTO DE DATOS QUE SE RETORNAR (OBTENER STRING "result" -> ES EL EPC)
+     */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);

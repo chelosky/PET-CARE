@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.models.Acontecimiento;
@@ -45,12 +46,8 @@ public class AddEventOldPetFragmentActivity extends FragmentActivity {
         this.sMonthIni = this.calendar.get(Calendar.MONTH);
         this.sYearIni = this.calendar.get(Calendar.YEAR);
         this.sDayIni = this.calendar.get(Calendar.DAY_OF_MONTH);
-        txtEPC = (TextView) findViewById(R.id.txtEPC);
-        et_fechaNacimiento = (EditText)findViewById(R.id.fechaAcontecimiento);
-        btnFechaNacimiento = (Button)findViewById(R.id.btnFechaNacimiento);
-        txtTittle = (EditText) findViewById(R.id.txtTittle);
-        txtDescripcion = (EditText) findViewById(R.id.txtDescripcionAcontecimiento);
-        btnAddAcontecimiento = (Button) findViewById(R.id.btnAddAcontecimiento);
+
+        LoadInputs();
 
         LoadPetExtraEpc();
         btnFechaNacimiento.setOnClickListener(new View.OnClickListener() {
@@ -71,9 +68,13 @@ public class AddEventOldPetFragmentActivity extends FragmentActivity {
             @Override
             public void onClick(View view) {
                 Acontecimiento acontecimiento = new Acontecimiento(txtTittle.getText().toString(), et_fechaNacimiento.getText().toString(),txtDescripcion.getText().toString());
+                // Revisamos que la información sea válida
                 if(DataHelper.VerificarAcontecimientoValido(AddEventOldPetFragmentActivity.this, acontecimiento, txtEPC.getText().toString())){
-                    IOHelper.AddEvent(AddEventOldPetFragmentActivity.this,acontecimiento,txtEPC.getText().toString());
-                    finish();
+                    // Si puede agregar el evento cierra la actividad
+                    if (IOHelper.AddEvent(AddEventOldPetFragmentActivity.this,acontecimiento,txtEPC.getText().toString())) {
+                        Toast.makeText(AddEventOldPetFragmentActivity.this, "INGRESO EXITOSO", Toast.LENGTH_SHORT).show();
+                        finish();
+                    }
                 }
             }
         });
@@ -85,5 +86,17 @@ public class AddEventOldPetFragmentActivity extends FragmentActivity {
     private void LoadPetExtraEpc(){
         Bundle extras = getIntent().getExtras();
         txtEPC.setText(extras.getString("EPC"));
+    }
+
+    /**
+     * Método que carga los inputs del Layout
+     */
+    private void LoadInputs(){
+        txtEPC = (TextView) findViewById(R.id.txtEPC);
+        et_fechaNacimiento = (EditText)findViewById(R.id.fechaAcontecimiento);
+        btnFechaNacimiento = (Button)findViewById(R.id.btnFechaNacimiento);
+        txtTittle = (EditText) findViewById(R.id.txtTittle);
+        txtDescripcion = (EditText) findViewById(R.id.txtDescripcionAcontecimiento);
+        btnAddAcontecimiento = (Button) findViewById(R.id.btnAddAcontecimiento);
     }
 }

@@ -175,7 +175,11 @@ public class ModifyPetInfoFragmentActivity extends FragmentActivity {
         if (requestCode == RESULT_SCANNER_PET_MODIFY){
             if(resultCode == RESULT_OK){
                 String txtEPC = data.getStringExtra("result");
-                txtTAG.setText(txtEPC);
+                if (IOHelper.CheckActiveEPC(ModifyPetInfoFragmentActivity.this,txtEPC) == -1 || petOBJ.getEPC().equals(txtEPC)){
+                    txtTAG.setText(txtEPC);
+                } else {
+                    Toast.makeText(this, "TAG OCUPADO", Toast.LENGTH_SHORT).show();
+                }
             }
             if(resultCode == RESULT_CANCELED){
                 Toast.makeText(this, "ERROR AL OBTENER TAG", Toast.LENGTH_SHORT).show();
