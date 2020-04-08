@@ -11,7 +11,7 @@ import android.widget.Button;
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.models.Acontecimiento;
 import com.fillikenesucn.petcare.models.Pet;
-import com.fillikenesucn.petcare.utils.AcontecimientoListAdapter;
+import com.fillikenesucn.petcare.adapters.AcontecimientoListAdapter;
 import com.fillikenesucn.petcare.utils.IOHelper;
 
 import java.util.ArrayList;
@@ -54,7 +54,7 @@ public class EventListFragmentActivity extends FragmentActivity {
      */
     private void InitAcontecimientos(){
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        Pet currentPet = IOHelper.GetPet(EventListFragmentActivity.this, txtEPC);
+        Pet currentPet = IOHelper.getPet(EventListFragmentActivity.this, txtEPC);
         acontecimientosList = currentPet.getEventList();
         AcontecimientoListAdapter adapter = new AcontecimientoListAdapter(this, acontecimientosList);
         recyclerView.setAdapter(adapter);
@@ -66,7 +66,7 @@ public class EventListFragmentActivity extends FragmentActivity {
      * @param index es la posicion del acontecimiento que se desea eliminar
      */
     public void DeleteAcontecimiento(int index){
-        IOHelper.UpdateEventList(EventListFragmentActivity.this,txtEPC,index);
+        IOHelper.updateEventList(EventListFragmentActivity.this,txtEPC,index);
         InitAcontecimientos();
     }
 

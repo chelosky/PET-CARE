@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.models.Acontecimiento;
-import com.fillikenesucn.petcare.adapters.DataHelper;
+import com.fillikenesucn.petcare.utils.DataHelper;
 import com.fillikenesucn.petcare.utils.IOHelper;
 
 import java.util.Calendar;
@@ -100,7 +100,7 @@ public class AddEventFragmentActivity extends FragmentActivity {
         // Revisamos que la información sea válida
         if(DataHelper.VerificarAcontecimientoValido(AddEventFragmentActivity.this, acontecimiento, epc)){
             // Si puede agregar el evento cierra la actividad
-            if (IOHelper.AddEvent(AddEventFragmentActivity.this,acontecimiento,epc)) {
+            if (IOHelper.addEvent(AddEventFragmentActivity.this,acontecimiento,epc)) {
                 Toast.makeText(AddEventFragmentActivity.this, "INGRESO EXITOSO", Toast.LENGTH_SHORT).show();
                 finish();
             }
@@ -132,6 +132,10 @@ public class AddEventFragmentActivity extends FragmentActivity {
      */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        if(data == null){
+            Toast.makeText(this, "Error TAG INFO", Toast.LENGTH_SHORT).show();
+            return;
+        }
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == RESULT_SCANNER_EVENT_ADD){

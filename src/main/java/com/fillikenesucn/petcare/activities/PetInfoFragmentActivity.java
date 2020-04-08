@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.models.Pet;
-import com.fillikenesucn.petcare.adapters.DataHelper;
+import com.fillikenesucn.petcare.utils.DataHelper;
 import com.fillikenesucn.petcare.utils.IOHelper;
 
 /**
@@ -78,12 +78,14 @@ public class PetInfoFragmentActivity extends FragmentActivity {
      * Desplegando un dialog de confirmación y liberando el epc para que pueda ser usado por otra mascota
      */
     private void DeleteAPet(){
-        AlertDialog.Builder builder = DataHelper.CreateAlertDialog(PetInfoFragmentActivity.this,"Confirmación","¿Está seguro de que desea desvincular a la mascota?");
+        AlertDialog.Builder builder = DataHelper.CreateAlertDialog(PetInfoFragmentActivity.this,
+                                                                    "Confirmación",
+                                                                    "¿Está seguro de que desea desvincular a la mascota?");
         builder.setPositiveButton("Confirmar",
                 new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        if(IOHelper.UnlinkPet(PetInfoFragmentActivity.this, txtEPC.getText().toString())){
+                        if(IOHelper.unlinkPet(PetInfoFragmentActivity.this, txtEPC.getText().toString())){
                             Toast.makeText(PetInfoFragmentActivity.this,"MASCOTA ELIMINADA", Toast.LENGTH_SHORT).show();
                             finish();
                         }else{
@@ -116,7 +118,7 @@ public class PetInfoFragmentActivity extends FragmentActivity {
      * y actualizar la vista con su información correspondiente
      */
     private void LoadInfoPet(String epcValue){
-        petOBJ = IOHelper.GetPet(PetInfoFragmentActivity.this, epcValue);
+        petOBJ = IOHelper.getPet(PetInfoFragmentActivity.this, epcValue);
         SetInfoPetView();
     }
 
@@ -147,6 +149,10 @@ public class PetInfoFragmentActivity extends FragmentActivity {
      */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        if(data == null){
+            Toast.makeText(this, "Error TAG INFO", Toast.LENGTH_SHORT).show();
+            return;
+        }
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == RESULT_MODIFY_PET_INFO){
             if(resultCode == RESULT_OK){

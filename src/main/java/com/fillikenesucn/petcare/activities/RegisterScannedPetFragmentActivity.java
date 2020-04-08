@@ -18,7 +18,7 @@ import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.models.Pet;
-import com.fillikenesucn.petcare.adapters.DataHelper;
+import com.fillikenesucn.petcare.utils.DataHelper;
 import com.fillikenesucn.petcare.utils.IOHelper;
 
 import java.util.Calendar;
@@ -119,7 +119,7 @@ public class RegisterScannedPetFragmentActivity extends FragmentActivity {
         // Revisamos que la información sea válida
         if(DataHelper.VerificarMascotaValida(RegisterScannedPetFragmentActivity.this,pet)){
             // Si puede agregar a la mascota cierra la actividad
-            if (IOHelper.AddPet(RegisterScannedPetFragmentActivity.this,pet)) {
+            if (IOHelper.addPet(RegisterScannedPetFragmentActivity.this,pet)) {
                 Toast.makeText(RegisterScannedPetFragmentActivity.this, "INGRESO EXITOSO", Toast.LENGTH_SHORT).show();
                 RedirectToPetList();
             }

@@ -48,3 +48,4 @@ dependencies {
     compile files('libs/jxl.jar')
     compile files('libs/cw-deviceapi20190815.jar')
 }
+

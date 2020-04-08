@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Users\\rdora\\Desktop\\RFID-BASE\\src\\main\\res\\menu\\main.xml"
-    },
-    {
         "merged": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "C:\\Users\\marce\\Desktop\\petcare\\RFID-BASE\\src\\main\\res\\menu\\main.xml"
     }

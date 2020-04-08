@@ -14,8 +14,10 @@ import android.widget.Toast;
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.activities.PetListFragmentActivity;
 import com.fillikenesucn.petcare.models.Pet;
+import com.fillikenesucn.petcare.utils.DataHelper;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -28,18 +30,18 @@ public class PetListAdapter extends RecyclerView.Adapter<PetListAdapter.PetHolde
 
     //VARIABLES
     private Context mContext;
-    private ArrayList<Pet> mPetList = new ArrayList<>();
+    private List<Pet> mPetList = new ArrayList<>();
     // LISTADO DE LAS IMAGENES ESTATICAS QUE SE DESPLEGARÁN EN EL LISTADO
     private ArrayList<Integer> dogDrawList = new ArrayList<>();
     private ArrayList<Integer> catDrawList = new ArrayList<>();
-
+    private Random random = new Random();
     /**
      * Constructor para el adaptador del listado de mascotas asociadas al recyclerview
      * Además de inicializar las imagenes estaticas de perros y gatos que se desplagarán en el listado
      * @param mContext contexto asociado a la vista que llama al constructor
      * @param mPetList listado de mascotas (tipo objeto PET)
      */
-    public PetListAdapter(Context mContext, ArrayList<Pet> mPetList) {
+    public PetListAdapter(Context mContext, List<Pet> mPetList) {
         this.mPetList = mPetList;
         this.mContext = mContext;
         InitDrawImages();
@@ -102,7 +104,7 @@ public class PetListAdapter extends RecyclerView.Adapter<PetListAdapter.PetHolde
      * @return retorna el identificador de la imagen que se desea asociar
      */
     private int GetDrawableImagePet(String specie){
-        Random random = new Random();
+
         switch (specie.toUpperCase()){
             case "PERRO":
                 return dogDrawList.get(random.nextInt(dogDrawList.size()));

@@ -1,4 +1,4 @@
-package com.fillikenesucn.petcare.adapters;
+package com.fillikenesucn.petcare.utils;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -19,6 +19,7 @@ import java.util.Random;
  * @version: 2/04/2020
  */
 public class DataHelper {
+    public static final Random r = new Random();
     /**
      * Función que se encarga de retornar todas las especies del sistema
      * @return un listado con todas las especies del sistema (gatos y perros)
@@ -36,7 +37,7 @@ public class DataHelper {
      * @return retorna un drawable de tipo rectangle con colores aleatorios
      */
     public static GradientDrawable GetRandomColor(){
-        Random r = new Random();
+
         int red=r.nextInt(255 - 0 + 1)+0;
         int green=r.nextInt(255 - 0 + 1)+0;
         int blue=r.nextInt(255 - 0 + 1)+0;

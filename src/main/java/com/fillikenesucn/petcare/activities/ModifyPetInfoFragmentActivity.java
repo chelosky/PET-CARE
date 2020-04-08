@@ -18,7 +18,7 @@ import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.models.Pet;
-import com.fillikenesucn.petcare.adapters.DataHelper;
+import com.fillikenesucn.petcare.utils.DataHelper;
 import com.fillikenesucn.petcare.utils.IOHelper;
 
 import java.util.Calendar;
@@ -32,6 +32,7 @@ public class ModifyPetInfoFragmentActivity extends FragmentActivity {
 
     //VARIABLES
     private final int RESULT_SCANNER_PET_MODIFY = 616;
+    private final String EXTRA_RESULT_EPC = "result";
     private TextView txtTAG;
 
     // CALENDAR STUFF
@@ -143,9 +144,9 @@ public class ModifyPetInfoFragmentActivity extends FragmentActivity {
     private void ModififyCurrentPet(){
         Pet newPet = GetModifiedPet();
         if(DataHelper.VerificarMascotaValida(ModifyPetInfoFragmentActivity.this, newPet)){
-            IOHelper.UpdatePetInfo(ModifyPetInfoFragmentActivity.this, newPet, petOBJ.getEPC());
+            IOHelper.updatePetInfo(ModifyPetInfoFragmentActivity.this, newPet, petOBJ.getEPC());
             Intent resultIntent = new Intent();
-            resultIntent.putExtra("result",txtTAG.getText().toString());
+            resultIntent.putExtra(EXTRA_RESULT_EPC,txtTAG.getText().toString());
             setResult(RESULT_OK, resultIntent);
             finish();
         }
@@ -157,7 +158,7 @@ public class ModifyPetInfoFragmentActivity extends FragmentActivity {
      */
     private void ReturnEPCParent(String txtEPC){
         Intent resultIntent = new Intent();
-        resultIntent.putExtra("result",txtEPC);
+        resultIntent.putExtra(EXTRA_RESULT_EPC,txtEPC);
         setResult(RESULT_OK, resultIntent);
         finish();
     }
@@ -170,12 +171,16 @@ public class ModifyPetInfoFragmentActivity extends FragmentActivity {
      */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        if(data == null){
+            Toast.makeText(this, "Error TAG INFO", Toast.LENGTH_SHORT).show();
+            return;
+        }
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == RESULT_SCANNER_PET_MODIFY){
             if(resultCode == RESULT_OK){
-                String txtEPC = data.getStringExtra("result");
-                if (IOHelper.CheckActiveEPC(ModifyPetInfoFragmentActivity.this,txtEPC) == -1 || petOBJ.getEPC().equals(txtEPC)){
+                String txtEPC = data.getStringExtra(EXTRA_RESULT_EPC);
+                if (IOHelper.checkActiveEPC(ModifyPetInfoFragmentActivity.this,txtEPC) == -1 || petOBJ.getEPC().equals(txtEPC)){
                     txtTAG.setText(txtEPC);
                 } else {
                     Toast.makeText(this, "TAG OCUPADO", Toast.LENGTH_SHORT).show();
@@ -194,7 +199,7 @@ public class ModifyPetInfoFragmentActivity extends FragmentActivity {
     private void LoadInfoPet(){
         Bundle extras = getIntent().getExtras();
         String txtExtra = extras.getString("EPC");
-        petOBJ = IOHelper.GetPet(ModifyPetInfoFragmentActivity.this, txtExtra);
+        petOBJ = IOHelper.getPet(ModifyPetInfoFragmentActivity.this, txtExtra);
         SetInfoPetView();
     }
 

@@ -31,10 +31,10 @@ public class ScannerMainFragmentActivity extends FragmentActivity {
     private int countState = 4;
     private Button btnLoadInfo;
     // Declaramos el objeto perteneciente al lector UHF de RFID (LA PISTOLA)
-    public RFIDWithUHF mReader;
+    private RFIDWithUHF mReader;
     // Es el tipo de scannear si para el menu principal, para acontecimiento o para añadir pet
     private String statusScannaer;
-
+    private Random random = new Random();
     /**
      * CONSTRUCTOR DE LA ACTIVIDAD
      * @param savedInstanceState
@@ -56,7 +56,6 @@ public class ScannerMainFragmentActivity extends FragmentActivity {
         btnLoadInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Random random = new Random();
                 switch (statusScannaer){
                     case "MAIN-MENU":
                         LoadPetInfoActivity("TAG-DE-PRUEBA-" + random.nextInt(255 - 0 + 1));
@@ -79,7 +78,7 @@ public class ScannerMainFragmentActivity extends FragmentActivity {
      */
     private void LoadPetInfoActivity(String txtEPC){
         // VERIFICA SI EXISTE
-        int resultEPC = IOHelper.CheckActiveEPC(ScannerMainFragmentActivity.this, txtEPC);
+        int resultEPC = IOHelper.checkActiveEPC(ScannerMainFragmentActivity.this, txtEPC);
         //SI EXISTE
         if (resultEPC != -1){
             Intent intent = new Intent(ScannerMainFragmentActivity.this, PetInfoFragmentActivity.class);

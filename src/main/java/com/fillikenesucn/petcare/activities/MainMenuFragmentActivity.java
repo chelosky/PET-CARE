@@ -3,11 +3,14 @@ package com.fillikenesucn.petcare.activities;
 import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.utils.IOHelper;
+
+import java.io.IOException;
 
 /**
  * Esta clase representa a la actividad que se encarga de ejecutar el menu principal del sistema
@@ -77,8 +80,13 @@ public class MainMenuFragmentActivity extends FragmentActivity {
             }
         });
 
-        if (!IOHelper.CheckFile(MainMenuFragmentActivity.this)) {
-            IOHelper.WriteJson(MainMenuFragmentActivity.this, "[]");
+        try {
+            if (!IOHelper.checkFile(MainMenuFragmentActivity.this)) {
+                IOHelper.writeJson(MainMenuFragmentActivity.this, "[]");
+            }
+        } catch (IOException e) {
+            Log.d("DORAT", e.toString());
+
         }
     }
 

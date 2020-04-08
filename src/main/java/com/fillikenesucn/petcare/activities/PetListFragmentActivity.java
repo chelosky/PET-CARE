@@ -14,6 +14,7 @@ import com.fillikenesucn.petcare.utils.IOHelper;
 import com.fillikenesucn.petcare.adapters.PetListAdapter;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Esta clase representa a la actividad que se encargará de desplegar el listado de mascotas registradas en el sistema
@@ -22,7 +23,7 @@ import java.util.ArrayList;
  */
 public class PetListFragmentActivity extends FragmentActivity {
     private Button btnAgregarMascota;
-    private ArrayList<Pet> petList = new ArrayList<>();
+    private List<Pet> petList = new ArrayList<>();
 
     /**
      * CONSTRUCTOR DE LA ACTIVIDAD
@@ -49,7 +50,7 @@ public class PetListFragmentActivity extends FragmentActivity {
      * Método que se encarga de obtener las mascotas que se encuentran registradas en el sistema
      */
     private void InitPetData(){
-        petList = IOHelper.PetList(PetListFragmentActivity.this);
+        petList = IOHelper.petList(PetListFragmentActivity.this);
         InitPetList();
     }
 

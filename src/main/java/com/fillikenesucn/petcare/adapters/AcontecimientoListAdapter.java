@@ -1,4 +1,4 @@
-package com.fillikenesucn.petcare.utils;
+package com.fillikenesucn.petcare.adapters;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -14,8 +14,8 @@ import android.widget.TextView;
 
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.activities.EventListFragmentActivity;
-import com.fillikenesucn.petcare.adapters.DataHelper;
 import com.fillikenesucn.petcare.models.Acontecimiento;
+import com.fillikenesucn.petcare.utils.DataHelper;
 
 import java.util.ArrayList;
 

@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -19,9 +20,10 @@ import android.widget.Toast;
 
 import com.fillikenesucn.petcare.R;
 import com.fillikenesucn.petcare.models.Pet;
-import com.fillikenesucn.petcare.adapters.DataHelper;
+import com.fillikenesucn.petcare.utils.DataHelper;
 import com.fillikenesucn.petcare.utils.IOHelper;
 
+import java.io.IOException;
 import java.util.Calendar;
 
 /**
@@ -99,7 +101,11 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
             @Override
             public void onClick(View view) {
                 // Ver el archivo de texto completo (desactivado)
-                txtTest.setText(IOHelper.ReadFileString(RegisterPetFragmentActivity.this));
+                try {
+                    txtTest.setText(IOHelper.readFileString(RegisterPetFragmentActivity.this));
+                } catch (IOException e) {
+                    Log.d("DORAT", e.toString());
+                }
             }
         });
 
@@ -145,7 +151,7 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
         // Revisamos que la información sea válida
         if(DataHelper.VerificarMascotaValida(RegisterPetFragmentActivity.this,pet)){
             // Si puede agregar a la mascota cierra la actividad
-            if (IOHelper.AddPet(RegisterPetFragmentActivity.this,pet)) {
+            if (IOHelper.addPet(RegisterPetFragmentActivity.this,pet)) {
                 Toast.makeText(RegisterPetFragmentActivity.this, "INGRESO EXITOSO", Toast.LENGTH_SHORT).show();
                 RedirectToPetList();
             }
@@ -187,6 +193,10 @@ public class RegisterPetFragmentActivity extends FragmentActivity {
      */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        if(data == null){
+            Toast.makeText(this, "Error TAG INFO", Toast.LENGTH_SHORT).show();
+            return;
+        }
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == RESULT_SCANNER_PET_ADD){
